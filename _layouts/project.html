@@ -14,7 +14,6 @@
     <body>
 
         <div class="container">
-          <div class="header">
             <div class="row">
              <div class="col-sm-3">
               
@@ -33,12 +32,23 @@
                     {{ details[1] }}
                   </p>
                 </div>
-                {% endfor%}
+                {% endfor %}
               </div>
-              <div class="col-sm-3">
-                {% include screenshots.html %}
+              <div class="col-sm-3" id="thumbnails">
+                {% for image_src in page.screenshots%}
+                  <a href="{{ image_src }}" class="img_rotate_left" >
+                    <img src = "../images/jump_or_die.png" />
+                  </a>
+                {% endfor %}
               </div>
-            </div>
           </div>
+        </div>
+        <script type="text/javascript" src="../js/yoxview-init.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function()
+              {
+                  $("#thumbnails").yoxview();                 
+              });
+        </script>
     </body>
 </html>

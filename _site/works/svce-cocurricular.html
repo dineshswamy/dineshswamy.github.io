@@ -14,7 +14,6 @@
     <body>
 
         <div class="container">
-          <div class="header">
             <div class="row">
              <div class="col-sm-3">
               
@@ -35,23 +34,41 @@
                 </div>
                 
               </div>
-              <div class="col-sm-3">
-                <div class="screenshot-holder">
-	<a href="#" class="thumbnail img_rotate_left" >
-		<img src = "../images/jump_or_die.png" />
-	</a>
-	<a href="#" class="thumbnail img_rotate_right">
-		<img src = "../images/jump_or_die.png" />
-	</a>
-	<a href="#" class="thumbnail img_rotate_left">
-		<img src = "../images/jump_or_die.png" />
-	</a>
-	<a href="#" class="thumbnail img_rotate_right">
-		<img src = "../images/jump_or_die.png" />
-	</a>
-</div>
+              <div class="col-sm-3" id="thumbnails">
+                
+                  <a href="../images/co-curricular/screenshot_1.png" class="img_rotate_left" >
+                    <img src = "../images/jump_or_die.png" />
+                  </a>
+                
+                  <a href="../images/co-curricular/screenshot_2.png" class="img_rotate_left" >
+                    <img src = "../images/jump_or_die.png" />
+                  </a>
+                
+                  <a href="../images/co-curricular/screenshot_3.png" class="img_rotate_left" >
+                    <img src = "../images/jump_or_die.png" />
+                  </a>
+                
+                  <a href="../images/co-curricular/screenshot_4.png" class="img_rotate_left" >
+                    <img src = "../images/jump_or_die.png" />
+                  </a>
+                
+                  <a href="../images/co-curricular/screenshot_5.png" class="img_rotate_left" >
+                    <img src = "../images/jump_or_die.png" />
+                  </a>
+                
+                  <a href="../images/co-curricular/screenshot_6.png" class="img_rotate_left" >
+                    <img src = "../images/jump_or_die.png" />
+                  </a>
+                
               </div>
-            </div>
           </div>
+        </div>
+        <script type="text/javascript" src="../js/yoxview-init.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function()
+              {
+                  $("#thumbnails").yoxview();                 
+              });
+        </script>
     </body>
 </html>
