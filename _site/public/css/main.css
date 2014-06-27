@@ -1,0 +1,14 @@
+.profile_container{
+	background-color: #74331E;
+	border-top:9px solid #f39c12;
+	border-bottom:9px solid #f39c12;
+	width: 100%;
+}
+.profile_container img{
+	
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	width: 100px;
+	height: 100px;
+}

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Dineshswamy's hacking log</title>
+ <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
+ <link href="http://hyde.getpoole.com/"/>
+ <updated>2014-06-27T17:32:07+05:30</updated>
+ <id>http://hyde.getpoole.com</id>
+ <author>
+   <name>Mark Otto</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>The wish that came true</title>
+   <link href="http://hyde.getpoole.com/2014/06/23/finishing-algorithms-coursera/"/>
+   <updated>2014-06-23T00:00:00+05:30</updated>
+   <id>http://hyde.getpoole.com/2014/06/23/finishing-algorithms-coursera</id>
+   <content type="html">&lt;p&gt;Today , i completed a course on coursera . For a very long time , i wanted to accomplish these
+two things . Polish my algorithm skills . Complete a course on coursera .&lt;/p&gt;
+
+&lt;h3&gt;Not everything came true&lt;/h3&gt;
+
+&lt;p&gt;Some part of was satisfied , that i was able to complete the course . But unfortunately i wont be able to recieve the certificate of accomplishment . The base score to get a certificate of accomplishment is &lt;code&gt;70&lt;/code&gt; , i managed to score only &lt;code&gt;66&lt;/code&gt; .The following is the score summary&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Final exam 30 out of 40&lt;/li&gt;
+&lt;li&gt;Programming assignments 23 out of 30&lt;/li&gt;
+&lt;li&gt;Problem sets 13 out of 30&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sometimes , I hate giving and recieving lame excuses . But this one is out of my hands .
+Obviously , my problem sets sucked in accomplishment certificate . The fact is only after several deadlines , i happen to know that there exists a section called problem set .&lt;/p&gt;
+
+&lt;p&gt;But never mind , i m planning to take the sequel course .&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading :P &lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Towermapify - Coverage maps for komparify.com</title>
+   <link href="http://hyde.getpoole.com/2014/01/08/towermapify-making/"/>
+   <updated>2014-01-08T00:00:00+05:30</updated>
+   <id>http://hyde.getpoole.com/2014/01/08/towermapify-making</id>
+   <content type="html">&lt;p&gt;This blog post is about my internship project at komparify.co and  the development challenges i&amp;#39;ve encountered &lt;/p&gt;
+
+&lt;h2&gt;in making this .&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;What towermapify does ?&lt;/h2&gt;
+
+&lt;p&gt;Towermapify is a coverage map. The objective is to map  coverage strength of all the operators in india .
+Whether they provide 3G or 4G or HSIA(high speed internet connectivity) in a particular region . If a user
+needs to know whether 3G/4G/HSIA is available in a region ? or How good the coverage strength of particular operator is ? , the information can be found .&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;1 internship month =  1 prototype throwaway + 1 Production version&lt;/h2&gt;
+
+&lt;p&gt;When i was briefed about the project , neither of us had no clue how we are going to do this .We only had data required for the map .&lt;/p&gt;
+
+&lt;p&gt;We started with Google Maps API combined with Google FusionTables . Your data will be hosted by the Google Servers .It will provide REST FULL apis to access the data . You need to write a client(HTML+CSS+JS) where you need to handle the data and put them in Map.&lt;/p&gt;
+
+&lt;h3&gt;Growing requirements&lt;/h3&gt;
+
+&lt;p&gt;Once i got a prototype working , the requirements at komparify.com started growing , we badly required many features . But Fusion tables are not enough as they had limitations.&lt;/p&gt;
+
+&lt;p&gt;For example : You cant do a &amp;quot;OR&amp;quot; in the SQL query you send .Your table should be publicly available .&lt;/p&gt;
+
+&lt;h3&gt;Thrown far far away&lt;/h3&gt;
+
+&lt;p&gt;So days and days of work was thrown away and we finally settled down to define development stack.We decided use our own servers and make restful apis for data .&lt;/p&gt;
+
+&lt;h2&gt;Towermapify - Built on&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ruby on Rails &lt;/li&gt;
+&lt;li&gt;Google maps API V3&lt;/li&gt;
+&lt;li&gt;KML/JSON&lt;/li&gt;
+&lt;li&gt;HTML+CSS+JS&lt;/li&gt;
+&lt;li&gt;Rails Cells integration &lt;/li&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;OverQuery algorithm&lt;/h2&gt;
+
+&lt;h3&gt;Problem (A)&lt;/h3&gt;
+
+&lt;p&gt;We have a huge data having latitude and longitude information of places all over india . if we
+drop markers for all the places , it will do a catastropic damage to the performance,browser.
+Takes huge memory , not a good idea.&lt;/p&gt;
+
+&lt;h3&gt;Work around (A)&lt;/h3&gt;
+
+&lt;p&gt;So , to decide what markers to drop . we get the bounding edges south west and north east of the map . With that , the query is for only the  places that resides inside the bounding box and then query again when the user does panning inside the map , with the new bounding box&lt;/p&gt;
+
+&lt;h3&gt;Problem (B)&lt;/h3&gt;
+
+&lt;p&gt;The way we find the new bounding box after the user pans is by listening to the map-events . But the problem is that map-events fire for every small pan or zoom , making navigation inside maps terrible . If the mouse is just shaken inside the map , it does a query for the new bounding box and drops the markers again , giving a terrible user experience .
+Also , server-client IO will be high .&lt;/p&gt;
+
+&lt;h3&gt;Work around (B)&lt;/h3&gt;
+
+&lt;p&gt;This is the place where we went back to the drawing board and started writing rules that minimizes no of requests to the server and gives a good user experience .&lt;/p&gt;
+
+&lt;h3&gt;Overquery&lt;/h3&gt;
+
+&lt;p&gt;My boss and co-founder of komparify.com Jigar doshi , formulated this approach.He knew of this approach thourgh his
+experience at Amazon.com .&lt;/p&gt;
+
+&lt;p&gt;Whenever  a query for the bouding box(Lets call it &lt;strong&gt;box_original&lt;/strong&gt;) to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it &lt;strong&gt;box_modified&lt;/strong&gt;) . So the results from server includes results of a bigger bounding box. &lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;&amp;gt; **box_original** &amp;lt; **box_modified
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/public/images/overquery_map.png&quot; alt=&quot;My helpful screenshot&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;When the user pans within the box&lt;em&gt;modified , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the **box&lt;/em&gt;modified** we need to query again , which again follows the same procedure as above .&lt;/p&gt;
+
+&lt;p&gt;So,now when the user pan around the map ,the panning will be smooth .&lt;/p&gt;
+
+&lt;hr&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Example content</title>
+   <link href="http://hyde.getpoole.com/2012/02/07/example-content/"/>
+   <updated>2012-02-07T00:00:00+05:30</updated>
+   <id>http://hyde.getpoole.com/2012/02/07/example-content</id>
+   <content type="html">&lt;p&gt;This blog post shows a few different types of content that&amp;#39;s supported and styled with Hyde. Basic typography, images, and code are all supported.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Curabitur blandit tempus porttitor. &lt;strong&gt;Nullam quis risus eget urna mollis&lt;/strong&gt; ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Etiam porta &lt;em&gt;sem malesuada magna&lt;/em&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+
+&lt;h2&gt;Heading&lt;/h2&gt;
+
+&lt;p&gt;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
+
+&lt;h3&gt;Sub-heading&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
+
+&lt;h3&gt;Sub-heading&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
+&lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
+&lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
+&lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
+&lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/mdo/hyde/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>What's Jekyll?</title>
+   <link href="http://hyde.getpoole.com/2012/02/06/whats-jekyll/"/>
+   <updated>2012-02-06T00:00:00+05:30</updated>
+   <id>http://hyde.getpoole.com/2012/02/06/whats-jekyll</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project&amp;#39;s readme&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It&amp;#39;s an immensely useful tool and one we encourage you to use here with Hyde.&lt;/p&gt;
+
+&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

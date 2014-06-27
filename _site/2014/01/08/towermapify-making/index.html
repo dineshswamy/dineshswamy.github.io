@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Towermapify - Coverage maps for komparify.com &middot; Dineshswamy's hacking log
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/main.css">
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="profile_container"> 
+      
+      <img src="/public/images/dinesh_swamy200x200.jpeg" />
+
+  </div>
+  <div class="container">
+    <ul class="sidebar-nav">
+      <!-- <li class="sidebar-nav-item">
+        <a href="/">Home</a>
+      </li> -->
+
+      
+
+      
+      
+        
+          
+<!--             <li class="sidebar-nav-item">
+              <a href="/about/">About</a>
+            </li> -->
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+
+      <!-- <li class="sidebar-nav-item"><a href="https://github.com/poole/hyde/archive/v2.0.0.zip">Download</a></li>
+      <li class="sidebar-nav-item"><a href="https://github.com/poole/hyde">GitHub project</a></li> -->
+      <!-- <li class="sidebar-nav-item">Currently v2.0.0</li> -->
+    </ul>
+    
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Towermapify - Coverage maps for komparify.com</h1>
+  <span class="post-date">08 Jan 2014</span>
+  <p>This blog post is about my internship project at komparify.co and  the development challenges i&#39;ve encountered </p>
+
+<h2>in making this .</h2>
+
+<p><a href="http://towermapify.herokuapp.com" target="_blank">Towermapify</a></p>
+
+<h2>What towermapify does ?</h2>
+
+<p>Towermapify is a coverage map. The objective is to map  coverage strength of all the operators in india .
+Whether they provide 3G or 4G or HSIA(high speed internet connectivity) in a particular region . If a user
+needs to know whether 3G/4G/HSIA is available in a region ? or How good the coverage strength of particular operator is ? , the information can be found .</p>
+
+<p><a href="http://towermapify.herokuapp.com" target="_blank">Towermapify</a></p>
+
+<h2>1 internship month =  1 prototype throwaway + 1 Production version</h2>
+
+<p>When i was briefed about the project , neither of us had no clue how we are going to do this .We only had data required for the map .</p>
+
+<p>We started with Google Maps API combined with Google FusionTables . Your data will be hosted by the Google Servers .It will provide REST FULL apis to access the data . You need to write a client(HTML+CSS+JS) where you need to handle the data and put them in Map.</p>
+
+<h3>Growing requirements</h3>
+
+<p>Once i got a prototype working , the requirements at komparify.com started growing , we badly required many features . But Fusion tables are not enough as they had limitations.</p>
+
+<p>For example : You cant do a &quot;OR&quot; in the SQL query you send .Your table should be publicly available .</p>
+
+<h3>Thrown far far away</h3>
+
+<p>So days and days of work was thrown away and we finally settled down to define development stack.We decided use our own servers and make restful apis for data .</p>
+
+<h2>Towermapify - Built on</h2>
+
+<ul>
+<li>Ruby on Rails </li>
+<li>Google maps API V3</li>
+<li>KML/JSON</li>
+<li>HTML+CSS+JS</li>
+<li>Rails Cells integration </li>
+<li>MySQL</li>
+</ul>
+
+<h2>OverQuery algorithm</h2>
+
+<h3>Problem (A)</h3>
+
+<p>We have a huge data having latitude and longitude information of places all over india . if we
+drop markers for all the places , it will do a catastropic damage to the performance,browser.
+Takes huge memory , not a good idea.</p>
+
+<h3>Work around (A)</h3>
+
+<p>So , to decide what markers to drop . we get the bounding edges south west and north east of the map . With that , the query is for only the  places that resides inside the bounding box and then query again when the user does panning inside the map , with the new bounding box</p>
+
+<h3>Problem (B)</h3>
+
+<p>The way we find the new bounding box after the user pans is by listening to the map-events . But the problem is that map-events fire for every small pan or zoom , making navigation inside maps terrible . If the mouse is just shaken inside the map , it does a query for the new bounding box and drops the markers again , giving a terrible user experience .
+Also , server-client IO will be high .</p>
+
+<h3>Work around (B)</h3>
+
+<p>This is the place where we went back to the drawing board and started writing rules that minimizes no of requests to the server and gives a good user experience .</p>
+
+<h3>Overquery</h3>
+
+<p>My boss and co-founder of komparify.com Jigar doshi , formulated this approach.He knew of this approach thourgh his
+experience at Amazon.com .</p>
+
+<p>Whenever  a query for the bouding box(Lets call it <strong>box_original</strong>) to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it <strong>box_modified</strong>) . So the results from server includes results of a bigger bounding box. </p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">&gt; **box_original** &lt; **box_modified
+</code></pre></div>
+<p><img src="/public/images/overquery_map.png" alt="My helpful screenshot"></p>
+
+<p>When the user pans within the box<em>modified , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the **box</em>modified** we need to query again , which again follows the same procedure as above .</p>
+
+<p>So,now when the user pan around the map ,the panning will be smooth .</p>
+
+<hr>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2014/06/23/finishing-algorithms-coursera/">
+            The wish that came true
+            <small>23 Jun 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2012/02/07/example-content/">
+            Example content
+            <small>07 Feb 2012</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2012/02/06/whats-jekyll/">
+            What's Jekyll?
+            <small>06 Feb 2012</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>
