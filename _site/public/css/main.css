@@ -1,9 +1,20 @@
-.profile_container{
-	background-color: #74331E;
-	border-top:9px solid #f39c12;
-	border-bottom:9px solid #f39c12;
-	width: 100%;
+body{
+	background-color: ghostwhite;
 }
+
+.sidebar{
+	background: #2ecc71;
+}
+.profile_container{
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	display: inline;
+}
+.profile_container span{
+	float: right;
+}
+
 .profile_container img{
 	
 	-webkit-border-radius: 100px;
@@ -11,4 +22,22 @@
 	border-radius: 100px;
 	width: 100px;
 	height: 100px;
+	display: inline;
+}
+.profile_heading{
+	display: inline;;
+}
+
+.sidebar-nav-item{
+	
+	width: 100%;
+
+}
+
+.sidebar-nav-item.active a{
+	
+	width: 100%;
+	background: #27ae60;
+	padding: 10px;
+	
 }

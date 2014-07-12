@@ -33,24 +33,28 @@
     <div class="sidebar">
   <div class="profile_container"> 
       
-      <img src="/public/images/dinesh_swamy200x200.jpeg" />
-
+      
+  
+    
+      <p class="profile_heading">dineshswamy's Hacking Logs</p>
+  
   </div>
   <div class="container">
     <ul class="sidebar-nav">
-      <!-- <li class="sidebar-nav-item">
-        <a href="/">Home</a>
-      </li> -->
-
       
+      <li class="sidebar-nav-item active">
+        <a href="/">Computer things i Wrote</a>
+      </li>
+
+<!--       
 
       
       
         
           
-<!--             <li class="sidebar-nav-item">
+            <li class="sidebar-nav-item">
               <a href="/about/">About</a>
-            </li> -->
+            </li>
           
         
       
@@ -63,7 +67,7 @@
         
           
         
-      
+       -->
 
       <!-- <li class="sidebar-nav-item"><a href="https://github.com/poole/hyde/archive/v2.0.0.zip">Download</a></li>
       <li class="sidebar-nav-item"><a href="https://github.com/poole/hyde">GitHub project</a></li> -->
@@ -78,11 +82,9 @@
       <div class="post">
   <h1 class="post-title">Towermapify - Coverage maps for komparify.com</h1>
   <span class="post-date">08 Jan 2014</span>
-  <p>This blog post is about my internship project at komparify.co and  the development challenges i&#39;ve encountered </p>
+  <p>This blog post is about my internship project at komparify.co and  the development challenges i&#39;ve encountered in making this.</p>
 
-<h2>in making this .</h2>
-
-<p><a href="http://towermapify.herokuapp.com" target="_blank">Towermapify</a></p>
+<hr>
 
 <h2>What towermapify does ?</h2>
 
@@ -123,7 +125,7 @@ needs to know whether 3G/4G/HSIA is available in a region ? or How good the cove
 
 <h3>Problem (A)</h3>
 
-<p>We have a huge data having latitude and longitude information of places all over india . if we
+<p>We have a huge data containing latitude and longitude information of places all over india . if we
 drop markers for all the places , it will do a catastropic damage to the performance,browser.
 Takes huge memory , not a good idea.</p>
 
@@ -145,22 +147,48 @@ Also , server-client IO will be high .</p>
 <p>My boss and co-founder of komparify.com Jigar doshi , formulated this approach.He knew of this approach thourgh his
 experience at Amazon.com .</p>
 
-<p>Whenever  a query for the bouding box(Lets call it <strong>box_original</strong>) to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it <strong>box_modified</strong>) . So the results from server includes results of a bigger bounding box. </p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">&gt; **box_original** &lt; **box_modified
-</code></pre></div>
+<p>Whenever  a query for the bouding box(Lets call it <strong>box original</strong> )  to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it <strong>box modified</strong> ) . So the results from server includes results of a bigger bounding box. </p>
+
+<blockquote>
+<p><strong>box original</strong> &lt; <strong>box modified</strong></p>
+</blockquote>
+
 <p><img src="/public/images/overquery_map.png" alt="My helpful screenshot"></p>
 
-<p>When the user pans within the box<em>modified , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the **box</em>modified** we need to query again , which again follows the same procedure as above .</p>
+<p>When the user pans within the <strong>box modified</strong> , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the <strong>box modified</strong> we need to query again , which again follows the same procedure as above .</p>
 
-<p>So,now when the user pan around the map ,the panning will be smooth .</p>
+<p>So,now when the user pan around the map ,the panning will be smooth and thats how <strong>Problem(b)</strong> was solved</p>
 
-<hr>
+<h3>Performance Boost</h3>
+
+<p>We were very close to put this into production and then we started looking under the hood. The latency was not really high but notable .</p>
+
+<p>The reason behind this is the data-exchange format we had , it was <strong>KML(Keyhole markup language)</strong> . we used this because 
+there was a pretty KML parser( :P )  available so it is was easy for us to handle data.</p>
+
+<p>we switched from KML to JSON , and this gave us a solid decrease in the latency.Of course , few big parts of the app has to be
+rewritten and i did that too. I wrote the <strong>full stack(client+server)</strong> so it was not hard for me.</p>
+
+<h3>Finally we shipped</h3>
+
+<p>The app exists in <strong>rails-cells</strong> integration inside komparify.com . Also , i have a version hosted here </p>
+
+<h2><a href="http://towermapify.herokuapp.com" target="_blank">Towermapify</a></h2>
 
 </div>
 
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2014/06/27/chatminion/">
+            What is Chatminion ?
+            <small>27 Jun 2014</small>
+          </a>
+        </h3>
+      </li>
     
       <li>
         <h3>
@@ -180,19 +208,12 @@ experience at Amazon.com .</p>
         </h3>
       </li>
     
-      <li>
-        <h3>
-          <a href="/2012/02/06/whats-jekyll/">
-            What's Jekyll?
-            <small>06 Feb 2012</small>
-          </a>
-        </h3>
-      </li>
-    
   </ul>
 </div>
 
     </div>
 
   </body>
+  <script type="text/javascript" src="/public/js/jquery.js"></script>
+  <script type="text/javascript" src="/public/js/main.js"></script>
 </html>

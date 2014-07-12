@@ -4,13 +4,101 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2014-06-27T17:32:07+05:30</updated>
+ <updated>2014-07-13T00:58:27+05:30</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Mark Otto</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>What is Chatminion ?</title>
+   <link href="http://hyde.getpoole.com/2014/06/27/chatminion/"/>
+   <updated>2014-06-27T00:00:00+05:30</updated>
+   <id>http://hyde.getpoole.com/2014/06/27/chatminion</id>
+   <content type="html">&lt;h6&gt;Disclaimer&lt;/h6&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We strictly dont use the words like &amp;quot;START UP&amp;quot; ,&amp;quot;COMPANY&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;What is Chatminion ?&lt;/h2&gt;
+
+&lt;p&gt;It is  a comprehensive chat application, that is made for chatting inside an office. You can send text messages and video calls .&lt;/p&gt;
+
+&lt;p&gt;But there is a catch , you dont have to type and send messages , neither the reciepient . Curated set of messages , which are used more than 100 times in a day within a team or office are right inside the app.&lt;/p&gt;
+
+&lt;p&gt;Once you send a message, your reciepient will be shown with most possible replies to the message . Chatminion will also prepare an audio message based on the message you send and recieve(Its not just a message read out).&lt;/p&gt;
+
+&lt;h2&gt;What are the highlights?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;98% ephemeral , your message flies from one end to the other and dies right there. It gets stored nowhere.
+ The application stores only last two messages for threading(to remember the context). &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Makes the recurring conversions , really quick .&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Make video calls , the reciepient need not authorize the video call .when you want to talk to your team member , simply hit video call and you are there .&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Video calls are plugin free and based on Web RTC and it is almost Peer to Peer .&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The operational cost in the server side is extremely low . since no message gets stored anywhere.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;How chatminion works ?&lt;/h2&gt;
+
+&lt;p&gt;I wrote the answer inside the repo.&lt;a href=&quot;https://github.com/dineshswamy/chatminion-chrome-app&quot;&gt;Chatminion repo&lt;/a&gt; . You are welcome , to hack away that , all instructions are available there .&lt;/p&gt;
+
+&lt;h2&gt;Is this an alternative to other chat applications ?&lt;/h2&gt;
+
+&lt;p&gt;May or may not be , depends on the needs you have. We wrote this exclusively for people who work in teams .Teams that does development or looks after sales etc . We  have no intention of competing in the chat applications space .&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to come .&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Three months ago , i made a prototype working . It was working but  it was incomprehensible to distribute . Thats where we decided , okay lets make this is as a complete google chrome app and see what happens .&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h4&gt;&lt;em&gt;Doing a feature comparison between existing chat applications and Chatminion , wont fit. Chatminion is one of its kind . Though , It is still a tool for making conversation , the way  conversation happens is different .&lt;/em&gt;&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But there are clear differences , and what chatminion can do &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Chatminion is not based on XMPP protocol its built on top of HTTP &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Every message that is sent via chatminion can be attached a property with it( attribute )&lt;/strong&gt; i.e The sender can control the behaviour and appearance of the message that is sent .You can do something like , &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Okay chatminion .  i dont want any reply from him/her for this message &amp;quot; , by turning off the check box .&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Also&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;if you dont want chatminion to prepare an audio message for your reciepient , you can do that , by turning off the check box&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Who asked you to write this ?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Nobody.&lt;/strong&gt; Every day these things keep happening at my office &lt;/p&gt;
+
+&lt;p&gt;Everyday ,i saw my manager entering office and the first thing he asks me is this &amp;quot;Whats your status ?&amp;quot; and depending on the day , my reply would be &amp;quot;Completed&amp;quot; or &amp;quot;Still working&amp;quot; or &amp;quot;need some time&amp;quot; .&lt;/p&gt;
+
+&lt;p&gt;There is another manager ,who oversees sales team . every half n hour , he will shout(loud enough to be heard by everyone) at  his sales team &amp;quot; XYZ ? Can we talk now ?&amp;quot; and the reply would    be &amp;quot;In 10 mins&amp;quot; or &amp;quot;Later&amp;quot; or &amp;quot;I m on call . will be coming&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;and finally my colleague &lt;/p&gt;
+
+&lt;p&gt;He ll be in another room , and he wont come out of his place very often .
+he will shout whatever he wants to ask me and most of the time , i ll be wearing earphones , so the rest of the story is obvious. Someone will tap my shoulder,i ll remove my earphones , ask them what and blah blah .&lt;/p&gt;
+
+&lt;p&gt;I would like to thankyou for reading this post . I once again quote that&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We made chatminion , because we imagined chatting this way will be intresting and i requote the following  &lt;/p&gt;
+
+&lt;h3&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to come .&lt;/h3&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The wish that came true</title>
@@ -44,11 +132,9 @@ Obviously , my problem sets sucked in accomplishment certificate . The fact is o
    <link href="http://hyde.getpoole.com/2014/01/08/towermapify-making/"/>
    <updated>2014-01-08T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/2014/01/08/towermapify-making</id>
-   <content type="html">&lt;p&gt;This blog post is about my internship project at komparify.co and  the development challenges i&amp;#39;ve encountered &lt;/p&gt;
+   <content type="html">&lt;p&gt;This blog post is about my internship project at komparify.co and  the development challenges i&amp;#39;ve encountered in making this.&lt;/p&gt;
 
-&lt;h2&gt;in making this .&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 
 &lt;h2&gt;What towermapify does ?&lt;/h2&gt;
 
@@ -89,7 +175,7 @@ needs to know whether 3G/4G/HSIA is available in a region ? or How good the cove
 
 &lt;h3&gt;Problem (A)&lt;/h3&gt;
 
-&lt;p&gt;We have a huge data having latitude and longitude information of places all over india . if we
+&lt;p&gt;We have a huge data containing latitude and longitude information of places all over india . if we
 drop markers for all the places , it will do a catastropic damage to the performance,browser.
 Takes huge memory , not a good idea.&lt;/p&gt;
 
@@ -111,16 +197,33 @@ Also , server-client IO will be high .&lt;/p&gt;
 &lt;p&gt;My boss and co-founder of komparify.com Jigar doshi , formulated this approach.He knew of this approach thourgh his
 experience at Amazon.com .&lt;/p&gt;
 
-&lt;p&gt;Whenever  a query for the bouding box(Lets call it &lt;strong&gt;box_original&lt;/strong&gt;) to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it &lt;strong&gt;box_modified&lt;/strong&gt;) . So the results from server includes results of a bigger bounding box. &lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;&amp;gt; **box_original** &amp;lt; **box_modified
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Whenever  a query for the bouding box(Lets call it &lt;strong&gt;box original&lt;/strong&gt; )  to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it &lt;strong&gt;box modified&lt;/strong&gt; ) . So the results from server includes results of a bigger bounding box. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;box original&lt;/strong&gt; &amp;lt; &lt;strong&gt;box modified&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;&lt;img src=&quot;/public/images/overquery_map.png&quot; alt=&quot;My helpful screenshot&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;When the user pans within the box&lt;em&gt;modified , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the **box&lt;/em&gt;modified** we need to query again , which again follows the same procedure as above .&lt;/p&gt;
+&lt;p&gt;When the user pans within the &lt;strong&gt;box modified&lt;/strong&gt; , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the &lt;strong&gt;box modified&lt;/strong&gt; we need to query again , which again follows the same procedure as above .&lt;/p&gt;
 
-&lt;p&gt;So,now when the user pan around the map ,the panning will be smooth .&lt;/p&gt;
+&lt;p&gt;So,now when the user pan around the map ,the panning will be smooth and thats how &lt;strong&gt;Problem(b)&lt;/strong&gt; was solved&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;h3&gt;Performance Boost&lt;/h3&gt;
+
+&lt;p&gt;We were very close to put this into production and then we started looking under the hood. The latency was not really high but notable .&lt;/p&gt;
+
+&lt;p&gt;The reason behind this is the data-exchange format we had , it was &lt;strong&gt;KML(Keyhole markup language)&lt;/strong&gt; . we used this because 
+there was a pretty KML parser( :P )  available so it is was easy for us to handle data.&lt;/p&gt;
+
+&lt;p&gt;we switched from KML to JSON , and this gave us a solid decrease in the latency.Of course , few big parts of the app has to be
+rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server)&lt;/strong&gt; so it was not hard for me.&lt;/p&gt;
+
+&lt;h3&gt;Finally we shipped&lt;/h3&gt;
+
+&lt;p&gt;The app exists in &lt;strong&gt;rails-cells&lt;/strong&gt; integration inside komparify.com . Also , i have a version hosted here &lt;/p&gt;
+
+&lt;h2&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/h2&gt;
 </content>
  </entry>
  

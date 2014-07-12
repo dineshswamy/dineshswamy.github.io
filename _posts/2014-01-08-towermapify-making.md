@@ -3,11 +3,11 @@ layout: post
 title: Towermapify - Coverage maps for komparify.com
 ---
 
-This blog post is about my internship project at komparify.co and  the development challenges i've encountered 
-in making this .
+This blog post is about my internship project at komparify.co and  the development challenges i've encountered in making this.
+
 -----
 
-<a href="http://towermapify.herokuapp.com" target="_blank">Towermapify</a>
+
 
 
 ## What towermapify does ?
@@ -44,7 +44,7 @@ So days and days of work was thrown away and we finally settled down to define d
 ##OverQuery algorithm
 
 ###Problem (A)
-We have a huge data having latitude and longitude information of places all over india . if we
+We have a huge data containing latitude and longitude information of places all over india . if we
 drop markers for all the places , it will do a catastropic damage to the performance,browser.
 Takes huge memory , not a good idea.
 
@@ -62,15 +62,30 @@ This is the place where we went back to the drawing board and started writing ru
 My boss and co-founder of komparify.com Jigar doshi , formulated this approach.He knew of this approach thourgh his
 experience at Amazon.com .
 
-Whenever  a query for the bouding box(Lets call it **box_original**) to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it **box_modified**) . So the results from server includes results of a bigger bounding box. 
+Whenever  a query for the bouding box(Lets call it **box original** )  to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it **box modified** ) . So the results from server includes results of a bigger bounding box. 
 	
-	> **box_original** < **box_modified
+> **box original** < **box modified**
 
 
 ![My helpful screenshot](/public/images/overquery_map.png)
 
-When the user pans within the box_modified , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the **box_modified** we need to query again , which again follows the same procedure as above .
+When the user pans within the **box modified** , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the **box modified** we need to query again , which again follows the same procedure as above .
 
-So,now when the user pan around the map ,the panning will be smooth .
- 	
+So,now when the user pan around the map ,the panning will be smooth and thats how **Problem(b)** was solved
+
+###Performance Boost
+
+We were very close to put this into production and then we started looking under the hood. The latency was not really high but notable .
+
+The reason behind this is the data-exchange format we had , it was **KML(Keyhole markup language)** . we used this because 
+there was a pretty KML parser( :P )  available so it is was easy for us to handle data.
+
+we switched from KML to JSON , and this gave us a solid decrease in the latency.Of course , few big parts of the app has to be
+rewritten and i did that too. I wrote the **full stack(client+server)** so it was not hard for me.
+
+
+
+###Finally we shipped 
+The app exists in **rails-cells** integration inside komparify.com . Also , i have a version hosted here 
+<a href="http://towermapify.herokuapp.com" target="_blank">Towermapify</a>
 -----

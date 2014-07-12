@@ -33,24 +33,28 @@
     <div class="sidebar">
   <div class="profile_container"> 
       
-      <img src="/public/images/dinesh_swamy200x200.jpeg" />
-
+      
+  
+    
+      <p class="profile_heading">dineshswamy's Hacking Logs</p>
+  
   </div>
   <div class="container">
     <ul class="sidebar-nav">
-      <!-- <li class="sidebar-nav-item active">
-        <a href="/">Home</a>
-      </li> -->
-
       
+      <li class="sidebar-nav-item active">
+        <a href="/">Computer things i Wrote</a>
+      </li>
+
+<!--       
 
       
       
         
           
-<!--             <li class="sidebar-nav-item">
+            <li class="sidebar-nav-item">
               <a href="/about/">About</a>
-            </li> -->
+            </li>
           
         
       
@@ -63,7 +67,7 @@
         
           
         
-      
+       -->
 
       <!-- <li class="sidebar-nav-item"><a href="https://github.com/poole/hyde/archive/v2.0.0.zip">Download</a></li>
       <li class="sidebar-nav-item"><a href="https://github.com/poole/hyde">GitHub project</a></li> -->
@@ -76,6 +80,98 @@
 
     <div class="content container">
       <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2014/06/27/chatminion/">
+        What is Chatminion ?
+      </a>
+    </h1>
+
+    <span class="post-date">27 Jun 2014</span>
+
+    <h6>Disclaimer</h6>
+
+<blockquote>
+<p>We strictly dont use the words like &quot;START UP&quot; ,&quot;COMPANY&quot;</p>
+</blockquote>
+
+<h2>What is Chatminion ?</h2>
+
+<p>It is  a comprehensive chat application, that is made for chatting inside an office. You can send text messages and video calls .</p>
+
+<p>But there is a catch , you dont have to type and send messages , neither the reciepient . Curated set of messages , which are used more than 100 times in a day within a team or office are right inside the app.</p>
+
+<p>Once you send a message, your reciepient will be shown with most possible replies to the message . Chatminion will also prepare an audio message based on the message you send and recieve(Its not just a message read out).</p>
+
+<h2>What are the highlights?</h2>
+
+<ul>
+<li><p>98% ephemeral , your message flies from one end to the other and dies right there. It gets stored nowhere.
+ The application stores only last two messages for threading(to remember the context). </p></li>
+<li><p>Makes the recurring conversions , really quick .</p></li>
+<li><p>Make video calls , the reciepient need not authorize the video call .when you want to talk to your team member , simply hit video call and you are there .</p></li>
+<li><p>Video calls are plugin free and based on Web RTC and it is almost Peer to Peer .</p></li>
+<li><p>The operational cost in the server side is extremely low . since no message gets stored anywhere.</p></li>
+</ul>
+
+<h2>How chatminion works ?</h2>
+
+<p>I wrote the answer inside the repo.<a href="https://github.com/dineshswamy/chatminion-chrome-app">Chatminion repo</a> . You are welcome , to hack away that , all instructions are available there .</p>
+
+<h2>Is this an alternative to other chat applications ?</h2>
+
+<p>May or may not be , depends on the needs you have. We wrote this exclusively for people who work in teams .Teams that does development or looks after sales etc . We  have no intention of competing in the chat applications space .</p>
+
+<blockquote>
+<h3>We are experimenting to see whether chatting really works this way and the results of the experiment are yet to come .</h3>
+</blockquote>
+
+<p>Three months ago , i made a prototype working . It was working but  it was incomprehensible to distribute . Thats where we decided , okay lets make this is as a complete google chrome app and see what happens .</p>
+
+<blockquote>
+<h4><em>Doing a feature comparison between existing chat applications and Chatminion , wont fit. Chatminion is one of its kind . Though , It is still a tool for making conversation , the way  conversation happens is different .</em></h4>
+</blockquote>
+
+<p>But there are clear differences , and what chatminion can do </p>
+
+<ul>
+<li><p>Chatminion is not based on XMPP protocol its built on top of HTTP </p></li>
+<li><p><strong>Every message that is sent via chatminion can be attached a property with it( attribute )</strong> i.e The sender can control the behaviour and appearance of the message that is sent .You can do something like , </p></li>
+</ul>
+
+<blockquote>
+<p><em>Okay chatminion .  i dont want any reply from him/her for this message &quot; , by turning off the check box .</em></p>
+</blockquote>
+
+<p>Also</p>
+
+<blockquote>
+<p><em>if you dont want chatminion to prepare an audio message for your reciepient , you can do that , by turning off the check box</em></p>
+</blockquote>
+
+<h2>Who asked you to write this ?</h2>
+
+<p><strong>Nobody.</strong> Every day these things keep happening at my office </p>
+
+<p>Everyday ,i saw my manager entering office and the first thing he asks me is this &quot;Whats your status ?&quot; and depending on the day , my reply would be &quot;Completed&quot; or &quot;Still working&quot; or &quot;need some time&quot; .</p>
+
+<p>There is another manager ,who oversees sales team . every half n hour , he will shout(loud enough to be heard by everyone) at  his sales team &quot; XYZ ? Can we talk now ?&quot; and the reply would    be &quot;In 10 mins&quot; or &quot;Later&quot; or &quot;I m on call . will be coming&quot;</p>
+
+<p>and finally my colleague </p>
+
+<p>He ll be in another room , and he wont come out of his place very often .
+he will shout whatever he wants to ask me and most of the time , i ll be wearing earphones , so the rest of the story is obvious. Someone will tap my shoulder,i ll remove my earphones , ask them what and blah blah .</p>
+
+<p>I would like to thankyou for reading this post . I once again quote that</p>
+
+<blockquote>
+<p>We made chatminion , because we imagined chatting this way will be intresting and i requote the following  </p>
+
+<h3>We are experimenting to see whether chatting really works this way and the results of the experiment are yet to come .</h3>
+</blockquote>
+
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -117,11 +213,9 @@ Obviously , my problem sets sucked in accomplishment certificate . The fact is o
 
     <span class="post-date">08 Jan 2014</span>
 
-    <p>This blog post is about my internship project at komparify.co and  the development challenges i&#39;ve encountered </p>
+    <p>This blog post is about my internship project at komparify.co and  the development challenges i&#39;ve encountered in making this.</p>
 
-<h2>in making this .</h2>
-
-<p><a href="http://towermapify.herokuapp.com" target="_blank">Towermapify</a></p>
+<hr>
 
 <h2>What towermapify does ?</h2>
 
@@ -162,7 +256,7 @@ needs to know whether 3G/4G/HSIA is available in a region ? or How good the cove
 
 <h3>Problem (A)</h3>
 
-<p>We have a huge data having latitude and longitude information of places all over india . if we
+<p>We have a huge data containing latitude and longitude information of places all over india . if we
 drop markers for all the places , it will do a catastropic damage to the performance,browser.
 Takes huge memory , not a good idea.</p>
 
@@ -184,16 +278,33 @@ Also , server-client IO will be high .</p>
 <p>My boss and co-founder of komparify.com Jigar doshi , formulated this approach.He knew of this approach thourgh his
 experience at Amazon.com .</p>
 
-<p>Whenever  a query for the bouding box(Lets call it <strong>box_original</strong>) to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it <strong>box_modified</strong>) . So the results from server includes results of a bigger bounding box. </p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">&gt; **box_original** &lt; **box_modified
-</code></pre></div>
+<p>Whenever  a query for the bouding box(Lets call it <strong>box original</strong> )  to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it <strong>box modified</strong> ) . So the results from server includes results of a bigger bounding box. </p>
+
+<blockquote>
+<p><strong>box original</strong> &lt; <strong>box modified</strong></p>
+</blockquote>
+
 <p><img src="/public/images/overquery_map.png" alt="My helpful screenshot"></p>
 
-<p>When the user pans within the box<em>modified , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the **box</em>modified** we need to query again , which again follows the same procedure as above .</p>
+<p>When the user pans within the <strong>box modified</strong> , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the <strong>box modified</strong> we need to query again , which again follows the same procedure as above .</p>
 
-<p>So,now when the user pan around the map ,the panning will be smooth .</p>
+<p>So,now when the user pan around the map ,the panning will be smooth and thats how <strong>Problem(b)</strong> was solved</p>
 
-<hr>
+<h3>Performance Boost</h3>
+
+<p>We were very close to put this into production and then we started looking under the hood. The latency was not really high but notable .</p>
+
+<p>The reason behind this is the data-exchange format we had , it was <strong>KML(Keyhole markup language)</strong> . we used this because 
+there was a pretty KML parser( :P )  available so it is was easy for us to handle data.</p>
+
+<p>we switched from KML to JSON , and this gave us a solid decrease in the latency.Of course , few big parts of the app has to be
+rewritten and i did that too. I wrote the <strong>full stack(client+server)</strong> so it was not hard for me.</p>
+
+<h3>Finally we shipped</h3>
+
+<p>The app exists in <strong>rails-cells</strong> integration inside komparify.com . Also , i have a version hosted here </p>
+
+<h2><a href="http://towermapify.herokuapp.com" target="_blank">Towermapify</a></h2>
 
   </div>
   
@@ -298,4 +409,6 @@ experience at Amazon.com .</p>
     </div>
 
   </body>
+  <script type="text/javascript" src="/public/js/jquery.js"></script>
+  <script type="text/javascript" src="/public/js/main.js"></script>
 </html>
