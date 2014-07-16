@@ -1,9 +1,12 @@
 # Dependencies
 markdown:         redcarpet
+redcarpet:
+  extensions: 	  [with_toc_data]
+
 pygments:         true
 
 # Permalinks
-permalink:        pretty
+permalink:        none
 
 # Setup
 title:            Dineshswamy's hacking log

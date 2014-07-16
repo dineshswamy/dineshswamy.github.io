@@ -1,5 +1,5 @@
 body{
-	background-color: ghostwhite;
+	
 }
 
 .sidebar{
@@ -40,4 +40,64 @@ body{
 	background: #27ae60;
 	padding: 10px;
 	
+}
+
+.jumbo-banner{
+	width: 100%;
+	background: url("../images/komputer.jpg") no-repeat center bottom fixed;
+	height: 400px;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+     background-size: cover;
+
+}
+
+.chrome_webstore_button{
+	width:33.3%;
+	height: 100px;
+	background: url("../images/chrome-webstore-icon.png") no-repeat right bottom;
+	z-index: 989819812;
+	float: left;
+	position: relative;
+	bottom: 0px;
+	top: 300px;
+	right: 10px;
+	display: inline-block;
+}
+
+.chatminion_logo{
+
+	width:33.3%;
+	height: 150px;
+	z-index: 989819812;
+	float: left;
+	position: relative;
+	top:100px;
+	display: inline-block;
+	background-color: white;
+}
+
+.chatminion-wh-questions{
+	width:33.3%;
+	height: 150px;
+	float: left;
+	display: inline-block;
+	z-index: 989819812;
+	color: #ffffff;
+	position: relative;
+	top:70px;
+	padding: 30px;
+}
+
+.chatminion-wh-questions a{
+	color: #ffffff;
+	width: 100%;
+	float: left;
+	text-decoration: none;
+}
+
+.chatminion-wh-questions a:hover{
+	
+	text-decoration: underline;
 }

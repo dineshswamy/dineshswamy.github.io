@@ -1,21 +1,25 @@
 ---
 layout: chatminion-layout
 title: What is Chatminion ?
+permalink: chatminion
 ---
 
 ######Disclaimer 
-> We strictly dont use the words like "START UP" ,"COMPANY"
+> We strictly dont use the words like "START UP" ,"COMPANY" , "CO-FOUNDERS" . My friend and i used to have a nice laughter which lasts for atleast 2 mins , when we use the mentioned things. 
 
-
+<div id="what-is-chatminion">
+</div>
 ##What is Chatminion ?
 
-It is  a comprehensive chat application, that is made for chatting inside an office. You can send text messages and video calls .
+Better explained in the video.
+	<iframe width="853" height="480" src="//www.youtube.com/embed/CuVyldcQ0Kw" frameborder="0" allowfullscreen></iframe>
 
+It is  a comprehensive chat application, that is made for chatting inside an office. You can send text messages and video calls.
 But there is a catch , you dont have to type and send messages , neither the reciepient . Curated set of messages , which are used more than 100 times in a day within a team or office are right inside the app.
 
 Once you send a message, your reciepient will be shown with most possible replies to the message . Chatminion will also prepare an audio message based on the message you send and recieve(Its not just a message read out).
 
-##What are the highlights?
+####Some of the highlights include
 * 98% ephemeral , your message flies from one end to the other and dies right there. It gets stored nowhere.
 	 The application stores only last two messages for threading(to remember the context). 
 
@@ -27,14 +31,16 @@ Once you send a message, your reciepient will be shown with most possible replie
 
 * The operational cost in the server side is extremely low . since no message gets stored anywhere.
 
+<div id="how-chatminion-works">
+</div>
 ##How chatminion works ?
-
-I wrote the answer inside the repo.[Chatminion repo](https://github.com/dineshswamy/chatminion-chrome-app) . You are welcome , to hack away that , all instructions are available there .
-
+You can study that here . [Chatminion(repo)](https://github.com/dineshswamy/chatminion-chrome-app) . You are welcome , to hack away that , all instructions are available there .
 
 
 
 
+<div id="is-this-an-alternative">
+</div>
 ##Is this an alternative to other chat applications ?
 
 May or may not be , depends on the needs you have. We wrote this exclusively for people who work in teams .Teams that does development or looks after sales etc . We  have no intention of competing in the chat applications space .
@@ -61,6 +67,9 @@ Also
 
 >   *if you dont want chatminion to prepare an audio message for your reciepient , you can do that , by turning off the check box*
 
+<div id="who-asked-you">
+</div>
+
 ##Who asked you to write this ?
 **Nobody.** Every day these things keep happening at my office 
 
@@ -84,8 +93,12 @@ I would like to thankyou for reading this post . I once again quote that
 
 
 
+<div id="requirements">
+</div>
+##Requirements 
 
-
+* Any desktop operating system(GNU/Linux) or (Windows) or (Mac)
+* Google Chrome latest version is recommended
 
 
 

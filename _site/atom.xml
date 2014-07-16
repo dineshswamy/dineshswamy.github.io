@@ -4,7 +4,7 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2014-07-13T00:58:27+05:30</updated>
+ <updated>2014-07-16T20:29:28+05:30</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Mark Otto</name>
@@ -14,24 +14,29 @@
  
  <entry>
    <title>What is Chatminion ?</title>
-   <link href="http://hyde.getpoole.com/2014/06/27/chatminion/"/>
+   <link href="http://hyde.getpoole.com/chatminion"/>
    <updated>2014-06-27T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/2014/06/27/chatminion</id>
-   <content type="html">&lt;h6&gt;Disclaimer&lt;/h6&gt;
+   <id>http://hyde.getpoole.com/chatminion</id>
+   <content type="html">&lt;h6 id=&quot;toc_0&quot;&gt;Disclaimer&lt;/h6&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;We strictly dont use the words like &amp;quot;START UP&amp;quot; ,&amp;quot;COMPANY&amp;quot;&lt;/p&gt;
+&lt;p&gt;We strictly dont use the words like &amp;quot;START UP&amp;quot; ,&amp;quot;COMPANY&amp;quot; , &amp;quot;CO-FOUNDERS&amp;quot; . My friend and i used to have a nice laughter which lasts for atleast 2 mins , when we use the mentioned things. &lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2&gt;What is Chatminion ?&lt;/h2&gt;
+&lt;div id=&quot;what-is-chatminion&quot;&gt;
+&lt;/div&gt;
 
-&lt;p&gt;It is  a comprehensive chat application, that is made for chatting inside an office. You can send text messages and video calls .&lt;/p&gt;
+&lt;h2 id=&quot;toc_1&quot;&gt;What is Chatminion ?&lt;/h2&gt;
 
-&lt;p&gt;But there is a catch , you dont have to type and send messages , neither the reciepient . Curated set of messages , which are used more than 100 times in a day within a team or office are right inside the app.&lt;/p&gt;
+&lt;p&gt;Better explained in the video.
+    &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;//www.youtube.com/embed/CuVyldcQ0Kw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;It is  a comprehensive chat application, that is made for chatting inside an office. You can send text messages and video calls.
+But there is a catch , you dont have to type and send messages , neither the reciepient . Curated set of messages , which are used more than 100 times in a day within a team or office are right inside the app.&lt;/p&gt;
 
 &lt;p&gt;Once you send a message, your reciepient will be shown with most possible replies to the message . Chatminion will also prepare an audio message based on the message you send and recieve(Its not just a message read out).&lt;/p&gt;
 
-&lt;h2&gt;What are the highlights?&lt;/h2&gt;
+&lt;h4 id=&quot;toc_2&quot;&gt;Some of the highlights include&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;98% ephemeral , your message flies from one end to the other and dies right there. It gets stored nowhere.
@@ -42,22 +47,28 @@
 &lt;li&gt;&lt;p&gt;The operational cost in the server side is extremely low . since no message gets stored anywhere.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2&gt;How chatminion works ?&lt;/h2&gt;
+&lt;div id=&quot;how-chatminion-works&quot;&gt;
+&lt;/div&gt;
 
-&lt;p&gt;I wrote the answer inside the repo.&lt;a href=&quot;https://github.com/dineshswamy/chatminion-chrome-app&quot;&gt;Chatminion repo&lt;/a&gt; . You are welcome , to hack away that , all instructions are available there .&lt;/p&gt;
+&lt;h2 id=&quot;toc_3&quot;&gt;How chatminion works ?&lt;/h2&gt;
 
-&lt;h2&gt;Is this an alternative to other chat applications ?&lt;/h2&gt;
+&lt;p&gt;You can study that here . &lt;a href=&quot;https://github.com/dineshswamy/chatminion-chrome-app&quot;&gt;Chatminion(repo)&lt;/a&gt; . You are welcome , to hack away that , all instructions are available there .&lt;/p&gt;
+
+&lt;div id=&quot;is-this-an-alternative&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;toc_4&quot;&gt;Is this an alternative to other chat applications ?&lt;/h2&gt;
 
 &lt;p&gt;May or may not be , depends on the needs you have. We wrote this exclusively for people who work in teams .Teams that does development or looks after sales etc . We  have no intention of competing in the chat applications space .&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;h3&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to come .&lt;/h3&gt;
+&lt;h3 id=&quot;toc_5&quot;&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to come .&lt;/h3&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Three months ago , i made a prototype working . It was working but  it was incomprehensible to distribute . Thats where we decided , okay lets make this is as a complete google chrome app and see what happens .&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;h4&gt;&lt;em&gt;Doing a feature comparison between existing chat applications and Chatminion , wont fit. Chatminion is one of its kind . Though , It is still a tool for making conversation , the way  conversation happens is different .&lt;/em&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;toc_6&quot;&gt;&lt;em&gt;Doing a feature comparison between existing chat applications and Chatminion , wont fit. Chatminion is one of its kind . Though , It is still a tool for making conversation , the way  conversation happens is different .&lt;/em&gt;&lt;/h4&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;But there are clear differences , and what chatminion can do &lt;/p&gt;
@@ -77,7 +88,10 @@
 &lt;p&gt;&lt;em&gt;if you dont want chatminion to prepare an audio message for your reciepient , you can do that , by turning off the check box&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2&gt;Who asked you to write this ?&lt;/h2&gt;
+&lt;div id=&quot;who-asked-you&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;toc_7&quot;&gt;Who asked you to write this ?&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Nobody.&lt;/strong&gt; Every day these things keep happening at my office &lt;/p&gt;
 
@@ -95,20 +109,30 @@ he will shout whatever he wants to ask me and most of the time , i ll be wearing
 &lt;blockquote&gt;
 &lt;p&gt;We made chatminion , because we imagined chatting this way will be intresting and i requote the following  &lt;/p&gt;
 
-&lt;h3&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to come .&lt;/h3&gt;
+&lt;h3 id=&quot;toc_8&quot;&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to come .&lt;/h3&gt;
 &lt;/blockquote&gt;
+
+&lt;div id=&quot;requirements&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;toc_9&quot;&gt;Requirements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Any desktop operating system(GNU/Linux) or (Windows) or (Mac)&lt;/li&gt;
+&lt;li&gt;Google Chrome latest version is recommended&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
  <entry>
    <title>The wish that came true</title>
-   <link href="http://hyde.getpoole.com/2014/06/23/finishing-algorithms-coursera/"/>
+   <link href="http://hyde.getpoole.com/finishing-algorithms-coursera.html"/>
    <updated>2014-06-23T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/2014/06/23/finishing-algorithms-coursera</id>
+   <id>http://hyde.getpoole.com/finishing-algorithms-coursera</id>
    <content type="html">&lt;p&gt;Today , i completed a course on coursera . For a very long time , i wanted to accomplish these
 two things . Polish my algorithm skills . Complete a course on coursera .&lt;/p&gt;
 
-&lt;h3&gt;Not everything came true&lt;/h3&gt;
+&lt;h3 id=&quot;toc_0&quot;&gt;Not everything came true&lt;/h3&gt;
 
 &lt;p&gt;Some part of was satisfied , that i was able to complete the course . But unfortunately i wont be able to recieve the certificate of accomplishment . The base score to get a certificate of accomplishment is &lt;code&gt;70&lt;/code&gt; , i managed to score only &lt;code&gt;66&lt;/code&gt; .The following is the score summary&lt;/p&gt;
 
@@ -129,14 +153,14 @@ Obviously , my problem sets sucked in accomplishment certificate . The fact is o
  
  <entry>
    <title>Towermapify - Coverage maps for komparify.com</title>
-   <link href="http://hyde.getpoole.com/2014/01/08/towermapify-making/"/>
+   <link href="http://hyde.getpoole.com/towermapify-making.html"/>
    <updated>2014-01-08T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/2014/01/08/towermapify-making</id>
+   <id>http://hyde.getpoole.com/towermapify-making</id>
    <content type="html">&lt;p&gt;This blog post is about my internship project at komparify.co and  the development challenges i&amp;#39;ve encountered in making this.&lt;/p&gt;
 
 &lt;hr&gt;
 
-&lt;h2&gt;What towermapify does ?&lt;/h2&gt;
+&lt;h2 id=&quot;toc_0&quot;&gt;What towermapify does ?&lt;/h2&gt;
 
 &lt;p&gt;Towermapify is a coverage map. The objective is to map  coverage strength of all the operators in india .
 Whether they provide 3G or 4G or HSIA(high speed internet connectivity) in a particular region . If a user
@@ -144,23 +168,23 @@ needs to know whether 3G/4G/HSIA is available in a region ? or How good the cove
 
 &lt;p&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2&gt;1 internship month =  1 prototype throwaway + 1 Production version&lt;/h2&gt;
+&lt;h2 id=&quot;toc_1&quot;&gt;1 internship month =  1 prototype throwaway + 1 Production version&lt;/h2&gt;
 
 &lt;p&gt;When i was briefed about the project , neither of us had no clue how we are going to do this .We only had data required for the map .&lt;/p&gt;
 
 &lt;p&gt;We started with Google Maps API combined with Google FusionTables . Your data will be hosted by the Google Servers .It will provide REST FULL apis to access the data . You need to write a client(HTML+CSS+JS) where you need to handle the data and put them in Map.&lt;/p&gt;
 
-&lt;h3&gt;Growing requirements&lt;/h3&gt;
+&lt;h3 id=&quot;toc_2&quot;&gt;Growing requirements&lt;/h3&gt;
 
 &lt;p&gt;Once i got a prototype working , the requirements at komparify.com started growing , we badly required many features . But Fusion tables are not enough as they had limitations.&lt;/p&gt;
 
 &lt;p&gt;For example : You cant do a &amp;quot;OR&amp;quot; in the SQL query you send .Your table should be publicly available .&lt;/p&gt;
 
-&lt;h3&gt;Thrown far far away&lt;/h3&gt;
+&lt;h3 id=&quot;toc_3&quot;&gt;Thrown far far away&lt;/h3&gt;
 
 &lt;p&gt;So days and days of work was thrown away and we finally settled down to define development stack.We decided use our own servers and make restful apis for data .&lt;/p&gt;
 
-&lt;h2&gt;Towermapify - Built on&lt;/h2&gt;
+&lt;h2 id=&quot;toc_4&quot;&gt;Towermapify - Built on&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Ruby on Rails &lt;/li&gt;
@@ -171,28 +195,28 @@ needs to know whether 3G/4G/HSIA is available in a region ? or How good the cove
 &lt;li&gt;MySQL&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2&gt;OverQuery algorithm&lt;/h2&gt;
+&lt;h2 id=&quot;toc_5&quot;&gt;OverQuery algorithm&lt;/h2&gt;
 
-&lt;h3&gt;Problem (A)&lt;/h3&gt;
+&lt;h3 id=&quot;toc_6&quot;&gt;Problem (A)&lt;/h3&gt;
 
 &lt;p&gt;We have a huge data containing latitude and longitude information of places all over india . if we
 drop markers for all the places , it will do a catastropic damage to the performance,browser.
 Takes huge memory , not a good idea.&lt;/p&gt;
 
-&lt;h3&gt;Work around (A)&lt;/h3&gt;
+&lt;h3 id=&quot;toc_7&quot;&gt;Work around (A)&lt;/h3&gt;
 
 &lt;p&gt;So , to decide what markers to drop . we get the bounding edges south west and north east of the map . With that , the query is for only the  places that resides inside the bounding box and then query again when the user does panning inside the map , with the new bounding box&lt;/p&gt;
 
-&lt;h3&gt;Problem (B)&lt;/h3&gt;
+&lt;h3 id=&quot;toc_8&quot;&gt;Problem (B)&lt;/h3&gt;
 
 &lt;p&gt;The way we find the new bounding box after the user pans is by listening to the map-events . But the problem is that map-events fire for every small pan or zoom , making navigation inside maps terrible . If the mouse is just shaken inside the map , it does a query for the new bounding box and drops the markers again , giving a terrible user experience .
 Also , server-client IO will be high .&lt;/p&gt;
 
-&lt;h3&gt;Work around (B)&lt;/h3&gt;
+&lt;h3 id=&quot;toc_9&quot;&gt;Work around (B)&lt;/h3&gt;
 
 &lt;p&gt;This is the place where we went back to the drawing board and started writing rules that minimizes no of requests to the server and gives a good user experience .&lt;/p&gt;
 
-&lt;h3&gt;Overquery&lt;/h3&gt;
+&lt;h3 id=&quot;toc_10&quot;&gt;Overquery&lt;/h3&gt;
 
 &lt;p&gt;My boss and co-founder of komparify.com Jigar doshi , formulated this approach.He knew of this approach thourgh his
 experience at Amazon.com .&lt;/p&gt;
@@ -209,7 +233,7 @@ experience at Amazon.com .&lt;/p&gt;
 
 &lt;p&gt;So,now when the user pan around the map ,the panning will be smooth and thats how &lt;strong&gt;Problem(b)&lt;/strong&gt; was solved&lt;/p&gt;
 
-&lt;h3&gt;Performance Boost&lt;/h3&gt;
+&lt;h3 id=&quot;toc_11&quot;&gt;Performance Boost&lt;/h3&gt;
 
 &lt;p&gt;We were very close to put this into production and then we started looking under the hood. The latency was not really high but notable .&lt;/p&gt;
 
@@ -219,19 +243,19 @@ there was a pretty KML parser( :P )  available so it is was easy for us to handl
 &lt;p&gt;we switched from KML to JSON , and this gave us a solid decrease in the latency.Of course , few big parts of the app has to be
 rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server)&lt;/strong&gt; so it was not hard for me.&lt;/p&gt;
 
-&lt;h3&gt;Finally we shipped&lt;/h3&gt;
+&lt;h3 id=&quot;toc_12&quot;&gt;Finally we shipped&lt;/h3&gt;
 
 &lt;p&gt;The app exists in &lt;strong&gt;rails-cells&lt;/strong&gt; integration inside komparify.com . Also , i have a version hosted here &lt;/p&gt;
 
-&lt;h2&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;toc_13&quot;&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/h2&gt;
 </content>
  </entry>
  
  <entry>
    <title>Example content</title>
-   <link href="http://hyde.getpoole.com/2012/02/07/example-content/"/>
+   <link href="http://hyde.getpoole.com/example-content.html"/>
    <updated>2012-02-07T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/2012/02/07/example-content</id>
+   <id>http://hyde.getpoole.com/example-content</id>
    <content type="html">&lt;p&gt;This blog post shows a few different types of content that&amp;#39;s supported and styled with Hyde. Basic typography, images, and code are all supported.&lt;/p&gt;
 
 &lt;hr&gt;
@@ -244,11 +268,11 @@ rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server
 
 &lt;p&gt;Etiam porta &lt;em&gt;sem malesuada magna&lt;/em&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
 
-&lt;h2&gt;Heading&lt;/h2&gt;
+&lt;h2 id=&quot;toc_0&quot;&gt;Heading&lt;/h2&gt;
 
 &lt;p&gt;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
 
-&lt;h3&gt;Sub-heading&lt;/h3&gt;
+&lt;h3 id=&quot;toc_1&quot;&gt;Sub-heading&lt;/h3&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
 
@@ -264,7 +288,7 @@ rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server
 
 &lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
 
-&lt;h3&gt;Sub-heading&lt;/h3&gt;
+&lt;h3 id=&quot;toc_2&quot;&gt;Sub-heading&lt;/h3&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
 
@@ -292,9 +316,9 @@ rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server
  
  <entry>
    <title>What's Jekyll?</title>
-   <link href="http://hyde.getpoole.com/2012/02/06/whats-jekyll/"/>
+   <link href="http://hyde.getpoole.com/whats-jekyll.html"/>
    <updated>2012-02-06T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/2012/02/06/whats-jekyll</id>
+   <id>http://hyde.getpoole.com/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project&amp;#39;s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
