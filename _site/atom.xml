@@ -4,7 +4,7 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2014-07-17T02:52:58+05:30</updated>
+ <updated>2014-07-19T16:11:51+05:30</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Mark Otto</name>
@@ -20,107 +20,148 @@
    <content type="html">&lt;h6 id=&quot;toc_0&quot;&gt;Disclaimer&lt;/h6&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;We strictly dont use the words like &amp;quot;START UP&amp;quot; ,&amp;quot;COMPANY&amp;quot; , &amp;quot;CO-FOUNDERS&amp;quot; . My friend and i used to have a nice laughter which lasts for atleast 2 mins , when we use the mentioned things. &lt;/p&gt;
+&lt;p&gt;We strictly don&amp;#39;t use the nouns like &amp;quot;START UP&amp;quot; ,&amp;quot;COMPANY&amp;quot; , &amp;quot;CO-FOUNDERS&amp;quot; . :p&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;div id=&quot;what-is-chatminion&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;toc_1&quot;&gt;What is Chatminion ?&lt;/h2&gt;
+&lt;h2 id=&quot;toc_1&quot;&gt;What is Chatminion?&lt;/h2&gt;
 
 &lt;p&gt;Better explained in the video.
     &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;//www.youtube.com/embed/CuVyldcQ0Kw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 
-&lt;p&gt;It is  a comprehensive chat application, that is made for chatting inside an office. You can send text messages and video calls.
-But there is a catch , you dont have to type and send messages , neither the reciepient . Curated set of messages , which are used more than 100 times in a day within a team or office are right inside the app.&lt;/p&gt;
+&lt;p&gt;It is  a comprehensive chat application that is made for chatting within an office premise. You can send text messages and make video calls too.
+But there is a catch here! Neither you nor your recipient have to type and send the messages. Curated set of messages which are used more than 100 times in a day within a team or office are embedded right inside the app. &lt;/p&gt;
 
-&lt;p&gt;Once you send a message, your reciepient will be shown with most possible replies to the message . Chatminion will also prepare an audio message based on the message you send and recieve(Its not just a message read out).&lt;/p&gt;
+&lt;p&gt;Once you send a message, your recipient will be shown the most relevant and possible replies to the message. Chatminion will also prepare an audio message based on the message you send and receive(It does not just read out the message as it is).&lt;/p&gt;
 
 &lt;h4 id=&quot;toc_2&quot;&gt;Some of the highlights include&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;98% ephemeral , your message flies from one end to the other and dies right there. It gets stored nowhere.
- The application stores only last two messages for threading(to remember the context). &lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Makes the recurring conversions , really quick .&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Make video calls , the reciepient need not authorize the video call .when you want to talk to your team member , simply hit video call and you are there .&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;98% ephemeral, your message flies from one end to the other and dies right there. It gets stored nowhere.
+ The application stores only the last two messages for threading(to remember the context of the conversation). &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Makes the recurring conversations really quick.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Make video calls, the recipient need not even authorize the call. When you want to talk to your team member, simply hit the video call button and you are there.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Video calls are plugin free and based on Web RTC and it is almost Peer to Peer .&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The operational cost in the server side is extremely low . since no message gets stored anywhere.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The operational cost on the server side is extremely low since the messages gets stored nowhere.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div id=&quot;how-chatminion-works&quot;&gt;
+&lt;div class=&quot;screenshots&quot;&gt;
+    &lt;img src =&quot;/public/images/screenshot.png&quot;  /&gt; 
+    &lt;img src =&quot;/public/images/screenshot_2.png&quot;  /&gt; 
 &lt;/div&gt;
-
-&lt;h2 id=&quot;toc_3&quot;&gt;How chatminion works ?&lt;/h2&gt;
-
-&lt;p&gt;You can study that here . &lt;a href=&quot;https://github.com/dineshswamy/chatminion-chrome-app&quot;&gt;Chatminion(repo)&lt;/a&gt; . You are welcome , to hack away that , all instructions are available there .&lt;/p&gt;
-
-&lt;div id=&quot;is-this-an-alternative&quot;&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;toc_4&quot;&gt;Is this an alternative to other chat applications ?&lt;/h2&gt;
-
-&lt;p&gt;May or may not be , depends on the needs you have. We wrote this exclusively for people who work in teams .Teams that does development or looks after sales etc . We  have no intention of competing in the chat applications space .&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;h3 id=&quot;toc_5&quot;&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to come .&lt;/h3&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Three months ago , i made a prototype working . It was working but  it was incomprehensible to distribute . Thats where we decided , okay lets make this is as a complete google chrome app and see what happens .&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;h4 id=&quot;toc_6&quot;&gt;&lt;em&gt;Doing a feature comparison between existing chat applications and Chatminion , wont fit. Chatminion is one of its kind . Though , It is still a tool for making conversation , the way  conversation happens is different .&lt;/em&gt;&lt;/h4&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;But there are clear differences , and what chatminion can do &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Chatminion is not based on XMPP protocol its built on top of HTTP &lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Every message that is sent via chatminion can be attached a property with it( attribute )&lt;/strong&gt; i.e The sender can control the behaviour and appearance of the message that is sent .You can do something like , &lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Okay chatminion .  i dont want any reply from him/her for this message &amp;quot; , by turning off the check box .&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Also&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;if you dont want chatminion to prepare an audio message for your reciepient , you can do that , by turning off the check box&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div id=&quot;who-asked-you&quot;&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;toc_7&quot;&gt;Who asked you to write this ?&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Nobody.&lt;/strong&gt; Every day these things keep happening at my office &lt;/p&gt;
-
-&lt;p&gt;Everyday ,i saw my manager entering office and the first thing he asks me is this &amp;quot;Whats your status ?&amp;quot; and depending on the day , my reply would be &amp;quot;Completed&amp;quot; or &amp;quot;Still working&amp;quot; or &amp;quot;need some time&amp;quot; .&lt;/p&gt;
-
-&lt;p&gt;There is another manager ,who oversees sales team . every half n hour , he will shout(loud enough to be heard by everyone) at  his sales team &amp;quot; XYZ ? Can we talk now ?&amp;quot; and the reply would    be &amp;quot;In 10 mins&amp;quot; or &amp;quot;Later&amp;quot; or &amp;quot;I m on call . will be coming&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;and finally my colleague &lt;/p&gt;
-
-&lt;p&gt;He ll be in another room , and he wont come out of his place very often .
-he will shout whatever he wants to ask me and most of the time , i ll be wearing earphones , so the rest of the story is obvious. Someone will tap my shoulder,i ll remove my earphones , ask them what and blah blah .&lt;/p&gt;
-
-&lt;p&gt;I would like to thankyou for reading this post . I once again quote that&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;We made chatminion , because we imagined chatting this way will be intresting and i requote the following  &lt;/p&gt;
-
-&lt;h3 id=&quot;toc_8&quot;&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to come .&lt;/h3&gt;
-&lt;/blockquote&gt;
 
 &lt;div id=&quot;requirements&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;toc_9&quot;&gt;Requirements&lt;/h2&gt;
+&lt;h2 id=&quot;toc_3&quot;&gt;Requirements&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Any desktop operating system(GNU/Linux) or (Windows) or (Mac)&lt;/li&gt;
 &lt;li&gt;Google Chrome latest version is recommended&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;div id=&quot;how-to-install-chatminion&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;toc_4&quot;&gt;How to install chatminion ?&lt;/h2&gt;
+
+&lt;p&gt;1) Download or Update google chrome to the latest version(recommended)&lt;/p&gt;
+
+&lt;p&gt;2) Install chatminion from here . &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;Chatminion&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3) Open the app , you ll be asked to SignIn with your Google account (dont confuse with google plus, you dont need google plus account)&lt;/p&gt;
+
+&lt;p&gt;4) You ll have a sample contact . Try sending messages to it , it will reply the same .&lt;/p&gt;
+
+&lt;p&gt;5) Add your friends using their EMAIL-ID&lt;/p&gt;
+
+&lt;div id=&quot;how-chatminion-works&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;toc_5&quot;&gt;How chatminion works ?&lt;/h2&gt;
+
+&lt;p&gt;You can read about that here . &lt;a href=&quot;https://github.com/dineshswamy/chatminion-chrome-app&quot;&gt;Chatminion(repo)&lt;/a&gt; . You are welcome to fork it , all instructions are available there .&lt;/p&gt;
+
+&lt;div id=&quot;is-this-an-alternative&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;toc_6&quot;&gt;Is this an alternative to other chat applications?&lt;/h2&gt;
+
+&lt;p&gt;Maybe or may not be, it depends on the needs you have. We wrote this exclusively for people who work as teams. Teams that do development work or looks after sales etc. We  have no intention of competing in the chat applications space.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&quot;toc_7&quot;&gt;We are experimenting to see whether chatting can really work this way and the results of the experiment are yet to be seen.&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Three months ago, I made a working prototype. It worked but it was incomprehensible to distribute . So we decided &amp;quot;okay lets make this is as a complete google chrome app and see where it goes&amp;quot; .&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&quot;toc_8&quot;&gt;Doing a feature comparison between existing chat applications and Chatminion wont fit. Chatminion is a one of its kind application. Though it is still a tool for making conversation, the way conversation happens is very different.&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But then there are clear differences about what other chat application can do and what Chatminion can do &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Chatminion is not based on XMPP protocol its built on top of HTTP &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Every message that is sent via Chatminion can be attached a property with it( attribute )&lt;/strong&gt; i.e The sender can control the behaviour and appearance of the message that is sent. You can do something like , &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;quot; Okay Chatminion, I dont want any reply from him/her for this message &amp;quot;, by unchecking a check box.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Also&lt;/p&gt;
+
+&lt;div&gt;
+    &lt;center&gt;
+        &lt;img src=&quot;/public/images/options_for_messages.png&quot; class=&quot;inline-image&quot; /&gt;
+    &lt;/center&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;If you don&amp;#39;t want Chatminion to prepare an audio message for your recipient, you can do that too. By just unchecking a check box .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;div id=&quot;who-asked-you&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;toc_9&quot;&gt;Who asked you to write this?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Nobody.&lt;/strong&gt; Every day these things keep happening at my office. &lt;/p&gt;
+
+&lt;p&gt;Everyday i used to see my manager entering the office and the first thing he asks me is this &amp;quot; Whats your status? &amp;quot; and depending on the day&amp;#39;s work, my reply would be &amp;quot;Completed&amp;quot; or &amp;quot;Still working&amp;quot; or &amp;quot;need some more time&amp;quot; .&lt;/p&gt;
+
+&lt;p&gt;There is another manager who oversees the sales team. Every half an hour he will shout(loud enough to be heard by everyone) at his sales team &amp;quot; XYZ ? Can we talk now ?&amp;quot; and their reply would be &amp;quot;In 10 mins&amp;quot; or &amp;quot;Later&amp;quot; or &amp;quot;I&amp;#39;m on a call. Will be coming&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;and finally my colleague! &lt;/p&gt;
+
+&lt;p&gt;He&amp;#39;ll be in an adjacent room and he wont come out of his place very often.
+ He will shout out loud whatever he wants to ask me and most of the time  I&amp;#39;ll be wearing earphones and the rest of the story is obvious. Someone will tap my shoulder, I&amp;#39;ll remove my earphones and ask them what is it ? then blah blah ...&lt;/p&gt;
+
+&lt;p&gt;I would like to thank you for reading this post. I once again quote that&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We made chatminion because we thought chatting this way will be interesting&lt;/p&gt;
+
+&lt;h3 id=&quot;toc_10&quot;&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to be seen.&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;div id=&quot;who-are-you-fellas&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;toc_11&quot;&gt;Who are you fellas ?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Hi, My name is &lt;strong&gt;dineshswamy&lt;/strong&gt; . i wrote chatminion along with my friend &lt;strong&gt;ganesh&lt;/strong&gt; .I currently work as a product developer at &lt;a href=&quot;http://www.komparify.com&quot;&gt;komparify.com&lt;/a&gt; . Chatminion is used extensively in my office .I hope you use it as well.
+If you find any issues write to us at &lt;a href=&quot;#&quot;&gt;dineshswamy92@gmail.com&lt;/a&gt; and &lt;a href=&quot;#&quot;&gt;graverine@gmail.com&lt;/a&gt; .
+If you dont find any issues  ,just drop a mail  &lt;strong&gt;WE&amp;#39;LL  DISCUSS ABOUT LIFE&lt;/strong&gt; :P&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
  </entry>
  
