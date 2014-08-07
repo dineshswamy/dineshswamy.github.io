@@ -1,4 +1,6 @@
 body{
+
+
 	
 }
 
@@ -50,7 +52,7 @@ body{
 
 .jumbo-banner{
 	width: 100%;
-	background: url("../images/optimized-komputer.jpg") no-repeat center bottom fixed;
+	background: url("../images/background.jpg") no-repeat center bottom fixed;
 	height: 400px;
 	-webkit-background-size: cover;
     -moz-background-size: cover;

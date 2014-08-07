@@ -7,7 +7,7 @@ pygments:         true
 
 # Permalinks
 permalink:        none
-
+relative_permalinks: false
 # Setup
 title:            Dineshswamy's hacking log
 tagline:          'A Jekyll theme'

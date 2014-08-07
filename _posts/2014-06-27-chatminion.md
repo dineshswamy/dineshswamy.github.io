@@ -3,6 +3,7 @@ layout: chatminion-layout
 title: What is Chatminion ?
 permalink: chatminion
 chrome_webstore_link: https://chrome.google.com/webstore/detail/chat-minion/ggppffbhjobdepilfllgmpojejkeemca
+sidebar: no
 ---
 
 ######Disclaimer 

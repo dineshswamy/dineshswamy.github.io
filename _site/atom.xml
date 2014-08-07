@@ -4,13 +4,37 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2014-07-19T16:36:37+05:30</updated>
+ <updated>2014-08-07T23:49:40+05:30</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Mark Otto</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Dineshswamy's projects and applications in his previous life</title>
+   <link href="http://hyde.getpoole.com/project-apps"/>
+   <updated>2014-07-31T00:00:00+05:30</updated>
+   <id>http://hyde.getpoole.com/project-apps</id>
+   <content type="html">&lt;p&gt;&lt;a class=&quot;fancybox&quot; href=&quot;/public/images/screenshots/ncc/screenshot_4.png&quot; data-fancybox-group=&quot;gallery&quot; title=&quot;Lorem ipsum dolor sit amet&quot;&gt;
+&lt;div class=&quot;description&quot;&gt;&lt;br&gt;
+&lt;img src=&quot;/public/images/screenshots-thumbs/dinesh_swamy200x200.jpeg&quot; id=&quot;thumbnail&quot; /&gt; 
+&lt;/div&gt;
+&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Vidtext</title>
+   <link href="http://hyde.getpoole.com/vidtext"/>
+   <updated>2014-07-07T00:00:00+05:30</updated>
+   <id>http://hyde.getpoole.com/vidtext</id>
+   <content type="html">&lt;h2 id=&quot;toc_0&quot;&gt;VidText(Video + texting )&lt;/h2&gt;
+
+&lt;p&gt;Vidtext is an ephemeral video+text(Video does not include audio) app . The app uses the front camera of conversing people and the user can type messages on top of the video . So the user can see the realtime face of the conversing person , but he need not talk , he can simply type on top of the video and then see the other person&amp;#39;s reaction lively .&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>What is Chatminion ?</title>

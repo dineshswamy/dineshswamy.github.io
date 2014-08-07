@@ -19,6 +19,10 @@
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/hyde.css">
   <link rel="stylesheet" href="/public/css/main.css">
+  
+  
+
+
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
                                 
@@ -27,6 +31,50 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
+
+  
+  <div class="sidebar">
+  <div class="profile_container"> 
+      
+      
+  
+    
+      <p class="profile_heading">dineshswamy's Hacking Logs</p>
+  
+  </div>
+  <div class="container">
+    <ul class="sidebar-nav">
+      
+      <li class="sidebar-nav-item active">
+        <a href="/">Computer things i Wrote</a>
+      </li>
+
+<!--       
+
+      
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+       -->
+
+      <!-- <li class="sidebar-nav-item"><a href="https://github.com/poole/hyde/archive/v2.0.0.zip">Download</a></li>
+      <li class="sidebar-nav-item"><a href="https://github.com/poole/hyde">GitHub project</a></li> -->
+      <!-- <li class="sidebar-nav-item">Currently v2.0.0</li> -->
+    </ul>
+    
+  </div>
+</div>
 
 
   <body>
@@ -42,298 +90,6 @@
 </div>
 
 <!-- <div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/chatminion">
-        What is Chatminion ?
-      </a>
-    </h1>
-
-    <span class="post-date">27 Jun 2014</span>
-
-    <h6 id="toc_0">Disclaimer</h6>
-
-<blockquote>
-<p>We strictly don&#39;t use the nouns like &quot;START UP&quot; ,&quot;COMPANY&quot; , &quot;CO-FOUNDERS&quot; . :p</p>
-</blockquote>
-
-<div id="what-is-chatminion">
-</div>
-
-<h2 id="toc_1">What is Chatminion?</h2>
-
-<p>Better explained in the video.
-    <iframe width="853" height="480" src="//www.youtube.com/embed/CuVyldcQ0Kw" frameborder="0" allowfullscreen></iframe></p>
-
-<p>It is  a comprehensive chat application that is made for chatting within an office premise. You can send text messages and make video calls too.
-But there is a catch here! Neither you nor your recipient have to type and send the messages. Curated set of messages which are used more than 100 times in a day within a team or office are embedded right inside the app. </p>
-
-<p>Once you send a message, your recipient will be shown the most relevant and possible replies to the message. Chatminion will also prepare an audio message based on the message you send and receive(It does not just read out the message as it is).</p>
-
-<h4 id="toc_2">Some of the highlights include</h4>
-
-<ul>
-<li><p>98% ephemeral, your message flies from one end to the other and dies right there. It gets stored nowhere.
- The application stores only the last two messages for threading(to remember the context of the conversation). </p></li>
-<li><p>Makes the recurring conversations really quick.</p></li>
-<li><p>Make video calls, the recipient need not even authorize the call. When you want to talk to your team member, simply hit the video call button and you are there.</p></li>
-<li><p>Video calls are plugin free and based on Web RTC and it is almost Peer to Peer .</p></li>
-<li><p>The operational cost on the server side is extremely low since the messages gets stored nowhere.</p></li>
-</ul>
-
-<div class="screenshots">
-    <img src ="/public/images/screenshot.png"  /> 
-    <img src ="/public/images/screenshot_2.png"  /> 
-</div>
-
-<div id="requirements">
-</div>
-
-<h2 id="toc_3">Requirements</h2>
-
-<ul>
-<li>Any desktop operating system(GNU/Linux) or (Windows) or (Mac)</li>
-<li>Google Chrome latest version is recommended</li>
-</ul>
-
-<div id="how-to-install-chatminion">
-</div>
-
-<h2 id="toc_4">How to install chatminion ?</h2>
-
-<p>1) Download or Update google chrome to the latest version(recommended)</p>
-
-<p>2) Install chatminion from here . <a href="" target="_blank">Chatminion</a></p>
-
-<p>3) Open the app , you ll be asked to SignIn with your Google account (dont confuse with google plus, you dont need google plus account)</p>
-
-<p>4) You ll have a sample contact . Try sending messages to it , it will reply the same .</p>
-
-<p>5) Add your friends using their EMAIL-ID</p>
-
-<div id="how-chatminion-works">
-</div>
-
-<h2 id="toc_5">How chatminion works ?</h2>
-
-<p>You can read about that here . <a href="https://github.com/dineshswamy/chatminion-chrome-app">Chatminion(repo)</a> . You are welcome to fork it , all instructions are available there .</p>
-
-<div id="is-this-an-alternative">
-</div>
-
-<h2 id="toc_6">Is this an alternative to other chat applications?</h2>
-
-<p>Maybe or may not be, it depends on the needs you have. We wrote this exclusively for people who work as teams. Teams that do development work or looks after sales etc. We  have no intention of competing in the chat applications space.</p>
-
-<blockquote>
-<h3 id="toc_7">We are experimenting to see whether chatting can really work this way and the results of the experiment are yet to be seen.</h3>
-</blockquote>
-
-<p>Three months ago, I made a working prototype. It worked but it was incomprehensible to distribute . So we decided &quot;okay lets make this is as a complete google chrome app and see where it goes&quot; .</p>
-
-<blockquote>
-<h3 id="toc_8">Doing a feature comparison between existing chat applications and Chatminion wont fit. Chatminion is a one of its kind application. Though it is still a tool for making conversation, the way conversation happens is very different.</h3>
-</blockquote>
-
-<p>But then there are clear differences about what other chat application can do and what Chatminion can do </p>
-
-<ul>
-<li><p>Chatminion is not based on XMPP protocol its built on top of HTTP </p></li>
-<li><p><strong>Every message that is sent via Chatminion can be attached a property with it( attribute )</strong> i.e The sender can control the behaviour and appearance of the message that is sent. You can do something like , </p></li>
-</ul>
-
-<blockquote>
-<ul>
-<li>&quot; Okay Chatminion, I dont want any reply from him/her for this message &quot;, by unchecking a check box.</li>
-</ul>
-</blockquote>
-
-<p>Also</p>
-
-<div>
-    <center>
-        <img src="/public/images/options_for_messages.png" class="inline-image" />
-    </center>
-</div>
-
-<blockquote>
-<ul>
-<li>If you don&#39;t want Chatminion to prepare an audio message for your recipient, you can do that too. By just unchecking a check box .</li>
-</ul>
-</blockquote>
-
-<div id="who-asked-you">
-</div>
-
-<h2 id="toc_9">Who asked you to write this?</h2>
-
-<p><strong>Nobody.</strong> Every day these things keep happening at my office. </p>
-
-<p>Everyday i used to see my manager entering the office and the first thing he asks me is this &quot; Whats your status? &quot; and depending on the day&#39;s work, my reply would be &quot;Completed&quot; or &quot;Still working&quot; or &quot;need some more time&quot; .</p>
-
-<p>There is another manager who oversees the sales team. Every half an hour he will shout(loud enough to be heard by everyone) at his sales team &quot; XYZ ? Can we talk now ?&quot; and their reply would be &quot;In 10 mins&quot; or &quot;Later&quot; or &quot;I&#39;m on a call. Will be coming&quot;</p>
-
-<p>and finally my colleague! </p>
-
-<p>He&#39;ll be in an adjacent room and he wont come out of his place very often.
- He will shout out loud whatever he wants to ask me and most of the time  I&#39;ll be wearing earphones and the rest of the story is obvious. Someone will tap my shoulder, I&#39;ll remove my earphones and ask them what is it ? then blah blah ...</p>
-
-<p>I would like to thank you for reading this post. I once again quote that</p>
-
-<blockquote>
-<p>We made chatminion because we thought chatting this way will be interesting</p>
-
-<h3 id="toc_10">We are experimenting to see whether chatting really works this way and the results of the experiment are yet to be seen.</h3>
-</blockquote>
-
-<div id="who-are-you-fellas">
-</div>
-
-<h2 id="toc_11">Who are you fellas ?</h2>
-
-<blockquote>
-<p>Hi, My name is <strong>dineshswamy</strong> . i wrote chatminion along with my friend <strong>ganesh</strong> .I currently work as a product developer at <a href="http://www.komparify.com">komparify.com</a> . Chatminion is used extensively in my office .I hope you use it as well.
-If you find any issues write to us at <a href="#">dineshswamy92@gmail.com</a> and <a href="#">graverine@gmail.com</a> .
-If you dont find any issues  ,just drop a mail  <strong>WE&#39;LL  DISCUSS ABOUT LIFE</strong> :P</p>
-</blockquote>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/finishing-algorithms-coursera.html">
-        The wish that came true
-      </a>
-    </h1>
-
-    <span class="post-date">23 Jun 2014</span>
-
-    <p>Today , i completed a course on coursera . For a very long time , i wanted to accomplish these
-two things . Polish my algorithm skills . Complete a course on coursera .</p>
-
-<h3 id="toc_0">Not everything came true</h3>
-
-<p>Some part of was satisfied , that i was able to complete the course . But unfortunately i wont be able to recieve the certificate of accomplishment . The base score to get a certificate of accomplishment is <code>70</code> , i managed to score only <code>66</code> .The following is the score summary</p>
-
-<ul>
-<li>Final exam 30 out of 40</li>
-<li>Programming assignments 23 out of 30</li>
-<li>Problem sets 13 out of 30</li>
-</ul>
-
-<p>Sometimes , I hate giving and recieving lame excuses . But this one is out of my hands .
-Obviously , my problem sets sucked in accomplishment certificate . The fact is only after several deadlines , i happen to know that there exists a section called problem set .</p>
-
-<p>But never mind , i m planning to take the sequel course .</p>
-
-<p>Thanks for reading :P </p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/towermapify-making.html">
-        Towermapify - Coverage maps for komparify.com
-      </a>
-    </h1>
-
-    <span class="post-date">08 Jan 2014</span>
-
-    <p>This blog post is about my internship project at komparify.co and  the development challenges i&#39;ve encountered in making this.</p>
-
-<hr>
-
-<h2 id="toc_0">What towermapify does ?</h2>
-
-<p>Towermapify is a coverage map. The objective is to map  coverage strength of all the operators in india .
-Whether they provide 3G or 4G or HSIA(high speed internet connectivity) in a particular region . If a user
-needs to know whether 3G/4G/HSIA is available in a region ? or How good the coverage strength of particular operator is ? , the information can be found .</p>
-
-<p><a href="http://towermapify.herokuapp.com" target="_blank">Towermapify</a></p>
-
-<h2 id="toc_1">1 internship month =  1 prototype throwaway + 1 Production version</h2>
-
-<p>When i was briefed about the project , neither of us had no clue how we are going to do this .We only had data required for the map .</p>
-
-<p>We started with Google Maps API combined with Google FusionTables . Your data will be hosted by the Google Servers .It will provide REST FULL apis to access the data . You need to write a client(HTML+CSS+JS) where you need to handle the data and put them in Map.</p>
-
-<h3 id="toc_2">Growing requirements</h3>
-
-<p>Once i got a prototype working , the requirements at komparify.com started growing , we badly required many features . But Fusion tables are not enough as they had limitations.</p>
-
-<p>For example : You cant do a &quot;OR&quot; in the SQL query you send .Your table should be publicly available .</p>
-
-<h3 id="toc_3">Thrown far far away</h3>
-
-<p>So days and days of work was thrown away and we finally settled down to define development stack.We decided use our own servers and make restful apis for data .</p>
-
-<h2 id="toc_4">Towermapify - Built on</h2>
-
-<ul>
-<li>Ruby on Rails </li>
-<li>Google maps API V3</li>
-<li>KML/JSON</li>
-<li>HTML+CSS+JS</li>
-<li>Rails Cells integration </li>
-<li>MySQL</li>
-</ul>
-
-<h2 id="toc_5">OverQuery algorithm</h2>
-
-<h3 id="toc_6">Problem (A)</h3>
-
-<p>We have a huge data containing latitude and longitude information of places all over india . if we
-drop markers for all the places , it will do a catastropic damage to the performance,browser.
-Takes huge memory , not a good idea.</p>
-
-<h3 id="toc_7">Work around (A)</h3>
-
-<p>So , to decide what markers to drop . we get the bounding edges south west and north east of the map . With that , the query is for only the  places that resides inside the bounding box and then query again when the user does panning inside the map , with the new bounding box</p>
-
-<h3 id="toc_8">Problem (B)</h3>
-
-<p>The way we find the new bounding box after the user pans is by listening to the map-events . But the problem is that map-events fire for every small pan or zoom , making navigation inside maps terrible . If the mouse is just shaken inside the map , it does a query for the new bounding box and drops the markers again , giving a terrible user experience .
-Also , server-client IO will be high .</p>
-
-<h3 id="toc_9">Work around (B)</h3>
-
-<p>This is the place where we went back to the drawing board and started writing rules that minimizes no of requests to the server and gives a good user experience .</p>
-
-<h3 id="toc_10">Overquery</h3>
-
-<p>My boss and co-founder of komparify.com Jigar doshi , formulated this approach.He knew of this approach thourgh his
-experience at Amazon.com .</p>
-
-<p>Whenever  a query for the bouding box(Lets call it <strong>box original</strong> )  to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it <strong>box modified</strong> ) . So the results from server includes results of a bigger bounding box. </p>
-
-<blockquote>
-<p><strong>box original</strong> &lt; <strong>box modified</strong></p>
-</blockquote>
-
-<p><img src="/public/images/overquery_map.png" alt="My helpful screenshot"></p>
-
-<p>When the user pans within the <strong>box modified</strong> , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the <strong>box modified</strong> we need to query again , which again follows the same procedure as above .</p>
-
-<p>So,now when the user pan around the map ,the panning will be smooth and thats how <strong>Problem(b)</strong> was solved</p>
-
-<h3 id="toc_11">Performance Boost</h3>
-
-<p>We were very close to put this into production and then we started looking under the hood. The latency was not really high but notable .</p>
-
-<p>The reason behind this is the data-exchange format we had , it was <strong>KML(Keyhole markup language)</strong> . we used this because 
-there was a pretty KML parser( :P )  available so it is was easy for us to handle data.</p>
-
-<p>we switched from KML to JSON , and this gave us a solid decrease in the latency.Of course , few big parts of the app has to be
-rewritten and i did that too. I wrote the <strong>full stack(client+server)</strong> so it was not hard for me.</p>
-
-<h3 id="toc_12">Finally we shipped</h3>
-
-<p>The app exists in <strong>rails-cells</strong> integration inside komparify.com . Also , i have a version hosted here </p>
-
-<h2 id="toc_13"><a href="http://towermapify.herokuapp.com" target="_blank">Towermapify</a></h2>
-
-  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -430,7 +186,9 @@ rewritten and i did that too. I wrote the <strong>full stack(client+server)</str
     <span class="pagination-item older">Older</span>
   
   
-    <span class="pagination-item newer">Newer</span>
+    
+      <a class="pagination-item newer" href="/">Newer</a>
+    
   
 </div> -->
     </div>
