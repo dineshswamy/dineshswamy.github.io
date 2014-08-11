@@ -48,7 +48,7 @@ screenshot_hash: ['planhound','airdraw','towermapify','svcecocurricular','nlpui'
 			{% endfor %}
 			</ul>
 		</div>
-		<img class="lazy" src="/public/images/loadinfo_net.gif" data-src="/public/images/screenshots/{{ screenshot.original }}" /> 
+		<img class="lazy" data-src="/public/images/screenshots/{{ screenshot.original }}" /> 
 </div>
 
 {% endfor %}
