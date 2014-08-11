@@ -1,0 +1,27 @@
+ul.thumbnail-holder{
+	width: 100%;
+	padding: 5%;
+	display: block;
+	height: auto;
+	clear: both;
+}
+
+ul.thumbnail-holder li{
+
+	list-style: none;
+	margin-left: 10px;
+	float: left;
+	border-radius: 3px;
+	border-bottom:3px solid #2ecc71;
+	-webkit-box-shadow: -5px 10px 71px -18px rgba(0,0,0,0.69);
+	-moz-box-shadow: -5px 10px 71px -18px rgba(0,0,0,0.69);
+	box-shadow: -5px 10px 71px -18px rgba(0,0,0,0.69);
+
+}
+
+.screenshot-description{
+
+	background: #2ecc71;
+	width: 100%;
+
+}

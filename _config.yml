@@ -4,7 +4,8 @@ redcarpet:
   extensions: 	  [with_toc_data]
 
 pygments:         true
-
+#for loop error
+excerpt_separator: ""
 # Permalinks
 permalink:        none
 relative_permalinks: false
