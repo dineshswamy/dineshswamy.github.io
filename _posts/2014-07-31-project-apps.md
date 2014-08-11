@@ -17,7 +17,7 @@ screenshot_hash: ['planhound','airdraw','towermapify','svcecocurricular','nlpui'
 {% for screenshot in screenshots %}
 	
 	<li>
-		<a class="fancybox " href="#{{ key }}-{{ screenshot.id}}">
+		<a class="fancybox thumbnails" href="#{{ key }}-{{ screenshot.id}}">
 			<div class="description">	
 				<img src="/public/images/screenshots/{{ screenshot.thumbnail }}" /> 
 			</div>
@@ -48,6 +48,7 @@ screenshot_hash: ['planhound','airdraw','towermapify','svcecocurricular','nlpui'
 			{% endfor %}
 			</ul>
 		</div>
+		<img class="lazy" src="/public/images/loadinfo_net.gif" data-src="/public/images/screenshots/{{ screenshot.original }}" /> 
 </div>
 
 {% endfor %}

@@ -4,7 +4,7 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2014-08-11T16:18:20+05:30</updated>
+ <updated>2014-08-11T17:52:39+05:30</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Mark Otto</name>
@@ -21,7 +21,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#planhound-screenshot-small-desc-2&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-2&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_2.jpg&quot; /&gt; 
             &lt;/div&gt;
@@ -31,7 +31,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#planhound-screenshot-small-desc-3&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-3&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_3.jpg&quot; /&gt; 
             &lt;/div&gt;
@@ -41,7 +41,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#planhound-screenshot-small-desc-4&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-4&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_4.jpg&quot; /&gt; 
             &lt;/div&gt;
@@ -51,7 +51,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#planhound-screenshot-small-desc-5&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-5&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_5.jpg&quot; /&gt; 
             &lt;/div&gt;
@@ -61,7 +61,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#planhound-screenshot-small-desc-6&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-6&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_6.jpg&quot; /&gt; 
             &lt;/div&gt;
@@ -76,7 +76,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#svcecocurricular-screenshot-small-desc-1&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-1&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/svcecocurricular/thumbs/screenshot_1.png&quot; /&gt; 
             &lt;/div&gt;
@@ -86,7 +86,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#svcecocurricular-screenshot-small-desc-2&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-2&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/svcecocurricular/thumbs/screenshot_2.png&quot; /&gt; 
             &lt;/div&gt;
@@ -96,7 +96,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#svcecocurricular-screenshot-small-desc-3&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-3&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/svcecocurricular/thumbs/screenshot_3.png&quot; /&gt; 
             &lt;/div&gt;
@@ -106,7 +106,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#svcecocurricular-screenshot-small-desc-4&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-4&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/svcecocurricular/thumbs/screenshot_4.png&quot; /&gt; 
             &lt;/div&gt;
@@ -116,7 +116,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#svcecocurricular-screenshot-small-desc-5&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-5&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/svcecocurricular/thumbs/screenshot_5.png&quot; /&gt; 
             &lt;/div&gt;
@@ -126,7 +126,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#svcecocurricular-screenshot-small-desc-6&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-6&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/svcecocurricular/thumbs/screenshot_6.png&quot; /&gt; 
             &lt;/div&gt;
@@ -141,7 +141,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#bitsandbytes-screenshot-small-desc-1&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-1&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_1.png&quot; /&gt; 
             &lt;/div&gt;
@@ -151,7 +151,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#bitsandbytes-screenshot-small-desc-2&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-2&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_2.png&quot; /&gt; 
             &lt;/div&gt;
@@ -161,7 +161,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#bitsandbytes-screenshot-small-desc-3&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-3&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_3.png&quot; /&gt; 
             &lt;/div&gt;
@@ -171,7 +171,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#bitsandbytes-screenshot-small-desc-4&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-4&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_4.png&quot; /&gt; 
             &lt;/div&gt;
@@ -186,7 +186,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#ncc-screenshot-small-desc-1&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#ncc-screenshot-small-desc-1&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/ncc/thumbs/screenshot_1.PNG&quot; /&gt; 
             &lt;/div&gt;
@@ -196,7 +196,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#ncc-screenshot-small-desc-2&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#ncc-screenshot-small-desc-2&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/ncc/thumbs/screenshot_2.PNG&quot; /&gt; 
             &lt;/div&gt;
@@ -206,7 +206,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#ncc-screenshot-small-desc-3&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#ncc-screenshot-small-desc-3&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/ncc/thumbs/screenshot_3.PNG&quot; /&gt; 
             &lt;/div&gt;
@@ -216,7 +216,7 @@
 
     
     &lt;li&gt;
-        &lt;a class=&quot;fancybox &quot; href=&quot;#ncc-screenshot-small-desc-4&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#ncc-screenshot-small-desc-4&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
                 &lt;img src=&quot;/public/images/screenshots/ncc/thumbs/screenshot_4.PNG&quot; /&gt; 
             &lt;/div&gt;
@@ -245,7 +245,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/planhound/screenshot_2.jpg&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/planhound/screenshot_2.jpg&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;planhound-screenshot-small-desc-3&quot; style=&quot;display: none;&quot;&gt;
@@ -266,7 +266,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/planhound/screenshot_3.jpg&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/planhound/screenshot_3.jpg&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;planhound-screenshot-small-desc-4&quot; style=&quot;display: none;&quot;&gt;
@@ -287,7 +287,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/planhound/screenshot_4.jpg&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/planhound/screenshot_4.jpg&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;planhound-screenshot-small-desc-5&quot; style=&quot;display: none;&quot;&gt;
@@ -308,7 +308,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/planhound/screenshot_5.jpg&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/planhound/screenshot_5.jpg&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;planhound-screenshot-small-desc-6&quot; style=&quot;display: none;&quot;&gt;
@@ -329,7 +329,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/planhound/screenshot_6.jpg&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/planhound/screenshot_6.jpg&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;svcecocurricular-screenshot-small-desc-1&quot; style=&quot;display: none;&quot;&gt;
@@ -350,7 +350,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/svcecocurricular/screenshot_1.png&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_1.png&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;svcecocurricular-screenshot-small-desc-2&quot; style=&quot;display: none;&quot;&gt;
@@ -371,7 +371,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/svcecocurricular/screenshot_2.png&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_2.png&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;svcecocurricular-screenshot-small-desc-3&quot; style=&quot;display: none;&quot;&gt;
@@ -392,7 +392,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/svcecocurricular/screenshot_3.png&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_3.png&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;svcecocurricular-screenshot-small-desc-4&quot; style=&quot;display: none;&quot;&gt;
@@ -413,7 +413,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/svcecocurricular/screenshot_4.png&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_4.png&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;svcecocurricular-screenshot-small-desc-5&quot; style=&quot;display: none;&quot;&gt;
@@ -434,7 +434,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/svcecocurricular/screenshot_5.png&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_5.png&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;svcecocurricular-screenshot-small-desc-6&quot; style=&quot;display: none;&quot;&gt;
@@ -455,7 +455,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/svcecocurricular/screenshot_6.png&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_6.png&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;bitsandbytes-screenshot-small-desc-1&quot; style=&quot;display: none;&quot;&gt;
@@ -476,7 +476,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/bitsandbytes/screenshot_1.png&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/bitsandbytes/screenshot_1.png&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;bitsandbytes-screenshot-small-desc-2&quot; style=&quot;display: none;&quot;&gt;
@@ -497,7 +497,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/bitsandbytes/screenshot_2.png&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/bitsandbytes/screenshot_2.png&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;bitsandbytes-screenshot-small-desc-3&quot; style=&quot;display: none;&quot;&gt;
@@ -518,7 +518,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/bitsandbytes/screenshot_3.png&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/bitsandbytes/screenshot_3.png&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;bitsandbytes-screenshot-small-desc-4&quot; style=&quot;display: none;&quot;&gt;
@@ -539,7 +539,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/bitsandbytes/screenshot_4.png&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/bitsandbytes/screenshot_4.png&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;ncc-screenshot-small-desc-1&quot; style=&quot;display: none;&quot;&gt;
@@ -560,7 +560,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/ncc/screenshot_1.PNG&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_1.PNG&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;ncc-screenshot-small-desc-2&quot; style=&quot;display: none;&quot;&gt;
@@ -581,7 +581,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/ncc/screenshot_2.PNG&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_2.PNG&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;ncc-screenshot-small-desc-3&quot; style=&quot;display: none;&quot;&gt;
@@ -602,7 +602,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/ncc/screenshot_3.PNG&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_3.PNG&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;ncc-screenshot-small-desc-4&quot; style=&quot;display: none;&quot;&gt;
@@ -623,7 +623,7 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-    &lt;img src=&quot;/public/images/screenshots/ncc/screenshot_4.PNG&quot; /&gt;
+        &lt;img class=&quot;lazy&quot; src=&quot;/public/images/loadinfo_net.gif&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_4.PNG&quot; /&gt; 
 &lt;/div&gt;
 </content>
  </entry>
