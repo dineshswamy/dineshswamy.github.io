@@ -48,7 +48,6 @@ screenshot_hash: ['planhound','airdraw','towermapify','svcecocurricular','nlpui'
 			{% endfor %}
 			</ul>
 		</div>
-	<img src="/public/images/screenshots/{{ screenshot.original }}" />
 </div>
 
 {% endfor %}
