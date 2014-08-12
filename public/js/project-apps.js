@@ -14,13 +14,14 @@ $(document).ready(function(){
 
 		image_src = $(href+" img").attr("data-src");
 
+		$.fancybox.showLoading();
+
 		$(href+" img").attr("src",image_src).load(function(){
 
-				$.fancybox.resize();			
+				$.fancybox.showActivity();
+				$.fancybox.update();			
 			
-//			$(".description-holder").css("height",$(this).height());
 
-//		$(".description-holder").css("width",$(this).width());
 
 
 
