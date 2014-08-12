@@ -1,6 +1,10 @@
 $(document).ready(function(){
 
-	$(".fancybox").fancybox();
+	$(".fancybox").fancybox({
+
+		'autoDimensions':true;
+
+	});
 
 	$(".thumbnails").click(function(event){
 
@@ -11,20 +15,21 @@ $(document).ready(function(){
 		image_src = $(href+" img").attr("data-src");
 
 		$(href+" img").attr("src",image_src).load(function(){
+
+				$.fancybox.resize();			
 			
-			
-			$(".description-holder").css("height",$(this).height());
-			
-			$(".description-holder").css("width",$(this).width());
+//			$(".description-holder").css("height",$(this).height());
+
+//		$(".description-holder").css("width",$(this).width());
+
+
 
 		});
 
 	});
 
 
-	$("#thumbnail").click(function(){
-		open_modal(this);
-	});
+	
 
 
 
