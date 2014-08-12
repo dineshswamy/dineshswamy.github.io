@@ -1,10 +1,6 @@
 $(document).ready(function(){
 
-	$(".fancybox").fancybox({
-
-		'autoDimensions':true
-
-	});
+	$(".fancybox").fancybox();
 
 	$(".thumbnails").click(function(event){
 
@@ -18,7 +14,7 @@ $(document).ready(function(){
 
 		$(href+" img").attr("src",image_src).load(function(){
 
-				$.fancybox.showActivity();
+				$.fancybox.hideLoading();
 				$.fancybox.update();			
 			
 
