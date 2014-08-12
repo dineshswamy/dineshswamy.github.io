@@ -12,7 +12,15 @@ $(document).ready(function(){
 
 		$(href+" img").attr("src",image_src).load(function(){
 			
-			console.log("loading image");
+			
+			
+			
+
+			
+
+			
+
+
 
 		});
 

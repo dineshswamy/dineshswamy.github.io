@@ -38,7 +38,7 @@ screenshot_hash: ['planhound','airdraw','towermapify','svcecocurricular','nlpui'
 {% assign screenshots = site.data.project_apps_data[key] %}
 {% for screenshot in screenshots %}
 
-<div id="{{ key }}-{{ screenshot.id}}" style="display: none;">
+<div id="{{ key }}-{{ screenshot.id}}" style="display: none;" class="description-holder">
 		<div class="screenshot-description" >
 			<ul>
 			{% for desc in screenshot.description %}

@@ -25,3 +25,7 @@ ul.thumbnail-holder li{
 	width: 100%;
 
 }
+
+.description-holder{
+	min-width: 900px;
+}
