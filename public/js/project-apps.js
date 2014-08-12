@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$(".fancybox").fancybox({
 
-		'autoDimensions':true;
+		'autoDimensions':true
 
 	});
 
