@@ -13,18 +13,11 @@ $(document).ready(function(){
 		$(href+" img").attr("src",image_src).load(function(){
 			
 			
+			$(".description-holder").css("height",$(this).height());
 			
-			
-
-			
-
-			
-
-
+			$(".description-holder").css("width",$(this).width());
 
 		});
-
-
 
 	});
 
