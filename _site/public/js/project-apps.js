@@ -10,28 +10,23 @@ $(document).ready(function(){
 
 		image_src = $(href+" img").attr("data-src");
 
+		$.fancybox.showLoading();
+
 		$(href+" img").attr("src",image_src).load(function(){
-			
-			
-			
+
+				$.fancybox.hideLoading();
+				$.fancybox.update();			
 			
 
-			
-
-			
 
 
 
 		});
 
-
-
 	});
 
 
-	$("#thumbnail").click(function(){
-		open_modal(this);
-	});
+	
 
 
 

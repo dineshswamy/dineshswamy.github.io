@@ -56,15 +56,6 @@ planhound:
    original:  planhound/screenshot_4.jpg
    description: ["description one","description two","description three"]
 
- - thumbnail: planhound/thumbs/screenshot_5.jpg
-   id: screenshot-small-desc-5
-   original:  planhound/screenshot_5.jpg
-   description: ["description one","description two","description three"]
-
- - thumbnail: planhound/thumbs/screenshot_6.jpg
-   id: screenshot-small-desc-6
-   original:  planhound/screenshot_6.jpg
-   description: ["description one","description two","description three"]
 
 svcecocurricular:
  - thumbnail: svcecocurricular/thumbs/screenshot_1.png
@@ -96,3 +87,37 @@ svcecocurricular:
    id: screenshot-small-desc-6
    original:  svcecocurricular/screenshot_6.png
    description: ["description one","description two","description three"]
+
+towermapify:
+ - thumbnail: towermapify/thumbs/screenshot_1.png
+   id: screenshot-small-desc-1
+   original:  towermapify/screenshot_1.png
+   description: ["description one","description two","description three"]
+
+ - thumbnail: towermapify/thumbs/screenshot_2.png
+   id: screenshot-small-desc-2
+   original:  towermapify/screenshot_2.png
+   description: ["description one","description two","description three"]
+
+ - thumbnail: towermapify/thumbs/screenshot_3.png
+   id: screenshot-small-desc-3
+   original:  towermapify/screenshot_3.png
+   description: ["description one","description two","description three"]
+
+airdraw:
+ - thumbnail: airdraw/thumbs/screenshot_1.png
+   id: screenshot-small-desc-1
+   original:  airdraw/screenshot_1.png
+   description: ["description one","description two","description three"]
+
+ - thumbnail: airdraw/thumbs/screenshot_2.png
+   id: screenshot-small-desc-2
+   original:  airdraw/screenshot_2.png
+   description: ["description one","description two","description three"]
+
+ - thumbnail: airdraw/thumbs/screenshot_3.png
+   id: screenshot-small-desc-3
+   original:  airdraw/screenshot_3.png
+   description: ["description one","description two","description three"]
+
+

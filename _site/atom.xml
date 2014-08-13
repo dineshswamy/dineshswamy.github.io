@@ -4,7 +4,7 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2014-08-12T12:34:38+05:30</updated>
+ <updated>2014-08-13T18:04:38+05:30</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Mark Otto</name>
@@ -17,64 +17,244 @@
    <link href="http://hyde.getpoole.com/project-apps"/>
    <updated>2014-07-31T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/project-apps</id>
-   <content type="html">&lt;ul class=&quot;thumbnail-holder&quot;&gt;
+   <content type="html">&lt;!--Chatminion --&gt;
 
+&lt;div class=&quot;project-container&quot; &gt; 
+
+        &lt;h2&gt;Chatminion&lt;/h2&gt;
+
+        &lt;div class=&quot;short-description&quot;&gt;
+            Chatminion is an ephemeral chat application for use in office . You can read about 
+            
+            &lt;a href =&quot;/chatminion&quot; class=&quot;blog-post&quot;&gt;&lt;i class=&quot;fa fa-chevron-circle-right fa-3&quot;&gt;&lt;/i&gt; Chatminion&lt;/a&gt; .
+
+        &lt;/div&gt;
+        &lt;ul class=&quot;thumbnail-holder&quot;&gt;
+        &lt;li class=&quot;badge-holder&quot;&gt;
+            &lt;a href=&quot;https://chrome.google.com/webstore/detail/chat-minion/ggppffbhjobdepilfllgmpojejkeemca&quot; target=&quot;_blank&quot;&gt;
+            &lt;img alt=&quot;Get it on chrome web store&quot; src=&quot;/public/images/chrome-webstore-icon.png&quot; /&gt;
+            &lt;/a&gt;
+        &lt;/li&gt;
+
+        &lt;li  class=&quot;video-holder&quot;&gt;
+                
+                    &lt;iframe width=&quot;400&quot; height=&quot;250&quot; src=&quot;//www.youtube.com/embed/CuVyldcQ0Kw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+                
+        &lt;/li&gt;
+
+        &lt;/ul&gt; 
+        
+&lt;/div&gt;
+
+&lt;!--PLANHOUND --&gt;
+
+&lt;div class=&quot;project-container&quot; &gt; 
+
+        &lt;h2&gt;Planhound&lt;/h2&gt;
+
+        &lt;div class=&quot;short-description&quot;&gt;
+            Planhound is the android app , i was working ever since i joined komparify.com. You can read all about the app here
+        &lt;/div&gt;
+        
+        
+        
+        &lt;ul class=&quot;thumbnail-holder&quot; &gt;
+        
+            
+        &lt;li&gt;
+            &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-2&quot;&gt;
+                &lt;div class=&quot;description&quot;&gt;   
+                    &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_2.jpg&quot; /&gt; 
+                &lt;/div&gt;
+            &lt;/a&gt;        
+        &lt;/li&gt;
+
+        
+            
+        &lt;li&gt;
+            &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-3&quot;&gt;
+                &lt;div class=&quot;description&quot;&gt;   
+                    &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_3.jpg&quot; /&gt; 
+                &lt;/div&gt;
+            &lt;/a&gt;        
+        &lt;/li&gt;
+
+        
+            
+        &lt;li&gt;
+            &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-4&quot;&gt;
+                &lt;div class=&quot;description&quot;&gt;   
+                    &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_4.jpg&quot; /&gt; 
+                &lt;/div&gt;
+            &lt;/a&gt;        
+        &lt;/li&gt;
+
+        
+        
+        &lt;li class=&quot;badge-holder&quot;&gt;
+            &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.threegsimplified.planhound&quot; target=&quot;_blank&quot;&gt;
+            &lt;img alt=&quot;Get it on Google Play&quot; src=&quot;/public/images/en_generic_rgb_wo_60.png&quot; /&gt;
+            &lt;/a&gt;
+
+        &lt;/li&gt;
+
+        &lt;/ul&gt; 
+        
+
+        &lt;div class=&quot;made-with-tags&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;red-600&quot;&gt;Android SDK&lt;/a&gt;
+            &lt;a href=&quot;#&quot; class=&quot;red-600&quot;&gt;Volley&lt;/a&gt;
+            &lt;a href=&quot;#&quot; class=&quot;red-600&quot;&gt;Gradle&lt;/a&gt;
+            &lt;a href=&quot;#&quot; class=&quot;red-600&quot;&gt;Google Cloud Messaging&lt;/a&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--Airdraw --&gt;
+
+&lt;div class=&quot;project-container&quot; &gt; 
+
+        &lt;h2&gt;Airdraw - scribble in the air&lt;/h2&gt;
+
+        &lt;div class=&quot;short-description&quot;&gt;
+        Hackathon app that got Samsung tablet . I made this app at DROIDCON 2013 and got SECOND PRIZE.
+        You can watch the demo of the app here .
     
+        &lt;i class=&quot;fa fa-github fa-4&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://github.com/dineshswamy/AirDraw&quot; class=&quot;blog-post&quot;&gt; Airdraw&lt;/a&gt;
+
+        &lt;/div&gt;
+        
+        
+        
+        &lt;ul class=&quot;thumbnail-holder&quot; &gt;
+        
+            
+        &lt;li&gt;
+            &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#airdraw-screenshot-small-desc-1&quot;&gt;
+                &lt;div class=&quot;description&quot;&gt;   
+                    &lt;img src=&quot;/public/images/screenshots/airdraw/thumbs/screenshot_1.png&quot; /&gt; 
+                &lt;/div&gt;
+            &lt;/a&gt;        
+        &lt;/li&gt;
+
+
+
+        
+            
+        &lt;li&gt;
+            &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#airdraw-screenshot-small-desc-2&quot;&gt;
+                &lt;div class=&quot;description&quot;&gt;   
+                    &lt;img src=&quot;/public/images/screenshots/airdraw/thumbs/screenshot_2.png&quot; /&gt; 
+                &lt;/div&gt;
+            &lt;/a&gt;        
+        &lt;/li&gt;
+
+
+
+        
+            
+        &lt;li&gt;
+            &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#airdraw-screenshot-small-desc-3&quot;&gt;
+                &lt;div class=&quot;description&quot;&gt;   
+                    &lt;img src=&quot;/public/images/screenshots/airdraw/thumbs/screenshot_3.png&quot; /&gt; 
+                &lt;/div&gt;
+            &lt;/a&gt;        
+        &lt;/li&gt;
+
+
+
+        
+        
+        &lt;li  class=&quot;video-holder&quot;&gt;
+                
+                    &lt;iframe width=&quot;400&quot; height=&quot;250&quot; src=&quot;//www.youtube.com/embed/36Eh-LIb0IA&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+                
+        &lt;/li&gt;
+
+        &lt;/ul&gt; 
+        
+    
+
+        
+        &lt;div class=&quot;made-with-tags&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;red-600&quot;&gt;Android SDK&lt;/a&gt;
+            &lt;a href=&quot;#&quot; class=&quot;red-600&quot;&gt;Sony smartwatch SDK&lt;/a&gt;
+        &lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;!-- TOWERMAPIFY --&gt;
+
+&lt;div class=&quot;project-container&quot;&gt; 
+    &lt;h2&gt;Towermapify - coverage maps for Komparify.com&lt;/h2&gt;
+
+    &lt;div class=&quot;short-description&quot;&gt;
+    This was my internship project , when i was interned at komparify.com You can read about the engineering
+    challenges about the map from.&lt;a href =&quot;/making-towermapify&quot; class=&quot;blog-post&quot;&gt;&lt;i class=&quot;fa fa-chevron-circle-right fa-3&quot;&gt;&lt;/i&gt; Making towermapify&lt;/a&gt; . &lt;a href = &quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot; class=&quot;live-anchor&quot;&gt;&lt;i class=&quot;fa fa-chevron-circle-right fa-3&quot;&gt;&lt;/i&gt; Live &lt;/a&gt;
+    &lt;/div&gt;
+    
+    
+    
+    &lt;ul class=&quot;thumbnail-holder&quot; &gt;
+    
+        
     &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-2&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#towermapify-screenshot-small-desc-1&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_2.jpg&quot; /&gt; 
+                &lt;img src=&quot;/public/images/screenshots/towermapify/thumbs/screenshot_1.png&quot; /&gt; 
             &lt;/div&gt;
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
     
+        
     &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-3&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#towermapify-screenshot-small-desc-2&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_3.jpg&quot; /&gt; 
+                &lt;img src=&quot;/public/images/screenshots/towermapify/thumbs/screenshot_2.png&quot; /&gt; 
             &lt;/div&gt;
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
     
+        
     &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-4&quot;&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#towermapify-screenshot-small-desc-3&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_4.jpg&quot; /&gt; 
+                &lt;img src=&quot;/public/images/screenshots/towermapify/thumbs/screenshot_3.png&quot; /&gt; 
             &lt;/div&gt;
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
     
-    &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-5&quot;&gt;
-            &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_5.jpg&quot; /&gt; 
-            &lt;/div&gt;
-        &lt;/a&gt;        
-    &lt;/li&gt;
 
-
+    &lt;/ul&gt; 
     
-    &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#planhound-screenshot-small-desc-6&quot;&gt;
-            &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/planhound/thumbs/screenshot_6.jpg&quot; /&gt; 
-            &lt;/div&gt;
-        &lt;/a&gt;        
-    &lt;/li&gt;
 
+    &lt;div class=&quot;made-with-tags&quot;&gt;
+        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Ruby on rails&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Google maps API&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;HTML&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;CSS&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Javascript&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
+&lt;!--SVCE CO-CURRICULAR --&gt;
 
-&lt;/ul&gt; 
+&lt;div class=&quot;project-container&quot;&gt; 
+    &lt;h2&gt;Information management system for SVCE Co-curricular activities&lt;/h2&gt;
 
-&lt;ul class=&quot;thumbnail-holder&quot;&gt;
-
+    &lt;div class=&quot;short-description&quot;&gt;
+    This is did during my final year at college burning all my free time . But i ve gained lot of experience
+    doing this.
+    &lt;/div&gt;
     
+    
+    
+    &lt;ul class=&quot;thumbnail-holder&quot; &gt;
+    
+        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-1&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -83,8 +263,8 @@
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
     
+        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-2&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -93,8 +273,8 @@
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
     
+        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-3&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -103,8 +283,8 @@
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
     
+        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-4&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -113,8 +293,8 @@
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
     
+        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-5&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -123,8 +303,8 @@
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
     
+        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#svcecocurricular-screenshot-small-desc-6&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -133,58 +313,36 @@
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
-
-&lt;/ul&gt; 
-
-&lt;ul class=&quot;thumbnail-holder&quot;&gt;
-
     
-    &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-1&quot;&gt;
-            &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_1.png&quot; /&gt; 
-            &lt;/div&gt;
-        &lt;/a&gt;        
-    &lt;/li&gt;
 
-
+    &lt;/ul&gt; 
     
-    &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-2&quot;&gt;
-            &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_2.png&quot; /&gt; 
-            &lt;/div&gt;
-        &lt;/a&gt;        
-    &lt;/li&gt;
 
+    &lt;div class=&quot;made-with-tags&quot;&gt;
 
+        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Bootstrap&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;PHP&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;HTML&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;CSS&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Javascript&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Apache&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--NCC ARMY --&gt;
+
+&lt;div class=&quot;project-container&quot;&gt; 
+    &lt;h2&gt;E learning website of NCC ARMY&lt;/h2&gt;
+
+    &lt;div class=&quot;short-description&quot;&gt;
+        This is one of the first website i wrote and i did that with lot of passion for indian army . i created a tutorial system where one can learn all NCC commands .
+    &lt;/div&gt;
     
-    &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-3&quot;&gt;
-            &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_3.png&quot; /&gt; 
-            &lt;/div&gt;
-        &lt;/a&gt;        
-    &lt;/li&gt;
-
-
     
-    &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-4&quot;&gt;
-            &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_4.png&quot; /&gt; 
-            &lt;/div&gt;
-        &lt;/a&gt;        
-    &lt;/li&gt;
-
-
-
-&lt;/ul&gt; 
-
-&lt;ul class=&quot;thumbnail-holder&quot;&gt;
-
     
+    &lt;ul class=&quot;thumbnail-holder&quot; &gt;
+    
+        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#ncc-screenshot-small-desc-1&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -193,8 +351,8 @@
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
     
+        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#ncc-screenshot-small-desc-2&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -203,8 +361,8 @@
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
     
+        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#ncc-screenshot-small-desc-3&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -213,8 +371,8 @@
         &lt;/a&gt;        
     &lt;/li&gt;
 
-
     
+        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#ncc-screenshot-small-desc-4&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -223,9 +381,85 @@
         &lt;/a&gt;        
     &lt;/li&gt;
 
+    
 
+    &lt;/ul&gt; 
+    
 
-&lt;/ul&gt; 
+    &lt;div class=&quot;made-with-tags&quot;&gt;
+        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;PHP&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;HTML&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;CSS&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;Javascript&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;Apache&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- BITS and BYTES --&gt;
+
+&lt;div class=&quot;project-container&quot;&gt; 
+    &lt;h2&gt;Bits and bytes&lt;/h2&gt;
+
+    &lt;div class=&quot;short-description&quot;&gt;
+        In hold CMS Used to run competitions inside my college
+    &lt;/div&gt;
+    
+    
+    
+    &lt;ul class=&quot;thumbnail-holder&quot; &gt;
+    
+        
+    &lt;li&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-1&quot;&gt;
+            &lt;div class=&quot;description&quot;&gt;   
+                &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_1.png&quot; /&gt; 
+            &lt;/div&gt;
+        &lt;/a&gt;        
+    &lt;/li&gt;
+
+    
+        
+    &lt;li&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-2&quot;&gt;
+            &lt;div class=&quot;description&quot;&gt;   
+                &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_2.png&quot; /&gt; 
+            &lt;/div&gt;
+        &lt;/a&gt;        
+    &lt;/li&gt;
+
+    
+        
+    &lt;li&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-3&quot;&gt;
+            &lt;div class=&quot;description&quot;&gt;   
+                &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_3.png&quot; /&gt; 
+            &lt;/div&gt;
+        &lt;/a&gt;        
+    &lt;/li&gt;
+
+    
+        
+    &lt;li&gt;
+        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#bitsandbytes-screenshot-small-desc-4&quot;&gt;
+            &lt;div class=&quot;description&quot;&gt;   
+                &lt;img src=&quot;/public/images/screenshots/bitsandbytes/thumbs/screenshot_4.png&quot; /&gt; 
+            &lt;/div&gt;
+        &lt;/a&gt;        
+    &lt;/li&gt;
+
+    
+
+    &lt;/ul&gt; 
+    
+
+    &lt;div class=&quot;made-with-tags&quot;&gt;
+        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;PHP&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;HTML&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;CSS&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;Javascript&lt;/a&gt;
+        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;Apache&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;div id=&quot;planhound-screenshot-small-desc-2&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
@@ -290,7 +524,7 @@
         &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/planhound/screenshot_4.jpg&quot; /&gt; 
 &lt;/div&gt;
 
-&lt;div id=&quot;planhound-screenshot-small-desc-5&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
+&lt;div id=&quot;airdraw-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
             &lt;ul&gt;
             
@@ -308,10 +542,10 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/planhound/screenshot_5.jpg&quot; /&gt; 
+        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/airdraw/screenshot_1.png&quot; /&gt; 
 &lt;/div&gt;
 
-&lt;div id=&quot;planhound-screenshot-small-desc-6&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
+&lt;div id=&quot;airdraw-screenshot-small-desc-2&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
             &lt;ul&gt;
             
@@ -329,7 +563,91 @@
             
             &lt;/ul&gt;
         &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/planhound/screenshot_6.jpg&quot; /&gt; 
+        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/airdraw/screenshot_2.png&quot; /&gt; 
+&lt;/div&gt;
+
+&lt;div id=&quot;airdraw-screenshot-small-desc-3&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
+        &lt;div class=&quot;screenshot-description&quot; &gt;
+            &lt;ul&gt;
+            
+            &lt;li&gt;
+                description one
+            &lt;/li&gt;
+            
+            &lt;li&gt;
+                description two
+            &lt;/li&gt;
+            
+            &lt;li&gt;
+                description three
+            &lt;/li&gt;
+            
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/airdraw/screenshot_3.png&quot; /&gt; 
+&lt;/div&gt;
+
+&lt;div id=&quot;towermapify-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
+        &lt;div class=&quot;screenshot-description&quot; &gt;
+            &lt;ul&gt;
+            
+            &lt;li&gt;
+                description one
+            &lt;/li&gt;
+            
+            &lt;li&gt;
+                description two
+            &lt;/li&gt;
+            
+            &lt;li&gt;
+                description three
+            &lt;/li&gt;
+            
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/towermapify/screenshot_1.png&quot; /&gt; 
+&lt;/div&gt;
+
+&lt;div id=&quot;towermapify-screenshot-small-desc-2&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
+        &lt;div class=&quot;screenshot-description&quot; &gt;
+            &lt;ul&gt;
+            
+            &lt;li&gt;
+                description one
+            &lt;/li&gt;
+            
+            &lt;li&gt;
+                description two
+            &lt;/li&gt;
+            
+            &lt;li&gt;
+                description three
+            &lt;/li&gt;
+            
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/towermapify/screenshot_2.png&quot; /&gt; 
+&lt;/div&gt;
+
+&lt;div id=&quot;towermapify-screenshot-small-desc-3&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
+        &lt;div class=&quot;screenshot-description&quot; &gt;
+            &lt;ul&gt;
+            
+            &lt;li&gt;
+                description one
+            &lt;/li&gt;
+            
+            &lt;li&gt;
+                description two
+            &lt;/li&gt;
+            
+            &lt;li&gt;
+                description three
+            &lt;/li&gt;
+            
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/towermapify/screenshot_3.png&quot; /&gt; 
 &lt;/div&gt;
 
 &lt;div id=&quot;svcecocurricular-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;

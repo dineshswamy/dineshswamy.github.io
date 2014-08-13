@@ -20,7 +20,7 @@
   
   {% if page.css %}
     {% for stylesheet in page.css %}
-      <link rel="stylesheet" href="/public/css/{{ stylesheet }}.css">      
+      <link rel="stylesheet" href="{{ stylesheet }}">      
     {% endfor %}
   {% endif %}
 
