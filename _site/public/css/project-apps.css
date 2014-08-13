@@ -61,7 +61,10 @@ ul.thumbnail-holder{
 	margin-top: 10px;
 
 }
-
+.container-full-width{
+	width: 100%;
+	padding: 20px;
+}
 .video-holder{
 	
 	position: relative;
