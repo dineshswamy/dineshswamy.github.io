@@ -1,11 +1,46 @@
 ---
-layout: post
+layout: projects-apps
 title: Towermapify - Coverage maps for komparify.com
+permalink: towermapify
+css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesome.min.css']
 ---
-
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+</div>
 This blog post is about my internship project at komparify.co and  the development challenges i've encountered in making this.
 
 -----
+
+
+
+<div class="project-container"> 
+	
+
+	<div class="short-description">
+	 <a href = "http://towermapify.herokuapp.com" target="_blank" class="live-anchor"><i class="fa fa-chevron-circle-right fa-3"></i> Its Live Here </a>
+	</div>
+
+	{% assign  key = 'towermapify' %}
+	{% assign screenshots = site.data.project_apps_data[key] %}
+	{% if screenshots.size > 0 %}
+	<ul class="thumbnail-holder" >
+	{% for screenshot in screenshots %}
+		
+	<li>
+		<a class="fancybox thumbnails" href="#{{ key }}-{{ screenshot.id}}">
+			<div class="description">	
+				<img src="/public/images/screenshots/{{ screenshot.thumbnail }}" /> 
+			</div>
+		</a>		
+	</li>
+
+	{% endfor %}
+
+	</ul> 
+	{% endif %}
+</div>
+
+
 
 
 
@@ -89,3 +124,24 @@ rewritten and i did that too. I wrote the **full stack(client+server)** so it wa
 The app exists in **rails-cells** integration inside komparify.com . Also , i have a version hosted here 
 <a href="http://towermapify.herokuapp.com" target="_blank">Towermapify</a>
 -----
+
+
+
+{% assign key = 'towermapify' %}
+{% assign screenshots = site.data.project_apps_data[key] %}
+{% for screenshot in screenshots %}
+
+<div id="{{ key }}-{{ screenshot.id}}" style="display: none;" class="description-holder">
+		<div class="screenshot-description" >
+			<ul>
+			{% for desc in screenshot.description %}
+			<li>
+				{{ desc }}
+			</li>
+			{% endfor %}
+			</ul>
+		</div>
+		<img class="lazy" data-src="/public/images/screenshots/{{ screenshot.original }}" /> 
+</div>
+
+{% endfor %}
