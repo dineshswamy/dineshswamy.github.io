@@ -249,3 +249,19 @@ ul.thumbnail-holder li:not(.badge-holder){
 	font-weight: bolder;
 
 }
+.posters-holder{
+	width: 100%;
+}
+
+.posters-holder h2{
+	text-transform: capitalize;
+}
+
+.posters-holder img{
+	width: 400px;
+	height: 350px;
+	margin: 0px auto;
+}
+
+
+

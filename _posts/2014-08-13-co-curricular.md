@@ -1,6 +1,6 @@
 ---
 layout: projects-apps
-title: Dineshswamy's projects and applications in his previous life
+title: Information management of Co-curricular activities ,SVCE
 permalink: co-curricular
 css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesome.min.css']
 ---

@@ -1,6 +1,6 @@
 ---
 layout: projects-apps
-title: Dineshswamy's projects and applications in his previous life
+title: Bits and Bytes for ACE(Association of Computer Science Engineers)
 permalink: bits-and-bytes
 css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesome.min.css']
 ---

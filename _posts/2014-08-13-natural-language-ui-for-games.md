@@ -1,6 +1,6 @@
 ---
 layout: projects-apps
-title: Dineshswamy's projects and applications in his previous life
+title: Natural language based user interface for Computer games
 permalink: natural-language-ui-for-games
 css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesome.min.css']
 ---

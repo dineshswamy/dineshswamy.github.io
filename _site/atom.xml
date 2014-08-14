@@ -4,13 +4,36 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2014-08-14T15:03:58+05:30</updated>
+ <updated>2014-08-14T17:35:54+05:30</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Mark Otto</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Dineshswamy's projects and applications in his previous life</title>
+   <link href="http://hyde.getpoole.com/posters"/>
+   <updated>2014-08-13T00:00:00+05:30</updated>
+   <id>http://hyde.getpoole.com/posters</id>
+   <content type="html">&lt;h2 id=&quot;toc_0&quot;&gt;Posters , i ve designed for competitions and my workplace&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;div class=&quot;posters-holder&quot;&gt;
+    &lt;h3&gt;FOSS Awareness day , SVCE&lt;/h3&gt;
+    &lt;a href=&quot;/public/images/posters/fossposter.png&quot;&gt; &lt;img src=&quot;/public/images/posters/fossposter.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;div class=&quot;posters-holder&quot;&gt;
+    &lt;h3&gt;Asking myself :p &lt;/h3&gt;
+    &lt;a href=&quot;/public/images/posters/have-you.png&quot;&gt; &lt;img src=&quot;/public/images/posters/have-you.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Dineshswamy's projects and applications in his previous life</title>
@@ -146,7 +169,7 @@
  </entry>
  
  <entry>
-   <title>Dineshswamy's projects and applications in his previous life</title>
+   <title>E-learning website of NCC-ARMY wing ,SVCE</title>
    <link href="http://hyde.getpoole.com/ncc-army"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/nccarmy</id>
@@ -301,7 +324,7 @@
  </entry>
  
  <entry>
-   <title>Dineshswamy's projects and applications in his previous life</title>
+   <title>Natural language based user interface for Computer games</title>
    <link href="http://hyde.getpoole.com/natural-language-ui-for-games"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/natural-language-ui-for-games</id>
@@ -343,7 +366,7 @@
  </entry>
  
  <entry>
-   <title>Dineshswamy's projects and applications in his previous life</title>
+   <title>Information management of Co-curricular activities ,SVCE</title>
    <link href="http://hyde.getpoole.com/co-curricular"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/co-curricular</id>
@@ -559,7 +582,7 @@
  </entry>
  
  <entry>
-   <title>Dineshswamy's projects and applications in his previous life</title>
+   <title>Bits and Bytes for ACE(Association of Computer Science Engineers)</title>
    <link href="http://hyde.getpoole.com/bits-and-bytes"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/bitsandbytes</id>
@@ -700,7 +723,7 @@
  </entry>
  
  <entry>
-   <title>Dineshswamy's projects and applications in his previous life</title>
+   <title>“Airdraw” a sony smartwatch app</title>
    <link href="http://hyde.getpoole.com/airdraw"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/airdraw</id>
