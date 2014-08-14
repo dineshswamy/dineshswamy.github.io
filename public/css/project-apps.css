@@ -249,3 +249,10 @@ ul.thumbnail-holder li:not(.badge-holder){
 	font-weight: bolder;
 
 }
+.posters-holder{
+	width: 100%;
+}
+.posters-holder img{
+	width: 500px;
+	height: 450px;
+}
