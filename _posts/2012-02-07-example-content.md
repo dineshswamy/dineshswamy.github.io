@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Example content
+permalink: example
+
 ---
 
 This blog post shows a few different types of content that's supported and styled with Hyde. Basic typography, images, and code are all supported.

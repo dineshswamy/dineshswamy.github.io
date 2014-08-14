@@ -2,43 +2,43 @@ ncc:
  - thumbnail: ncc/thumbs/screenshot_1.PNG
    id: screenshot-small-desc-1
    original:  ncc/screenshot_1.PNG
-   description: ["description one","description two","description three"]
+   description: ["This the homepage of NCC ARMY of SVCE and i ve rewritten this thrice  before releasing","i ve designed the creatives as well"]
 
  - thumbnail: ncc/thumbs/screenshot_2.PNG
    id: screenshot-small-desc-2
    original:  ncc/screenshot_2.PNG
-   description: ["description one","description two","description three"]
+   description: ["Home page of NCC training,it has multimedia content","The NCC cadet can learn everything online . Almost all things that are taught during a parade are available here .","There is also a section which shows how to put your NCC shoes and Uniform"]
 
  - thumbnail: ncc/thumbs/screenshot_3.PNG
    id: screenshot-small-desc-3
    original:  ncc/screenshot_3.PNG
-   description: ["description one","description two","description three"] 
+   description: ["The content below is a SWF format video that loops like a GIF","The below video shows how to  do Foot Marching in a NCC parade"] 
    
  - thumbnail: ncc/thumbs/screenshot_4.PNG
    id: screenshot-small-desc-4
    original:  ncc/screenshot_4.PNG
-   description: ["description one","description two","description three"]
+   description: ["One among the multimedia content","How to stand in a parade"]
 
 bitsandbytes:
  - thumbnail: bitsandbytes/thumbs/screenshot_1.png
    id: screenshot-small-desc-1
    original:  bitsandbytes/screenshot_1.png
-   description: ["description one","description two","description three"]
+   description: ["Home page of bits and bytes , almost everything on this page is database driven ","The CSS for this website was written from scratch , so it suffers from browser issues"]
 
  - thumbnail: bitsandbytes/thumbs/screenshot_2.png
    id: screenshot-small-desc-2
    original:  bitsandbytes/screenshot_2.png
-   description: ["description one","description two","description three"]
+   description: ["Faculty can put questions under a specific topic","The students can choose from the available topics and answer them"]
 
  - thumbnail: bitsandbytes/thumbs/screenshot_3.png
    id: screenshot-small-desc-3
    original:  bitsandbytes/screenshot_3.png
-   description: ["description one","description two","description three"] 
+   description: ["One of the sample question"] 
    
  - thumbnail: bitsandbytes/thumbs/screenshot_4.png
    id: screenshot-small-desc-4
    original:  bitsandbytes/screenshot_4.png
-   description: ["description one","description two","description three"]
+   description: ["Once students have answered the questions, Overall leading scorer is calculated automatically and displayed"]
 
 planhound:
  - thumbnail: planhound/thumbs/screenshot_2.jpg
@@ -61,32 +61,32 @@ svcecocurricular:
  - thumbnail: svcecocurricular/thumbs/screenshot_1.png
    id: screenshot-small-desc-1
    original:  svcecocurricular/screenshot_1.png
-   description: ["description one","description two","description three"]
+   description: ["Faculty side Data-entry page","It has a total of about 15 different fields","Because of this , we had to create features like EDIT and AUTO SAVE"]
 
  - thumbnail: svcecocurricular/thumbs/screenshot_2.png
    id: screenshot-small-desc-2
    original:  svcecocurricular/screenshot_2.png
-   description: ["description one","description two","description three"]
+   description: ["The drafts and edit page","Faculty can see the status of their posts.They can edit their posts as well","They can also grab a PDF of their post"]
 
  - thumbnail: svcecocurricular/thumbs/screenshot_3.png
    id: screenshot-small-desc-3
    original:  svcecocurricular/screenshot_3.png
-   description: ["description one","description two","description three"]
+   description: ["Upload of images is available","Preview of image being Uploaded","Faculty can add a description to the images they add","CRUD for the images"]
 
  - thumbnail: svcecocurricular/thumbs/screenshot_4.png
    id: screenshot-small-desc-4
    original:  svcecocurricular/screenshot_4.png
-   description: ["description one","description two","description three"]
+   description: ["Home page of curricular activties , SVCE .The co curricular events that are posted by the Faculties","Shows three recent events per category"]
 
  - thumbnail: svcecocurricular/thumbs/screenshot_5.png
    id: screenshot-small-desc-5
    original:  svcecocurricular/screenshot_5.png
-   description: ["description one","description two","description three"]
+   description: ["Detailed view of the co curricular events that are posted by the Faculties"]
 
  - thumbnail: svcecocurricular/thumbs/screenshot_6.png
    id: screenshot-small-desc-6
    original:  svcecocurricular/screenshot_6.png
-   description: ["description one","description two","description three"]
+   description: ["a slider , inside the detailed view page containing the images and their description as posted by the faculty"]
 
 towermapify:
  - thumbnail: towermapify/thumbs/screenshot_1.png
@@ -108,16 +108,14 @@ airdraw:
  - thumbnail: airdraw/thumbs/screenshot_1.png
    id: screenshot-small-desc-1
    original:  airdraw/screenshot_1.png
-   description: ["description one","description two","description three"]
+   description: ["The drawing we did using the smartwatch"]
 
  - thumbnail: airdraw/thumbs/screenshot_2.png
    id: screenshot-small-desc-2
    original:  airdraw/screenshot_2.png
-   description: ["description one","description two","description three"]
+   description: ["One more , drawing we did using the smartwatch"]
 
  - thumbnail: airdraw/thumbs/screenshot_3.png
    id: screenshot-small-desc-3
    original:  airdraw/screenshot_3.png
-   description: ["description one","description two","description three"]
-
-
+   description: ["The word inside the scribbling is COOL"]

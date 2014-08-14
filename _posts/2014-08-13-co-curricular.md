@@ -14,8 +14,16 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 	<h2>Information management system for SVCE Co-curricular activities</h2>
 
 	<div class="short-description">
-	This is did during my final year at college burning all my free time . But i ve gained lot of experience
-	doing this.
+	
+	I did this project for <b>Dr.SusanElias , Dean of Co-Curricular activities , SVCE</b>  , during my final year at  college.
+
+	Managing information about co-curricular activities inside my college was very paperish , so she decided to make a web portal where each and every event  that happens inside the college gets logged into database .</br>
+
+	Almost all details about the event gets logged , the form has 15+ fields . </br>
+
+	Some of the highlights in this project are <b>AutoSave,ImagePreview before upload , CRUD for all information entered</b>.</br>
+
+
 	</div>
 	{% assign  key = 'svcecocurricular' %}
 	{% assign screenshots = site.data.project_apps_data[key] %}
@@ -35,15 +43,17 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 
 	</ul> 
 	{% endif %}
-
+	
 	<div class="made-with-tags">
+		<h2>Made using</h2>
+		<a href="#">PHP </a>
+		<a href="#">.HTML</a>
+		<a href="#">.CSS</a>
+		<a href="#">.Javascript</a>
+		<a href="#">.Apache</a>
+		<a href="#">.Jquery</a>
+		<a href="#">.Jquery UI</a>
 
-		<a href="#" class="indigo-800">Bootstrap</a>
-		<a href="#" class="indigo-800">PHP</a>
-		<a href="#" class="indigo-800">HTML</a>
-		<a href="#" class="indigo-800">CSS</a>
-		<a href="#" class="indigo-800">Javascript</a>
-		<a href="#" class="indigo-800">Apache</a>
 	</div>
 </div>
 

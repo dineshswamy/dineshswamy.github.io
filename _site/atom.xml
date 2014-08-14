@@ -4,21 +4,13 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2014-08-13T23:33:51+05:30</updated>
+ <updated>2014-08-14T15:03:58+05:30</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Mark Otto</name>
    <email></email>
  </author>
 
- 
- <entry>
-   <title>Towermapify</title>
-   <link href="http://hyde.getpoole.com/towermapify.html"/>
-   <updated>2014-08-13T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/towermapify</id>
-   <content type="html"></content>
- </entry>
  
  <entry>
    <title>Dineshswamy's projects and applications in his previous life</title>
@@ -164,7 +156,14 @@
     &lt;h2&gt;E learning website of NCC ARMY&lt;/h2&gt;
 
     &lt;div class=&quot;short-description&quot;&gt;
-        This is one of the first website i wrote and i did that with lot of passion for indian army . i created a tutorial system where one can learn all NCC commands .
+    
+        This was the first website i wrote . I started writing CSS from scratch and i rewrote the webpage twice or thrice .:) . 
+
+        This website was designed for &lt;b&gt;NCC ARMY of SVCE &lt;/b&gt;. &lt;/br&gt;
+
+        This website has which is developed for learning almost all  NCC commands,their gestures and fundamentals of NCC. &lt;/br&gt;
+
+        The multimedia tutorials were shot with the help of my Seniors.&lt;/br&gt;These tutorials were developed aiming to reduce the amount of time in training a NCC cadet.&lt;/br&gt;
     &lt;/div&gt;
     
     
@@ -215,12 +214,15 @@
     &lt;/ul&gt; 
     
 
+
+
     &lt;div class=&quot;made-with-tags&quot;&gt;
-        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;PHP&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;HTML&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;CSS&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;Javascript&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;Apache&lt;/a&gt;
+        &lt;h2&gt;Made using&lt;/h2&gt;
+        &lt;a href=&quot;#&quot;&gt;PHP &lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.HTML&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.CSS&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.Javascript&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.Apache&lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
@@ -229,15 +231,11 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
+                This the homepage of NCC ARMY of SVCE and i ve rewritten this thrice  before releasing
             &lt;/li&gt;
             
             &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                i ve designed the creatives as well
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -250,15 +248,15 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
+                Home page of NCC training,it has multimedia content
             &lt;/li&gt;
             
             &lt;li&gt;
-                description two
+                The NCC cadet can learn everything online . Almost all things that are taught during a parade are available here .
             &lt;/li&gt;
             
             &lt;li&gt;
-                description three
+                There is also a section which shows how to put your NCC shoes and Uniform
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -271,15 +269,11 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
+                The content below is a SWF format video that loops like a GIF
             &lt;/li&gt;
             
             &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                The below video shows how to  do Foot Marching in a NCC parade
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -292,20 +286,58 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
+                One among the multimedia content
             &lt;/li&gt;
             
             &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                How to stand in a parade
             &lt;/li&gt;
             
             &lt;/ul&gt;
         &lt;/div&gt;
         &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_4.PNG&quot; /&gt; 
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Dineshswamy's projects and applications in his previous life</title>
+   <link href="http://hyde.getpoole.com/natural-language-ui-for-games"/>
+   <updated>2014-08-13T00:00:00+05:30</updated>
+   <id>http://hyde.getpoole.com/natural-language-ui-for-games</id>
+   <content type="html">&lt;!--Natural language based computer games--&gt;
+
+&lt;div class=&quot;project-container&quot;&gt; 
+    &lt;h2&gt;Natural language based user interface for computer games&lt;/h2&gt;
+
+    &lt;div class=&quot;short-description&quot;&gt;
+        This was my  UG final year project . Comparing the efforts , i gave all my breadth to this project . I went to all depths to make things work .
+        
+        This project increased my reputation among my faculties . The demo will be really cool to watch , this wont disappoint you , go ahead 
+
+    &lt;/div&gt;
+
+
+    
+    
+    
+
+    &lt;center&gt;
+    
+    &lt;div class=&quot;video-holder&quot;&gt;
+            &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/Wi9xl4w7NOU&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+    &lt;/center&gt;
+
+    &lt;div class=&quot;made-with-tags&quot;&gt;
+        &lt;h2&gt;Made using&lt;/h2&gt;
+        &lt;a href=&quot;#&quot;&gt;C++ &lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.SFML&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.PYTHON&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.HTML5&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.NLP Tool kit&lt;/a&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
 </content>
  </entry>
@@ -321,8 +353,16 @@
     &lt;h2&gt;Information management system for SVCE Co-curricular activities&lt;/h2&gt;
 
     &lt;div class=&quot;short-description&quot;&gt;
-    This is did during my final year at college burning all my free time . But i ve gained lot of experience
-    doing this.
+    
+    I did this project for &lt;b&gt;Dr.SusanElias , Dean of Co-Curricular activities , SVCE&lt;/b&gt;  , during my final year at  college.
+
+    Managing information about co-curricular activities inside my college was very paperish , so she decided to make a web portal where each and every event  that happens inside the college gets logged into database .&lt;/br&gt;
+
+    Almost all details about the event gets logged , the form has 15+ fields . &lt;/br&gt;
+
+    Some of the highlights in this project are &lt;b&gt;AutoSave,ImagePreview before upload , CRUD for all information entered&lt;/b&gt;.&lt;/br&gt;
+
+
     &lt;/div&gt;
     
     
@@ -392,15 +432,17 @@
 
     &lt;/ul&gt; 
     
-
+    
     &lt;div class=&quot;made-with-tags&quot;&gt;
+        &lt;h2&gt;Made using&lt;/h2&gt;
+        &lt;a href=&quot;#&quot;&gt;PHP &lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.HTML&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.CSS&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.Javascript&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.Apache&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.Jquery&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.Jquery UI&lt;/a&gt;
 
-        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Bootstrap&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;PHP&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;HTML&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;CSS&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Javascript&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Apache&lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
@@ -409,15 +451,15 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
+                Faculty side Data-entry page
             &lt;/li&gt;
             
             &lt;li&gt;
-                description two
+                It has a total of about 15 different fields
             &lt;/li&gt;
             
             &lt;li&gt;
-                description three
+                Because of this , we had to create features like EDIT and AUTO SAVE
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -430,15 +472,15 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
+                The drafts and edit page
             &lt;/li&gt;
             
             &lt;li&gt;
-                description two
+                Faculty can see the status of their posts.They can edit their posts as well
             &lt;/li&gt;
             
             &lt;li&gt;
-                description three
+                They can also grab a PDF of their post
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -451,15 +493,19 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
+                Upload of images is available
             &lt;/li&gt;
             
             &lt;li&gt;
-                description two
+                Preview of image being Uploaded
             &lt;/li&gt;
             
             &lt;li&gt;
-                description three
+                Faculty can add a description to the images they add
+            &lt;/li&gt;
+            
+            &lt;li&gt;
+                CRUD for the images
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -472,15 +518,11 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
+                Home page of curricular activties , SVCE .The co curricular events that are posted by the Faculties
             &lt;/li&gt;
             
             &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                Shows three recent events per category
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -493,15 +535,7 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                Detailed view of the co curricular events that are posted by the Faculties
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -514,15 +548,7 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                a slider , inside the detailed view page containing the images and their description as posted by the faculty
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -543,8 +569,15 @@
     &lt;h2&gt;Bits and bytes&lt;/h2&gt;
 
     &lt;div class=&quot;short-description&quot;&gt;
-        In hold CMS Used to run competitions inside my college
+    Its a CMS(Content Management System) for the intra-departmental activity &lt;b&gt;'Bits and Bytes'&lt;/b&gt; &lt;/br&gt;
+
+    Some set of questions under a particular title will be posted by the faculty. The students can choose the title of their choice and answer the questions under the titles.&lt;/br&gt;
+
+    The faculty then evaluates the answer and  give scores accordingly. The toppers of each year will be displayed. The toppers are determined automatically ,based  on the no of questions they have answered and marks awarded.   &lt;/br&gt;
+
     &lt;/div&gt;
+
+
     
     
     
@@ -595,11 +628,12 @@
     
 
     &lt;div class=&quot;made-with-tags&quot;&gt;
-        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;PHP&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;HTML&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;CSS&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;Javascript&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;green-a400&quot;&gt;Apache&lt;/a&gt;
+        &lt;h2&gt;Made using&lt;/h2&gt;
+        &lt;a href=&quot;#&quot;&gt;PHP &lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.HTML&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.CSS&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.Javascript&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.Apache&lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
@@ -608,15 +642,11 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
+                Home page of bits and bytes , almost everything on this page is database driven 
             &lt;/li&gt;
             
             &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                The CSS for this website was written from scratch , so it suffers from browser issues
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -629,15 +659,11 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
+                Faculty can put questions under a specific topic
             &lt;/li&gt;
             
             &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                The students can choose from the available topics and answer them
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -650,15 +676,7 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                One of the sample question
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -671,15 +689,7 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                Once students have answered the questions, Overall leading scorer is calculated automatically and displayed
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -691,9 +701,9 @@
  
  <entry>
    <title>Dineshswamy's projects and applications in his previous life</title>
-   <link href="http://hyde.getpoole.com/apps/airdraw"/>
+   <link href="http://hyde.getpoole.com/airdraw"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/apps/airdraw</id>
+   <id>http://hyde.getpoole.com/airdraw</id>
    <content type="html">&lt;!--Airdraw --&gt;
 
 &lt;div class=&quot;project-container&quot; &gt; 
@@ -701,12 +711,19 @@
         &lt;h2&gt;Airdraw - scribble in the air&lt;/h2&gt;
 
         &lt;div class=&quot;short-description&quot;&gt;
-        Hackathon app that got Samsung tablet . I made this app at DROIDCON 2013 and got SECOND PRIZE.
-        You can watch the demo of the app here .
-    
+
+        This was the android app we did at DROIDCON 2013 hackathon , winning a second place(Samsung galaxy tab 3).
+
+        This app is based on sony smartwatch 2 . So , you wear the watch , you connect it to your device(tab or a phone) and then you draw something in the air , lets say its a square . That square will appear in your device.
+
+        You draw anything in the air , wearing that sony smartwatch , it will appear in your device .
+
+        You can watch the demo below
+        
+        &lt;/div&gt;
+
         &lt;i class=&quot;fa fa-github fa-4&quot;&gt;&lt;/i&gt;&lt;a href=&quot;https://github.com/dineshswamy/AirDraw&quot; class=&quot;blog-post&quot;&gt; Airdraw&lt;/a&gt;
 
-        &lt;/div&gt;
         
         
         
@@ -752,34 +769,31 @@
 
         &lt;/ul&gt; 
         
+
+        &lt;center&gt;
+            &lt;div class=&quot;video-holder&quot;&gt;
+                &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/36Eh-LIb0IA?start=160&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+            &lt;/div&gt;
+        &lt;/center&gt;       
         
-        &lt;div class=&quot;video-holder&quot;&gt;
-            &lt;iframe width=&quot;500&quot; height=&quot;500&quot; src=&quot;//www.youtube.com/embed/36Eh-LIb0IA&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-        &lt;/div&gt;
-
         
-        &lt;div class=&quot;made-with-tags&quot;&gt;
-            &lt;a href=&quot;#&quot; class=&quot;red-600&quot;&gt;Android SDK&lt;/a&gt;
-            &lt;a href=&quot;#&quot; class=&quot;red-600&quot;&gt;Sony smartwatch SDK&lt;/a&gt;
-        &lt;/div&gt;
+    &lt;div class=&quot;made-with-tags&quot;&gt;
+        &lt;h2&gt;Made using&lt;/h2&gt;
+        &lt;a href=&quot;#&quot;&gt; Android SDK&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;.SONY Smartwatch SDK&lt;/a&gt;
 
-
+    &lt;/div&gt;
 &lt;/div&gt;
+        
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;div id=&quot;airdraw-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                The drawing we did using the smartwatch
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -792,15 +806,7 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                One more , drawing we did using the smartwatch
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -813,15 +819,7 @@
             &lt;ul&gt;
             
             &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
+                The word inside the scribbling is COOL
             &lt;/li&gt;
             
             &lt;/ul&gt;
@@ -836,574 +834,22 @@
    <link href="http://hyde.getpoole.com/project-apps"/>
    <updated>2014-07-31T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/project-apps</id>
-   <content type="html">&lt;!--Chatminion --&gt;
+   <content type="html">&lt;h2 id=&quot;toc_0&quot;&gt;My apps and projects  are listed below , i ve starred them too&lt;/h2&gt;
 
-&lt;div class=&quot;project-container&quot; &gt; 
+&lt;p&gt;&lt;center&gt;
+&lt;ul class=&quot;project-listing&quot;&gt;&lt;/p&gt;
 
-        &lt;h2&gt;Chatminion&lt;/h2&gt;
+&lt;p&gt;&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/chatminion/&quot; target=&quot;_blank&quot;&gt;Chatminion&lt;/a&gt;                                 &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://planhound.in/&quot; target=&quot;_blank&quot;&gt;Planhound&lt;/a&gt;             &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/airdraw/&quot; target=&quot;_blank&quot;&gt;Airdraw&lt;/a&gt;                                          &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/towermapify/&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;                           &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/natural-language-ui-for-games/&quot; target=&quot;_blank&quot;&gt;Natural language based User interface for computer games&lt;/a&gt; &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/co-curricular/&quot; target=&quot;_blank&quot;&gt;SVCE Co curricular &lt;/a&gt;         &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/bits-and-bytes/&quot; target=&quot;_blank&quot;&gt;Bits and bytes &lt;/a&gt;                &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/ncc-army/&quot; target=&quot;_blank&quot;&gt;SVCE NCC-Army &lt;/a&gt;                           &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
 
-        &lt;div class=&quot;short-description&quot;&gt;
-            Chatminion is an ephemeral chat application for use in office . You can read about 
-            
-            &lt;a href =&quot;/chatminion&quot; class=&quot;blog-post&quot;&gt;&lt;i class=&quot;fa fa-chevron-circle-right fa-3&quot;&gt;&lt;/i&gt; Chatminion&lt;/a&gt; .
-
-        &lt;/div&gt;
-        &lt;ul class=&quot;thumbnail-holder&quot;&gt;
-        &lt;li class=&quot;badge-holder&quot;&gt;
-            &lt;a href=&quot;https://chrome.google.com/webstore/detail/chat-minion/ggppffbhjobdepilfllgmpojejkeemca&quot; target=&quot;_blank&quot;&gt;
-            &lt;img alt=&quot;Get it on chrome web store&quot; src=&quot;/public/images/chrome-webstore-icon.png&quot; /&gt;
-            &lt;/a&gt;
-        &lt;/li&gt;
-
-        &lt;li  class=&quot;video-holder&quot;&gt;
-                
-                    &lt;iframe width=&quot;400&quot; height=&quot;250&quot; src=&quot;//www.youtube.com/embed/CuVyldcQ0Kw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-                
-        &lt;/li&gt;
-
-        &lt;/ul&gt; 
-        
-&lt;/div&gt;
-
-&lt;!-- TOWERMAPIFY --&gt;
-
-&lt;div class=&quot;project-container&quot;&gt; 
-    &lt;h2&gt;Towermapify - coverage maps for Komparify.com&lt;/h2&gt;
-
-    &lt;div class=&quot;short-description&quot;&gt;
-    This was my internship project , when i was interned at komparify.com You can read about the engineering
-    challenges about the map from.&lt;a href =&quot;/making-towermapify&quot; class=&quot;blog-post&quot;&gt;&lt;i class=&quot;fa fa-chevron-circle-right fa-3&quot;&gt;&lt;/i&gt; Making towermapify&lt;/a&gt; . &lt;a href = &quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot; class=&quot;live-anchor&quot;&gt;&lt;i class=&quot;fa fa-chevron-circle-right fa-3&quot;&gt;&lt;/i&gt; Live &lt;/a&gt;
-    &lt;/div&gt;
-    
-    
-    
-    &lt;ul class=&quot;thumbnail-holder&quot; &gt;
-    
-        
-    &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#towermapify-screenshot-small-desc-1&quot;&gt;
-            &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/towermapify/thumbs/screenshot_1.png&quot; /&gt; 
-            &lt;/div&gt;
-        &lt;/a&gt;        
-    &lt;/li&gt;
-
-    
-        
-    &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#towermapify-screenshot-small-desc-2&quot;&gt;
-            &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/towermapify/thumbs/screenshot_2.png&quot; /&gt; 
-            &lt;/div&gt;
-        &lt;/a&gt;        
-    &lt;/li&gt;
-
-    
-        
-    &lt;li&gt;
-        &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#towermapify-screenshot-small-desc-3&quot;&gt;
-            &lt;div class=&quot;description&quot;&gt;   
-                &lt;img src=&quot;/public/images/screenshots/towermapify/thumbs/screenshot_3.png&quot; /&gt; 
-            &lt;/div&gt;
-        &lt;/a&gt;        
-    &lt;/li&gt;
-
-    
-
-    &lt;/ul&gt; 
-    
-
-    &lt;div class=&quot;made-with-tags&quot;&gt;
-        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Ruby on rails&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Google maps API&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;HTML&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;CSS&lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;indigo-800&quot;&gt;Javascript&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div id=&quot;planhound-screenshot-small-desc-2&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/planhound/screenshot_2.jpg&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;planhound-screenshot-small-desc-3&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/planhound/screenshot_3.jpg&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;planhound-screenshot-small-desc-4&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/planhound/screenshot_4.jpg&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;airdraw-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/airdraw/screenshot_1.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;airdraw-screenshot-small-desc-2&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/airdraw/screenshot_2.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;airdraw-screenshot-small-desc-3&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/airdraw/screenshot_3.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;towermapify-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/towermapify/screenshot_1.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;towermapify-screenshot-small-desc-2&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/towermapify/screenshot_2.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;towermapify-screenshot-small-desc-3&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/towermapify/screenshot_3.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;svcecocurricular-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_1.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;svcecocurricular-screenshot-small-desc-2&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_2.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;svcecocurricular-screenshot-small-desc-3&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_3.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;svcecocurricular-screenshot-small-desc-4&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_4.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;svcecocurricular-screenshot-small-desc-5&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_5.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;svcecocurricular-screenshot-small-desc-6&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/svcecocurricular/screenshot_6.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;bitsandbytes-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/bitsandbytes/screenshot_1.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;bitsandbytes-screenshot-small-desc-2&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/bitsandbytes/screenshot_2.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;bitsandbytes-screenshot-small-desc-3&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/bitsandbytes/screenshot_3.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;bitsandbytes-screenshot-small-desc-4&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/bitsandbytes/screenshot_4.png&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;ncc-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_1.PNG&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;ncc-screenshot-small-desc-2&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_2.PNG&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;ncc-screenshot-small-desc-3&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_3.PNG&quot; /&gt; 
-&lt;/div&gt;
-
-&lt;div id=&quot;ncc-screenshot-small-desc-4&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
-        &lt;div class=&quot;screenshot-description&quot; &gt;
-            &lt;ul&gt;
-            
-            &lt;li&gt;
-                description one
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description two
-            &lt;/li&gt;
-            
-            &lt;li&gt;
-                description three
-            &lt;/li&gt;
-            
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_4.PNG&quot; /&gt; 
-&lt;/div&gt;
+&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1814,7 +1260,7 @@ rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server
  
  <entry>
    <title>Example content</title>
-   <link href="http://hyde.getpoole.com/example-content.html"/>
+   <link href="http://hyde.getpoole.com/example"/>
    <updated>2012-02-07T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/example-content</id>
    <content type="html">&lt;p&gt;This blog post shows a few different types of content that&amp;#39;s supported and styled with Hyde. Basic typography, images, and code are all supported.&lt;/p&gt;

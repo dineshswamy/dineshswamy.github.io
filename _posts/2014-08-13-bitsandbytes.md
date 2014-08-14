@@ -12,8 +12,15 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 	<h2>Bits and bytes</h2>
 
 	<div class="short-description">
-		In hold CMS Used to run competitions inside my college
+	Its a CMS(Content Management System) for the intra-departmental activity <b>'Bits and Bytes'</b> </br>
+
+	Some set of questions under a particular title will be posted by the faculty. The students can choose the title of their choice and answer the questions under the titles.</br>
+
+	The faculty then evaluates the answer and  give scores accordingly. The toppers of each year will be displayed. The toppers are determined automatically ,based  on the no of questions they have answered and marks awarded. 	</br>
+
 	</div>
+
+
 	{% assign  key = 'bitsandbytes' %}
 	{% assign screenshots = site.data.project_apps_data[key] %}
 	{% if screenshots.size > 0 %}
@@ -34,14 +41,14 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 	{% endif %}
 
 	<div class="made-with-tags">
-		<a href="#" class="green-a400">PHP</a>
-		<a href="#" class="green-a400">HTML</a>
-		<a href="#" class="green-a400">CSS</a>
-		<a href="#" class="green-a400">Javascript</a>
-		<a href="#" class="green-a400">Apache</a>
+		<h2>Made using</h2>
+		<a href="#">PHP </a>
+		<a href="#">.HTML</a>
+		<a href="#">.CSS</a>
+		<a href="#">.Javascript</a>
+		<a href="#">.Apache</a>
 	</div>
 </div>
-
 
 {% assign key = 'bitsandbytes' %}
 {% assign screenshots = site.data.project_apps_data[key] %}

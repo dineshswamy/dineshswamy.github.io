@@ -1,27 +1,27 @@
 ---
 layout: projects-apps
 title: Dineshswamy's projects and applications in his previous life
-permalink: ncc-army
+permalink: natural-language-ui-for-games
 css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesome.min.css']
 ---
 
 
-<!--NCC ARMY -->
+
+
+<!--Natural language based computer games-->
 
 <div class="project-container"> 
-	<h2>E learning website of NCC ARMY</h2>
+	<h2>Natural language based user interface for computer games</h2>
 
 	<div class="short-description">
-	
-		This was the first website i wrote . I started writing CSS from scratch and i rewrote the webpage twice or thrice .:) . 
+		This was my  UG final year project . Comparing the efforts , i gave all my breadth to this project . I went to all depths to make things work .
+		
+		This project increased my reputation among my faculties . The demo will be really cool to watch , this wont disappoint you , go ahead 
 
-		This website was designed for <b>NCC ARMY of SVCE </b>. </br>
-
-		This website has which is developed for learning almost all  NCC commands,their gestures and fundamentals of NCC. </br>
-
-		The multimedia tutorials were shot with the help of my Seniors.</br>These tutorials were developed aiming to reduce the amount of time in training a NCC cadet.</br>
 	</div>
-	{% assign  key = 'ncc' %}
+
+
+	{% assign  key = 'nlpui' %}
 	{% assign screenshots = site.data.project_apps_data[key] %}
 	{% if screenshots.size > 0 %}
 	<ul class="thumbnail-holder" >
@@ -40,20 +40,26 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 	</ul> 
 	{% endif %}
 
+	<center>
+	
+	<div class="video-holder">
+			<iframe width="640" height="360" src="//www.youtube.com/embed/Wi9xl4w7NOU" frameborder="0" allowfullscreen></iframe>
+	</div>
 
+	</center>
 
 	<div class="made-with-tags">
 		<h2>Made using</h2>
-		<a href="#">PHP </a>
-		<a href="#">.HTML</a>
-		<a href="#">.CSS</a>
-		<a href="#">.Javascript</a>
-		<a href="#">.Apache</a>
+		<a href="#">C++ </a>
+		<a href="#">.SFML</a>
+		<a href="#">.PYTHON</a>
+		<a href="#">.HTML5</a>
+		<a href="#">.NLP Tool kit</a>
 	</div>
 </div>
 
 
-{% assign key = 'ncc' %}
+{% assign key = 'nlpui' %}
 {% assign screenshots = site.data.project_apps_data[key] %}
 {% for screenshot in screenshots %}
 
