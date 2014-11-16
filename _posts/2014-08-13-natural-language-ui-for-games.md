@@ -16,6 +16,7 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 	<div class="short-description">
 
 		                 If you take a look at the existing interfaces for computer games, they are primarily hardwares such as keyboard, mouse and joystick.
+		                 So , in this project we use natural language as an user interface for playing computer games.
 		                 </br>
 		                 The player will be playing the game 
 with his natural language .The <strong>natural 
@@ -26,6 +27,8 @@ The player can communicate to the
 characters(bots) inside the game.The 
 <strong>characters will communicate back and 
 forth </strong>
+</br>
+Have a look at the video , for more details . i m sure you wont be disappointed :) 
 </br>
 	</div>
 
