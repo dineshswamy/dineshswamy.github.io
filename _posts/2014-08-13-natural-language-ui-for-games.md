@@ -14,10 +14,19 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 	<h2>Natural language based user interface for computer games</h2>
 
 	<div class="short-description">
-		This was my  UG final year project . Comparing the efforts , i gave all my breadth to this project . I went to all depths to make things work .
-		
-		This project increased my reputation among my faculties . The demo will be really cool to watch , this wont disappoint you , go ahead 
 
+		                 If you take a look at the existing interfaces for computer games, they are primarily hardwares such as keyboard, mouse and joystick.
+		                 </br>
+		                 The player will be playing the game 
+with his natural language .The <strong>natural 
+language statements</strong> are given through
+his voice(from microphone).
+</br>
+The player can communicate to the 
+characters(bots) inside the game.The 
+<strong>characters will communicate back and 
+forth </strong>
+</br>
 	</div>
 
 
