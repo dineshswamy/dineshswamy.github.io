@@ -4,7 +4,7 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2014-08-14T17:43:08+05:30</updated>
+ <updated>2015-08-01T13:45:31+05:30</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Mark Otto</name>
@@ -13,25 +13,30 @@
 
  
  <entry>
+   <title>Fish Story</title>
+   <link href="http://hyde.getpoole.com/fish-story.html"/>
+   <updated>2015-06-17T00:00:00+05:30</updated>
+   <id>http://hyde.getpoole.com/fish-story</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
    <title>Dineshswamy's posters</title>
    <link href="http://hyde.getpoole.com/posters"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/posters</id>
-   <content type="html">&lt;h2 id=&quot;toc_0&quot;&gt;Posters , i ve designed for competitions and my workplace&lt;/h2&gt;
+   <content type="html">&lt;h2 id=&quot;posters-i-ve-designed-for-competitions-and-my-workplace&quot;&gt;Posters , i ve designed for competitions and my workplace&lt;/h2&gt;
 
-&lt;hr&gt;
-
+&lt;p&gt;&lt;hr&gt;
 &lt;div class=&quot;posters-holder&quot;&gt;
     &lt;h3&gt;FOSS Awareness day , SVCE&lt;/h3&gt;
     &lt;a href=&quot;/public/images/posters/fossposter.png&quot;&gt; &lt;img src=&quot;/public/images/posters/fossposter.png&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;hr&gt;
-
 &lt;div class=&quot;posters-holder&quot;&gt;
     &lt;h3&gt;Asking myself :p &lt;/h3&gt;
     &lt;a href=&quot;/public/images/posters/have-you.png&quot;&gt; &lt;img src=&quot;/public/images/posters/have-you.png&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -334,10 +339,22 @@
     &lt;h2&gt;Natural language based user interface for computer games&lt;/h2&gt;
 
     &lt;div class=&quot;short-description&quot;&gt;
-        This was my  UG final year project . Comparing the efforts , i gave all my breadth to this project . I went to all depths to make things work .
-        
-        This project increased my reputation among my faculties . The demo will be really cool to watch , this wont disappoint you , go ahead 
 
+                         If you take a look at the existing interfaces for computer games, they are primarily hardwares such as keyboard, mouse and joystick.
+                         So , in this project we use natural language as an user interface for playing computer games.
+                         &lt;/br&gt;
+                         The player will be playing the game 
+with his natural language .The &lt;strong&gt;natural 
+language statements&lt;/strong&gt; are given through
+his voice(from microphone).
+&lt;/br&gt;
+The player can communicate to the 
+characters(bots) inside the game.The 
+&lt;strong&gt;characters will communicate back and 
+forth &lt;/strong&gt;
+&lt;/br&gt;
+Have a look at the video , for more details . i m sure you wont be disappointed :) 
+&lt;/br&gt;
     &lt;/div&gt;
 
 
@@ -592,7 +609,7 @@
     &lt;h2&gt;Bits and bytes&lt;/h2&gt;
 
     &lt;div class=&quot;short-description&quot;&gt;
-    Its a CMS(Content Management System) for the intra-departmental activity &lt;b&gt;'Bits and Bytes'&lt;/b&gt; &lt;/br&gt;
+    Its a CMS(Content Management System) for the intra-departmental activity &lt;b&gt;&#39;Bits and Bytes&#39;&lt;/b&gt; &lt;/br&gt;
 
     Some set of questions under a particular title will be posted by the faculty. The students can choose the title of their choice and answer the questions under the titles.&lt;/br&gt;
 
@@ -857,7 +874,7 @@
    <link href="http://hyde.getpoole.com/project-apps"/>
    <updated>2014-07-31T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/project-apps</id>
-   <content type="html">&lt;h2 id=&quot;toc_0&quot;&gt;My apps and projects  are listed below , i ve starred them too&lt;/h2&gt;
+   <content type="html">&lt;h2 id=&quot;my-apps-and-projects-are-listed-below-i-ve-starred-them-too&quot;&gt;My apps and projects  are listed below , i ve starred them too&lt;/h2&gt;
 
 &lt;p&gt;&lt;center&gt;
 &lt;ul class=&quot;project-listing&quot;&gt;&lt;/p&gt;
@@ -881,7 +898,7 @@
    <link href="http://hyde.getpoole.com/vidtext"/>
    <updated>2014-07-07T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/vidtext</id>
-   <content type="html">&lt;h2 id=&quot;toc_0&quot;&gt;VidText(Video + texting )&lt;/h2&gt;
+   <content type="html">&lt;h2 id=&quot;vidtext-video-texting&quot;&gt;VidText(Video + texting )&lt;/h2&gt;
 
 &lt;p&gt;Vidtext is an ephemeral video+text(Video does not include audio) app . The app uses the front camera of conversing people and the user can type messages on top of the video . So the user can see the realtime face of the conversing person , but he need not talk , he can simply type on top of the video and then see the other person&amp;#39;s reaction lively .&lt;/p&gt;
 </content>
@@ -892,7 +909,7 @@
    <link href="http://hyde.getpoole.com/chatminion"/>
    <updated>2014-06-27T00:00:00+05:30</updated>
    <id>http://hyde.getpoole.com/chatminion</id>
-   <content type="html">&lt;h6 id=&quot;toc_0&quot;&gt;Disclaimer&lt;/h6&gt;
+   <content type="html">&lt;h6 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h6&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;We strictly don&amp;#39;t use the nouns like &amp;quot;START UP&amp;quot; ,&amp;quot;COMPANY&amp;quot; , &amp;quot;CO-FOUNDERS&amp;quot; . :p&lt;/p&gt;
@@ -901,7 +918,7 @@
 &lt;div id=&quot;what-is-chatminion&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;toc_1&quot;&gt;What is Chatminion?&lt;/h2&gt;
+&lt;h2 id=&quot;what-is-chatminion&quot;&gt;What is Chatminion?&lt;/h2&gt;
 
 &lt;p&gt;Better explained in the video.
     &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;//www.youtube.com/embed/CuVyldcQ0Kw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
@@ -911,7 +928,7 @@ But there is a catch here! Neither you nor your recipient have to type and send 
 
 &lt;p&gt;Once you send a message, your recipient will be shown the most relevant and possible replies to the message. Chatminion will also prepare an audio message based on the message you send and receive(It does not just read out the message as it is).&lt;/p&gt;
 
-&lt;h4 id=&quot;toc_2&quot;&gt;Some of the highlights include&lt;/h4&gt;
+&lt;h4 id=&quot;some-of-the-highlights-include&quot;&gt;Some of the highlights include&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;98% ephemeral, your message flies from one end to the other and dies right there. It gets stored nowhere.
@@ -930,7 +947,7 @@ But there is a catch here! Neither you nor your recipient have to type and send 
 &lt;div id=&quot;requirements&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;toc_3&quot;&gt;Requirements&lt;/h2&gt;
+&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Any desktop operating system(GNU/Linux) or (Windows) or (Mac)&lt;/li&gt;
@@ -940,7 +957,7 @@ But there is a catch here! Neither you nor your recipient have to type and send 
 &lt;div id=&quot;how-to-install-chatminion&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;toc_4&quot;&gt;How to install chatminion ?&lt;/h2&gt;
+&lt;h2 id=&quot;how-to-install-chatminion&quot;&gt;How to install chatminion ?&lt;/h2&gt;
 
 &lt;p&gt;1) Download or Update google chrome to the latest version(recommended)&lt;/p&gt;
 
@@ -955,25 +972,25 @@ But there is a catch here! Neither you nor your recipient have to type and send 
 &lt;div id=&quot;how-chatminion-works&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;toc_5&quot;&gt;How chatminion works ?&lt;/h2&gt;
+&lt;h2 id=&quot;how-chatminion-works&quot;&gt;How chatminion works ?&lt;/h2&gt;
 
 &lt;p&gt;You can read about that here . &lt;a href=&quot;https://github.com/dineshswamy/chatminion-chrome-app&quot;&gt;Chatminion(repo)&lt;/a&gt; . You are welcome to fork it , all instructions are available there .&lt;/p&gt;
 
 &lt;div id=&quot;is-this-an-alternative&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;toc_6&quot;&gt;Is this an alternative to other chat applications?&lt;/h2&gt;
+&lt;h2 id=&quot;is-this-an-alternative-to-other-chat-applications&quot;&gt;Is this an alternative to other chat applications?&lt;/h2&gt;
 
 &lt;p&gt;Maybe or may not be, it depends on the needs you have. We wrote this exclusively for people who work as teams. Teams that do development work or looks after sales etc. We  have no intention of competing in the chat applications space.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;h3 id=&quot;toc_7&quot;&gt;We are experimenting to see whether chatting can really work this way and the results of the experiment are yet to be seen.&lt;/h3&gt;
+&lt;h3 id=&quot;we-are-experimenting-to-see-whether-chatting-can-really-work-this-way-and-the-results-of-the-experiment-are-yet-to-be-seen&quot;&gt;We are experimenting to see whether chatting can really work this way and the results of the experiment are yet to be seen.&lt;/h3&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Three months ago, I made a working prototype. It worked but it was incomprehensible to distribute . So we decided &amp;quot;okay lets make this is as a complete google chrome app and see where it goes&amp;quot; .&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;h3 id=&quot;toc_8&quot;&gt;Doing a feature comparison between existing chat applications and Chatminion wont fit. Chatminion is a one of its kind application. Though it is still a tool for making conversation, the way conversation happens is very different.&lt;/h3&gt;
+&lt;h3 id=&quot;doing-a-feature-comparison-between-existing-chat-applications-and-chatminion-wont-fit-chatminion-is-a-one-of-its-kind-application-though-it-is-still-a-tool-for-making-conversation-the-way-conversation-happens-is-very-different&quot;&gt;Doing a feature comparison between existing chat applications and Chatminion wont fit. Chatminion is a one of its kind application. Though it is still a tool for making conversation, the way conversation happens is very different.&lt;/h3&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;But then there are clear differences about what other chat application can do and what Chatminion can do &lt;/p&gt;
@@ -1006,7 +1023,7 @@ But there is a catch here! Neither you nor your recipient have to type and send 
 &lt;div id=&quot;who-asked-you&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;toc_9&quot;&gt;Who asked you to write this?&lt;/h2&gt;
+&lt;h2 id=&quot;who-asked-you-to-write-this&quot;&gt;Who asked you to write this?&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Nobody.&lt;/strong&gt; Every day these things keep happening at my office. &lt;/p&gt;
 
@@ -1024,13 +1041,13 @@ But there is a catch here! Neither you nor your recipient have to type and send 
 &lt;blockquote&gt;
 &lt;p&gt;We made chatminion because we thought chatting this way will be interesting&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_10&quot;&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to be seen.&lt;/h3&gt;
+&lt;h3 id=&quot;we-are-experimenting-to-see-whether-chatting-really-works-this-way-and-the-results-of-the-experiment-are-yet-to-be-seen&quot;&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to be seen.&lt;/h3&gt;
 &lt;/blockquote&gt;
 
 &lt;div id=&quot;who-are-you-fellas&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;toc_11&quot;&gt;Who are you fellas ?&lt;/h2&gt;
+&lt;h2 id=&quot;who-are-you-fellas&quot;&gt;Who are you fellas ?&lt;/h2&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Hi, My name is &lt;strong&gt;dineshswamy&lt;/strong&gt; . i wrote chatminion along with my friend &lt;strong&gt;ganesh&lt;/strong&gt; .I currently work as a product developer at &lt;a href=&quot;http://www.komparify.com&quot;&gt;komparify.com&lt;/a&gt; . Chatminion is used extensively in my office .I hope you use it as well.
@@ -1048,7 +1065,7 @@ If you dont find any issues  ,just drop a mail  &lt;strong&gt;WE&amp;#39;LL  DIS
    <content type="html">&lt;p&gt;Today , i completed a course on coursera . For a very long time , i wanted to accomplish these
 two things . Polish my algorithm skills . Complete a course on coursera .&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_0&quot;&gt;Not everything came true&lt;/h3&gt;
+&lt;h3 id=&quot;not-everything-came-true&quot;&gt;Not everything came true&lt;/h3&gt;
 
 &lt;p&gt;Some part of was satisfied , that i was able to complete the course . But unfortunately i wont be able to recieve the certificate of accomplishment . The base score to get a certificate of accomplishment is &lt;code&gt;70&lt;/code&gt; , i managed to score only &lt;code&gt;66&lt;/code&gt; .The following is the score summary&lt;/p&gt;
 
@@ -1064,6 +1081,26 @@ Obviously , my problem sets sucked in accomplishment certificate . The fact is o
 &lt;p&gt;But never mind , i m planning to take the sequel course .&lt;/p&gt;
 
 &lt;p&gt;Thanks for reading :P &lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Welcome to Jekyll!</title>
+   <link href="http://hyde.getpoole.com/jekyll/update/welcome-to-jekyll.html"/>
+   <updated>2014-05-03T20:12:18+05:30</updated>
+   <id>http://hyde.getpoole.com/jekyll/update/welcome-to-jekyll</id>
+   <content type="html">&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1127,7 +1164,7 @@ Obviously , my problem sets sucked in accomplishment certificate . The fact is o
     
 &lt;/div&gt;
 
-&lt;h2 id=&quot;toc_0&quot;&gt;What towermapify does ?&lt;/h2&gt;
+&lt;h2 id=&quot;what-towermapify-does&quot;&gt;What towermapify does ?&lt;/h2&gt;
 
 &lt;p&gt;Towermapify is a coverage map. The objective is to map  coverage strength of all the operators in india .
 Whether they provide 3G or 4G or HSIA(high speed internet connectivity) in a particular region . If a user
@@ -1135,23 +1172,23 @@ needs to know whether 3G/4G/HSIA is available in a region ? or How good the cove
 
 &lt;p&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;toc_1&quot;&gt;1 internship month =  1 prototype throwaway + 1 Production version&lt;/h2&gt;
+&lt;h2 id=&quot;1-internship-month-1-prototype-throwaway-1-production-version&quot;&gt;1 internship month =  1 prototype throwaway + 1 Production version&lt;/h2&gt;
 
 &lt;p&gt;When i was briefed about the project , neither of us had no clue how we are going to do this .We only had data required for the map .&lt;/p&gt;
 
 &lt;p&gt;We started with Google Maps API combined with Google FusionTables . Your data will be hosted by the Google Servers .It will provide REST FULL apis to access the data . You need to write a client(HTML+CSS+JS) where you need to handle the data and put them in Map.&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_2&quot;&gt;Growing requirements&lt;/h3&gt;
+&lt;h3 id=&quot;growing-requirements&quot;&gt;Growing requirements&lt;/h3&gt;
 
 &lt;p&gt;Once i got a prototype working , the requirements at komparify.com started growing , we badly required many features . But Fusion tables are not enough as they had limitations.&lt;/p&gt;
 
 &lt;p&gt;For example : You cant do a &amp;quot;OR&amp;quot; in the SQL query you send .Your table should be publicly available .&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_3&quot;&gt;Thrown far far away&lt;/h3&gt;
+&lt;h3 id=&quot;thrown-far-far-away&quot;&gt;Thrown far far away&lt;/h3&gt;
 
 &lt;p&gt;So days and days of work was thrown away and we finally settled down to define development stack.We decided use our own servers and make restful apis for data .&lt;/p&gt;
 
-&lt;h2 id=&quot;toc_4&quot;&gt;Towermapify - Built on&lt;/h2&gt;
+&lt;h2 id=&quot;towermapify-built-on&quot;&gt;Towermapify - Built on&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Ruby on Rails &lt;/li&gt;
@@ -1162,28 +1199,28 @@ needs to know whether 3G/4G/HSIA is available in a region ? or How good the cove
 &lt;li&gt;MySQL&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;toc_5&quot;&gt;OverQuery algorithm&lt;/h2&gt;
+&lt;h2 id=&quot;overquery-algorithm&quot;&gt;OverQuery algorithm&lt;/h2&gt;
 
-&lt;h3 id=&quot;toc_6&quot;&gt;Problem (A)&lt;/h3&gt;
+&lt;h3 id=&quot;problem-a&quot;&gt;Problem (A)&lt;/h3&gt;
 
 &lt;p&gt;We have a huge data containing latitude and longitude information of places all over india . if we
 drop markers for all the places , it will do a catastropic damage to the performance,browser.
 Takes huge memory , not a good idea.&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_7&quot;&gt;Work around (A)&lt;/h3&gt;
+&lt;h3 id=&quot;work-around-a&quot;&gt;Work around (A)&lt;/h3&gt;
 
 &lt;p&gt;So , to decide what markers to drop . we get the bounding edges south west and north east of the map . With that , the query is for only the  places that resides inside the bounding box and then query again when the user does panning inside the map , with the new bounding box&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_8&quot;&gt;Problem (B)&lt;/h3&gt;
+&lt;h3 id=&quot;problem-b&quot;&gt;Problem (B)&lt;/h3&gt;
 
 &lt;p&gt;The way we find the new bounding box after the user pans is by listening to the map-events . But the problem is that map-events fire for every small pan or zoom , making navigation inside maps terrible . If the mouse is just shaken inside the map , it does a query for the new bounding box and drops the markers again , giving a terrible user experience .
 Also , server-client IO will be high .&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_9&quot;&gt;Work around (B)&lt;/h3&gt;
+&lt;h3 id=&quot;work-around-b&quot;&gt;Work around (B)&lt;/h3&gt;
 
 &lt;p&gt;This is the place where we went back to the drawing board and started writing rules that minimizes no of requests to the server and gives a good user experience .&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_10&quot;&gt;Overquery&lt;/h3&gt;
+&lt;h3 id=&quot;overquery&quot;&gt;Overquery&lt;/h3&gt;
 
 &lt;p&gt;My boss and co-founder of komparify.com Jigar doshi , formulated this approach.He knew of this approach thourgh his
 experience at Amazon.com .&lt;/p&gt;
@@ -1200,7 +1237,7 @@ experience at Amazon.com .&lt;/p&gt;
 
 &lt;p&gt;So,now when the user pan around the map ,the panning will be smooth and thats how &lt;strong&gt;Problem(b)&lt;/strong&gt; was solved&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_11&quot;&gt;Performance Boost&lt;/h3&gt;
+&lt;h3 id=&quot;performance-boost&quot;&gt;Performance Boost&lt;/h3&gt;
 
 &lt;p&gt;We were very close to put this into production and then we started looking under the hood. The latency was not really high but notable .&lt;/p&gt;
 
@@ -1210,11 +1247,11 @@ there was a pretty KML parser( :P )  available so it is was easy for us to handl
 &lt;p&gt;we switched from KML to JSON , and this gave us a solid decrease in the latency.Of course , few big parts of the app has to be
 rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server)&lt;/strong&gt; so it was not hard for me.&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_12&quot;&gt;Finally we shipped&lt;/h3&gt;
+&lt;h3 id=&quot;finally-we-shipped&quot;&gt;Finally we shipped&lt;/h3&gt;
 
 &lt;p&gt;The app exists in &lt;strong&gt;rails-cells&lt;/strong&gt; integration inside komparify.com . Also , i have a version hosted here &lt;/p&gt;
 
-&lt;h2 id=&quot;toc_13&quot;&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;towermapify&quot;&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/h2&gt;
 
 &lt;div id=&quot;towermapify-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
@@ -1298,27 +1335,26 @@ rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server
 
 &lt;p&gt;Etiam porta &lt;em&gt;sem malesuada magna&lt;/em&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
 
-&lt;h2 id=&quot;toc_0&quot;&gt;Heading&lt;/h2&gt;
+&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;/h2&gt;
 
 &lt;p&gt;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_1&quot;&gt;Sub-heading&lt;/h3&gt;
+&lt;h3 id=&quot;sub-heading&quot;&gt;Sub-heading&lt;/h3&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_2&quot;&gt;Sub-heading&lt;/h3&gt;
+&lt;h3 id=&quot;sub-heading&quot;&gt;Sub-heading&lt;/h3&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
 
