@@ -4,7 +4,7 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
  <link href="http://hyde.getpoole.com/"/>
- <updated>2015-08-01T13:45:31+05:30</updated>
+ <updated>2016-05-26T20:52:39+05:30</updated>
  <id>http://hyde.getpoole.com</id>
  <author>
    <name>Mark Otto</name>
@@ -877,19 +877,33 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
    <content type="html">&lt;h2 id=&quot;my-apps-and-projects-are-listed-below-i-ve-starred-them-too&quot;&gt;My apps and projects  are listed below , i ve starred them too&lt;/h2&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;ul class=&quot;project-listing&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/chatminion/&quot; target=&quot;_blank&quot;&gt;Chatminion&lt;/a&gt;                                 &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://planhound.in/&quot; target=&quot;_blank&quot;&gt;Planhound&lt;/a&gt;             &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/airdraw/&quot; target=&quot;_blank&quot;&gt;Airdraw&lt;/a&gt;                                          &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/towermapify/&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;                           &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/natural-language-ui-for-games/&quot; target=&quot;_blank&quot;&gt;Natural language based User interface for computer games&lt;/a&gt; &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/co-curricular/&quot; target=&quot;_blank&quot;&gt;SVCE Co curricular &lt;/a&gt;         &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/bits-and-bytes/&quot; target=&quot;_blank&quot;&gt;Bits and bytes &lt;/a&gt;                &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/ncc-army/&quot; target=&quot;_blank&quot;&gt;SVCE NCC-Army &lt;/a&gt;                           &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;ul class=&quot;project-listing&quot;&gt;
+   &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;/chatminion/&quot; target=&quot;_blank&quot;&gt;Chatminion&lt;/a&gt;                                 &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;http://planhound.in/&quot; target=&quot;_blank&quot;&gt;Planhound&lt;/a&gt;             &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;/airdraw/&quot; target=&quot;_blank&quot;&gt;Airdraw&lt;/a&gt;                                          &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;/towermapify/&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;                           &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;/natural-language-ui-for-games/&quot; target=&quot;_blank&quot;&gt;Natural language based User interface for computer games&lt;/a&gt; &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;/co-curricular/&quot; target=&quot;_blank&quot;&gt;SVCE Co curricular &lt;/a&gt;         &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;/bits-and-bytes/&quot; target=&quot;_blank&quot;&gt;Bits and bytes &lt;/a&gt;                &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;/ncc-army/&quot; target=&quot;_blank&quot;&gt;SVCE NCC-Army &lt;/a&gt;                           &lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-star fa-4&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+   &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/center&gt;&lt;/p&gt;
 </content>
  </entry>
  

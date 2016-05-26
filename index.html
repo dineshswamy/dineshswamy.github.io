@@ -1,95 +1,98 @@
 ---
-title: Dineshswamy's hacking logs
-permalink: /
-layout: default
+  title: Dineshswamy's hacking logs
+  permalink: /
+  layout: default
 ---
 
 
-<head>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+   <div class = "row">
+      <div class="col-lg-9">
+        <div class="post">
+      <h1 class="post-title">
+        <a href="/2014/01/02/introducing-lanyon/">
+          Introducing Lanyon
+        </a>
+      </h1>
 
-  ga('create', 'UA-65289523-1', 'auto');
-  ga('send', 'pageview');
+      <span class="post-date">02 Jan 2014</span>
 
-</script>
-</head>
+      <p>Lanyon is an unassuming <a href="http://jekyllrb.com">Jekyll</a> theme that places content first by tucking away navigation in a hidden drawer. It's based on <a href="http://getpoole.com">Poole</a>, the Jekyll butler.</p>
 
-<!-- 
-<img src="/public/images/dinesh_swamy200x200.jpeg" /> -->
+  <h3>Built on Poole</h3>
 
-<!-- <a href="http://in.linkedin.com/in/dineshswamyp">
-      
-          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Dinesh Swamy's profile on LinkedIn">
-        
-</a> -->
+  <p>Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by <a href="https://twitter.com/mdo">@mdo</a>. Poole, and every theme built on it (like Lanyon here) includes the following:</p>
 
-<div class="pending">
-  
-  <h1>Hi, I m Dinesh , The Happy engineer from chennai</h1>
+  <ul>
+    <li>Complete Jekyll setup included (layouts, config, <a href="/404">404</a>, <a href="/atom.xml">RSS feed</a>, posts, and <a href="/about">example page</a>)</li>
+    <li>Mobile friendly design and development</li>
+    <li>Easily scalable text and component sizing with <code>rem</code> units in the CSS</li>
+    <li>Support for a wide gamut of HTML elements</li>
+    <li>Related posts (time-based, because Jekyll) below each post</li>
+    <li>Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)</li>
+  </ul>
 
-</div>
-<div>Below is the video of clip of an animated story i made . it has a small message for somebody special .. shhhhh</div>
+  <h3>Lanyon features</h3>
 
-<video id="example_video_1" class="video-js vjs-default-skin"
-  controls preload="auto" width="800px" height="400px"
-  poster="http://i.imgur.com/YMNrB9K.jpg?1"
-  data-setup='{"example_option":true}'>
- <source src="/public/images/the-fish-story-for-shuzuka.mp4" type='video/mp4' />
- <source src="/public/images/the-fish-story-for-shuzuka.webmsd.webm" type='video/webm' />
- <source src="/public/images/the-fish-story-for-shuzuka.oggtheora.ogv" type='video/ogg' />
- <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-</video>
+  <p>In addition to the features of Poole, Lanyon adds the following:</p>
 
-<h1> My cosmic address :P </h1>
-<div class="address">
-Dineshswamy ,</br> 
-Chennai , Tamilnadu , India ,</br>
-No.3 (from sun) Planet Earth,</br>
-Solar system ,</br>
-Orion arm , Milky way galaxy</br>
-Within Local group ,</br>
-Virgo super cluster </br>
-The Universe </br>
-</div>
+  <ul>
+  <li>Toggleable sliding sidebar (built with only CSS) via <strong>☰</strong> link in top corner</li>
+  <li>Sidebar includes support for textual modules and a dynamically generated navigation with active link support</li>
+  <li>Two orientations for content and sidebar, default (left sidebar) and <a href="https://github.com/poole/lanyon#reverse-layout">reverse</a> (right sidebar), available via <code>&lt;body&gt;</code> classes</li>
+  <li><a href="https://github.com/poole/lanyon#themes">Eight optional color schemes</a>, available via <code>&lt;body&gt;</code> classes</li>
+  </ul>
 
-<a href="/project-apps/" style="color:#000000;" class="sidebar-item-name sidebar-nav-item">My Projects and Apps</a>
+  <p><a href="https://github.com/poole/lanyon#readme">Head to the readme</a> to learn more.</p>
 
-<!-- <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  <h3>Browser support</h3>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+  <p>Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.</p>
 
-    {{ post.content }}
+  <h3>Download</h3>
+
+  <p>Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.</p>
+
+  <p>Thanks!</p>
+
+    </div>
+
+      </div>
+   </div>
+              
+
+
+  <!-- <div class="posts">
+    {% for post in paginator.posts %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h1>
+
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+
+      {{ post.content }}
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
     {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+      <span class="pagination-item older">Older</span>
     {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div> -->
-<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
-<script src="http://vjs.zencdn.net/4.12/video.js"></script>
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="pagination-item newer" href="/">Newer</a>
+      {% else %}
+        <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+      {% endif %}
+    {% else %}
+      <span class="pagination-item newer">Newer</span>
+    {% endif %}
+  </div> -->
+  <link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+  <script src="http://vjs.zencdn.net/4.12/video.js"></script>
 
