@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+  <div class="jumbo-banner-for-article">
+    <div>
+        <div class="article-headline">
+          Making a 2D animation short film using Git, JS and CSS3 
+        </div>
+        <div class="signature"> Dinesh swamy <span>{{ page.date | date_to_string }}</span></div>
+    </div>
+  </div>
+  <div class="container-full-width content-padding">
+      {{ content }}
+  </div>
+
+  </body>
+  <script type="text/javascript" src="/public/js/jquery.js"></script>
+  <script type="text/javascript" src="/public/js/jquery.smooth-scroll.min.js"></script>
+  <script type="text/javascript" src="/public/js/main.js"></script>
+</html>

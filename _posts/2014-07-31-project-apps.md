@@ -7,21 +7,30 @@ screenshot_hash: ['planhound','airdraw','towermapify','svcecocurricular','nlpui'
 ---
 
 
-
-
-##My apps and projects  are listed below , i ve starred them too
-
-<center>
+## Projects and Apps
 <ul class="project-listing">
-
-<li><p><a href="/chatminion/" target="_blank">Chatminion</a>                                 <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p></li>
-<li><p><a href="http://planhound.in/" target="_blank">Planhound</a>             <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p></li>
-<li><p><a href="/airdraw/" target="_blank">Airdraw</a>                                          <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p></li>
-<li><p><a href="/towermapify/" target="_blank">Towermapify</a>                           <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p></li>
-<li><p><a href="/natural-language-ui-for-games/" target="_blank">Natural language based User interface for computer games</a> <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p></li>
-<li><p><a href="/co-curricular/" target="_blank">SVCE Co curricular </a>         <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p></li>
-<li><p><a href="/bits-and-bytes/" target="_blank">Bits and bytes </a>                <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p></li>
-<li><p><a href="/ncc-army/" target="_blank">SVCE NCC-Army </a>                           <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p></li>
+  <li>
+    <p><a href="/chatminion/" target="_blank">Chatminion</a>                                 <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p>
+  </li>
+  <li>
+    <p><a href="http://planhound.in/" target="_blank">Planhound</a>             <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p>
+  </li>
+  <li>
+    <p><a href="/airdraw/" target="_blank">Airdraw</a>                                          <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p>
+  </li>
+  <li>
+    <p><a href="/towermapify/" target="_blank">Towermapify</a>                           <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p>
+  </li>
+  <li>
+    <p><a href="/natural-language-ui-for-games/" target="_blank">Natural language based User interface for computer games</a> <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p>
+  </li>
+  <li>
+    <p><a href="/co-curricular/" target="_blank">SVCE Co curricular </a>         <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p>
+  </li>
+  <li>
+    <p><a href="/bits-and-bytes/" target="_blank">Bits and bytes </a>                <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p>
+  </li>
+  <li>
+    <p><a href="/ncc-army/" target="_blank">SVCE NCC-Army </a>                           <i class="fa fa-star fa-4"></i><i class="fa fa-star fa-4"></i></p>
+  </li>
 </ul>
-
-</center>
