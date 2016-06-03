@@ -6,7 +6,7 @@
 		<b>Paper</b> or <b>Electricity</b>    
 </div>
 
-<h2>My recent posts</h2>
+<h2>Recent posts</h2>
 
 <h3><a href= "/2d-animation-using-git-js-and-css3">Making a 2d animation short film using Git,CSS and JS</a></h3>
 <h3><a href= "/chatminion">Chatminion - the office chat assistant</a></h3>
