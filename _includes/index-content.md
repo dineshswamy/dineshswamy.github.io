@@ -8,7 +8,7 @@
 
 <h2>Recent posts</h2>
 
-<h3><a href= "/2d-animation-using-git-js-and-css3">Making a 2d animation short film using Git,CSS and JS</a></h3>
+<h3><a href= "/2d-animation-film-using-git-js-and-css3">Making a 2d animation short film using Git,CSS and JS</a></h3>
 <h3><a href= "/chatminion">Chatminion - the office chat assistant</a></h3>
 <h3><a href= "/airdraw">Air Draw - Draw things in the air</a></h3>
 <h3><a href= "/towermapify">Towermapify - Coverage map of all indian mobile operators</a></h3>

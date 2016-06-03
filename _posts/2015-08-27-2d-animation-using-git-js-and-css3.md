@@ -1,7 +1,7 @@
 ---
 layout: big-article-layout
 title: Making a 2d animation short film with Git,JS and CSS3 -  Dinesh's logs
-permalink: 2d-animation-using-git-js-and-css3
+permalink: 2d-animation-film-using-git-js-and-css3
 sidebar: no
 css: ['/public/css/main.css']
 ---
