@@ -186,6 +186,9 @@ body{
  padding-left: 10px;
  color: #fff;
 }
+.signature a{
+ color: #fff;
+}
 
 .signature span{
 	display: inline-block;

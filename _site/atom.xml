@@ -2,34 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Dineshswamy's hacking log</title>
- <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
- <link href="http://hyde.getpoole.com/"/>
- <updated>2016-06-03T16:26:54+05:30</updated>
- <id>http://hyde.getpoole.com</id>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2016-06-03T19:54:24+05:30</updated>
+ <id></id>
  <author>
-   <name>Mark Otto</name>
+   <name>Dinesh swamy</name>
    <email></email>
  </author>
 
  
  <entry>
    <title>Making a 2d animation short film with Git,JS and CSS3 -  Dinesh's logs</title>
-   <link href="http://hyde.getpoole.com/2d-animation-using-git-js-and-css3"/>
+   <link href="/2d-animation-film-using-git-js-and-css3"/>
    <updated>2015-08-27T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/2d-animation-using-git-js-and-css3</id>
+   <id>/2d-animation-using-git-js-and-css3</id>
    <content type="html">&lt;h2 id=&quot;why-should-you-read-this&quot;&gt;Why should you read this ?&lt;/h2&gt;
 
-&lt;p&gt;There might be a day in your life where you have to make a product video with limited budget/time or you might fall in love in with the &lt;a href=&quot;https://www.youtube.com/channel/UCsooa4yRKGN_zEE8iknghZA&quot;&gt;TEDed videos&lt;/a&gt; like me and wanted to create one . Okay , now watch the video.
+&lt;p&gt;Well, there might be a day in your life where you have to make a product video with limited budget/time and skill or you might fall in love in with the &lt;a href=&quot;https://www.youtube.com/channel/UCsooa4yRKGN_zEE8iknghZA&quot;&gt;TEDed videos&lt;/a&gt; like me and wanted to create one . Okay , now lets watch the video.
 &lt;div class=&quot;video-holder&quot;&gt;
 &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/KzFiTgHKAtk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;choosing-the-sandbox&quot;&gt;Choosing the sandbox&lt;/h2&gt;
 
-&lt;p&gt;I sat down to find the best suite of tools for making a 2d short film(
-&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_2D_animation_software&quot;&gt;List of 2d animation software&lt;/a&gt;).
-I evaluated each one of them carefully based on its availability(free or otherwise) and learning curve it possess . I finally settled with &lt;a href=&quot;http://www.synfig.org/cms/&quot;&gt;Synfig&lt;/a&gt;, but only after spending a day with it, I realized that it will work good with Linux distros and not in El capitan(newer MacOSx).
-So , i iterated my skillset to find a combination that would help me. Finally i came up with the list &lt;/p&gt;
+&lt;p&gt;I sat down to find the best suite of tools for making a 2d short film( List of 2d animation software). I evaluated each one of them carefully based on its availability(free or otherwise) and learning curve it possesses . Finally, I settled with Synfig, but only after spending a day with it, I realized that it will work good with Linux distros and not in El Capitan(newer MacOSx). So , I iterated my skillset to find a combination that would help me. Finally, I came up with the list&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;b&gt; Git &lt;/b&gt; + &lt;b&gt;JS&lt;/b&gt; + &lt;b&gt;CSS3&lt;/b&gt; + &lt;b&gt;ScreenRecorderHD&lt;/b&gt; + &lt;b&gt;iMovie&lt;/b&gt; + &lt;b&gt;SoundRecorder&lt;/b&gt;&lt;/p&gt;
@@ -40,7 +37,7 @@ So , i iterated my skillset to find a combination that would help me. Finally i 
 &lt;ol&gt;
 &lt;li&gt;Initialize the project folder with git.&lt;/li&gt;
 &lt;li&gt;Create animation with CSS3 keyframes and JS (for refined controls)&lt;/li&gt;
-&lt;li&gt;Use a browser in full screen and record the scene using a HD recorder&lt;/li&gt;
+&lt;li&gt;Use a browser in full screen and record the scene using an HD recorder&lt;/li&gt;
 &lt;li&gt;Add background sounds and voice over using a movie editor preferably iMovie.&lt;/li&gt;
 &lt;li&gt;Make a movie out of all the videos recorded&lt;/li&gt;
 &lt;/ol&gt;
@@ -49,9 +46,13 @@ So , i iterated my skillset to find a combination that would help me. Finally i 
 
 &lt;ul&gt;
 &lt;li&gt;Initialize the folder with Git . Every scene in the short film will be a git branch&lt;/li&gt;
-&lt;li&gt;Every scene will definitely have common assets and functionality. All of this will go in to the master branch. For eg. In the fish story,  the background, the under ground bubbles, the clouds are going to be the same always.&lt;/li&gt;
-&lt;li&gt;All the scene will either checkout from the master branch or the immediate scene before it .&lt;/li&gt;
+&lt;li&gt;Every scene will definitely have common assets and functionality. All of this will go into the master branch. For eg. In the fish story,  the background, the underground bubbles, the clouds are going to be the same always.&lt;/li&gt;
+&lt;li&gt;All the scenes will either check out from the master branch or the immediate scene before it .&lt;/li&gt;
 &lt;li&gt;You can switch back for the scenes by checking out to different branches &lt;/li&gt;
+&lt;li&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git checkout master
+git checkout -b narration-continuation
+git checkout -b final-scene&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;css-keyframes&quot;&gt;CSS keyframes&lt;/h2&gt;
@@ -59,7 +60,7 @@ So , i iterated my skillset to find a combination that would help me. Finally i 
 &lt;ul&gt;
 &lt;li&gt;CSS3&amp;#39;s keyframes are the most underused features. It has multiple sophisticated capabilities with simple 
 syntatic structure. &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;You can loop an animation, provide a transition to it and define what the element should like at each state.  For the bubbles that are coming out from the bottom the css is &lt;/p&gt;
+&lt;li&gt;&lt;p&gt;You can loop an animation, provide a transition to it and define what the element should like at each state.  For the water bubbles that came out from the bottom in the film the css is like&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.bubble&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -96,7 +97,6 @@ syntatic structure. &lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;JS is very much needed to make the co ordination between different animations of different characters.&lt;/li&gt;
 &lt;li&gt;Listen to the key stroke and perform necessary actions. You ll feel like making an actual film shooting except you have to tell &amp;quot;ACTION&amp;quot; using your mind voice .&lt;/li&gt;
-&lt;li&gt;Listening to the keys and doing apppropriate action is the way to do this. &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;onkeyup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -124,16 +124,19 @@ syntatic structure. &lt;/li&gt;
 &lt;h2 id=&quot;post-production&quot;&gt;Post production&lt;/h2&gt;
 
 &lt;p&gt;Finally , you have to combine all the videos that was shot into a sequence of scences with narration and background music. 
-You will need a video editor to do all this. iMovie (free for mac) is one of the best and has a small learning curve although .
-Your movie is as good as your assets(images, css, sound).&lt;/p&gt;
+You will need a video editor to do all this. iMovie (free for mac) is one of the best and has a small learning curve although . &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Your movie is as good as your assets(images, css, sound),  CSS3 animation and your patience. Thanks for stopping by&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
  </entry>
  
  <entry>
    <title>Dineshswamy's posters</title>
-   <link href="http://hyde.getpoole.com/posters"/>
+   <link href="/posters"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/posters</id>
+   <id>/posters</id>
    <content type="html">&lt;h2 id=&quot;posters-i-ve-designed-for-competitions-and-my-workplace&quot;&gt;Posters , i ve designed for competitions and my workplace&lt;/h2&gt;
 
 &lt;p&gt;&lt;hr&gt;
@@ -151,9 +154,9 @@ Your movie is as good as your assets(images, css, sound).&lt;/p&gt;
  
  <entry>
    <title>Dineshswamy's projects and applications in his previous life</title>
-   <link href="http://hyde.getpoole.com/planhound"/>
+   <link href="/planhound"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/planhound</id>
+   <id>/planhound</id>
    <content type="html">&lt;!--PLANHOUND --&gt;
 
 &lt;div class=&quot;project-container&quot; &gt; 
@@ -284,9 +287,9 @@ Your movie is as good as your assets(images, css, sound).&lt;/p&gt;
  
  <entry>
    <title>E-learning website of NCC-ARMY wing ,SVCE</title>
-   <link href="http://hyde.getpoole.com/ncc-army"/>
+   <link href="/ncc-army"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/nccarmy</id>
+   <id>/nccarmy</id>
    <content type="html">&lt;!--NCC ARMY --&gt;
 
 &lt;div class=&quot;project-container&quot;&gt; 
@@ -439,9 +442,9 @@ Your movie is as good as your assets(images, css, sound).&lt;/p&gt;
  
  <entry>
    <title>Natural language based user interface for Computer games</title>
-   <link href="http://hyde.getpoole.com/natural-language-ui-for-games"/>
+   <link href="/natural-language-ui-for-games"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/natural-language-ui-for-games</id>
+   <id>/natural-language-ui-for-games</id>
    <content type="html">&lt;!--Natural language based computer games--&gt;
 
 &lt;div class=&quot;project-container&quot;&gt; 
@@ -493,9 +496,9 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
  
  <entry>
    <title>Information management of Co-curricular activities ,SVCE</title>
-   <link href="http://hyde.getpoole.com/co-curricular"/>
+   <link href="/co-curricular"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/co-curricular</id>
+   <id>/co-curricular</id>
    <content type="html">&lt;!--SVCE CO-CURRICULAR --&gt;
 
 &lt;div class=&quot;project-container&quot;&gt; 
@@ -709,9 +712,9 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
  
  <entry>
    <title>Bits and Bytes for ACE(Association of Computer Science Engineers)</title>
-   <link href="http://hyde.getpoole.com/bits-and-bytes"/>
+   <link href="/bits-and-bytes"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/bitsandbytes</id>
+   <id>/bitsandbytes</id>
    <content type="html">&lt;!-- BITS and BYTES --&gt;
 
 &lt;div class=&quot;project-container&quot;&gt; 
@@ -850,9 +853,9 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
  
  <entry>
    <title>“Airdraw” a sony smartwatch app</title>
-   <link href="http://hyde.getpoole.com/airdraw"/>
+   <link href="/airdraw"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/airdraw</id>
+   <id>/airdraw</id>
    <content type="html">&lt;!--Airdraw --&gt;
 
 &lt;div class=&quot;project-container&quot; &gt; 
@@ -980,9 +983,9 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
  
  <entry>
    <title>Dineshswamy's projects and applications in his previous life</title>
-   <link href="http://hyde.getpoole.com/project-apps"/>
+   <link href="/project-apps"/>
    <updated>2014-07-31T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/project-apps</id>
+   <id>/project-apps</id>
    <content type="html">&lt;h2 id=&quot;projects-and-apps&quot;&gt;Projects and Apps&lt;/h2&gt;
 
 &lt;ul class=&quot;project-listing&quot;&gt;
@@ -1016,9 +1019,9 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
  
  <entry>
    <title>What is Chatminion ?</title>
-   <link href="http://hyde.getpoole.com/chatminion"/>
+   <link href="/chatminion"/>
    <updated>2014-06-27T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/chatminion</id>
+   <id>/chatminion</id>
    <content type="html">&lt;h6 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h6&gt;
 
 &lt;blockquote&gt;
@@ -1169,9 +1172,9 @@ If you dont find any issues  ,just drop a mail  &lt;strong&gt;WE&amp;#39;LL  DIS
  
  <entry>
    <title>The wish that came true</title>
-   <link href="http://hyde.getpoole.com/finishing-algorithms-coursera.html"/>
+   <link href="/finishing-algorithms-coursera.html"/>
    <updated>2014-06-23T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/finishing-algorithms-coursera</id>
+   <id>/finishing-algorithms-coursera</id>
    <content type="html">&lt;p&gt;Today , i completed a course on coursera . For a very long time , i wanted to accomplish these
 two things . Polish my algorithm skills . Complete a course on coursera .&lt;/p&gt;
 
@@ -1196,9 +1199,9 @@ Obviously , my problem sets sucked in accomplishment certificate . The fact is o
  
  <entry>
    <title>Welcome to Jekyll!</title>
-   <link href="http://hyde.getpoole.com/jekyll/update/welcome-to-jekyll.html"/>
+   <link href="/jekyll/update/welcome-to-jekyll.html"/>
    <updated>2014-05-03T20:12:18+05:30</updated>
-   <id>http://hyde.getpoole.com/jekyll/update/welcome-to-jekyll</id>
+   <id>/jekyll/update/welcome-to-jekyll</id>
    <content type="html">&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
@@ -1216,9 +1219,9 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
  
  <entry>
    <title>Towermapify - Coverage maps for komparify.com</title>
-   <link href="http://hyde.getpoole.com/towermapify"/>
+   <link href="/towermapify"/>
    <updated>2014-01-08T00:00:00+05:30</updated>
-   <id>http://hyde.getpoole.com/towermapify-making</id>
+   <id>/towermapify-making</id>
    <content type="html">&lt;div class=&quot;post&quot;&gt;
   &lt;h1 class=&quot;post-title&quot;&gt;Towermapify - Coverage maps for komparify.com&lt;/h1&gt;
 &lt;/div&gt;
