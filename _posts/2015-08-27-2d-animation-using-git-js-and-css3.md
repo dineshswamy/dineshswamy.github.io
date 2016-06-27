@@ -18,7 +18,7 @@ I sat down to find the best suite of tools for making a 2d short film( List of 2
 
 > <b> Git </b> + <b>JS</b> + <b>CSS3</b> + <b>ScreenRecorderHD</b> + <b>iMovie</b> + <b>SoundRecorder</b>
 
-## The process
+## Getting started
 1. Initialize the project folder with git.
 2. Create animation with CSS3 keyframes and JS (for refined controls)
 3. Use a browser in full screen and record the scene using an HD recorder
