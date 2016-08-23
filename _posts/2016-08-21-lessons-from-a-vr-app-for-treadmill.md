@@ -71,7 +71,7 @@ Though VR gives a good experience for gaming, all you can do is, just sit and lo
 
  > One of my deeply regretable google search:  "Magic leap patents"
 
-<div class="juxtapose-images">
+<div>
     <img src="https://dl.dropboxusercontent.com/u/41521065/24D6CCB900000578-2916696-image-a-50_1421673073442.jpg" />
 </div>
 
@@ -79,7 +79,7 @@ Though VR gives a good experience for gaming, all you can do is, just sit and lo
   Awww .. thats disappointng and discouraging.
 
 > Magic leap patented its glass as well as the applications surrounding it .
-
+- For now, I putting this idea in shelf, may be it will fly one day not immediatly
 
 ## To the point
 Only for bangalore people,
