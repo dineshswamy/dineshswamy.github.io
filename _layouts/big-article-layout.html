@@ -4,10 +4,10 @@
   {% include head.html %}
 
   <body>
-  <div class="jumbo-banner-for-article">
+  <div class="jumbo-banner-for-article {{ page.bannerbg_image }}">
     <div>
         <div class="article-headline">
-          Making a 2D animation short film using Git, JS and CSS3 
+          {{ page.banner_title }}
         </div>
         <div class="signature"> <a href= "/">Dinesh swamy</a> <span>{{ page.date | date_to_string }}</span></div>
     </div>

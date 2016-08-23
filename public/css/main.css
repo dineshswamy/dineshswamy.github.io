@@ -1,7 +1,7 @@
 body{
 
 
-	
+
 }
 
 .sidebar{
@@ -24,7 +24,7 @@ body{
 }
 
 .profile_container img{
-	
+
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
 	border-radius: 100px;
@@ -37,17 +37,17 @@ body{
 }
 
 .sidebar-nav-item{
-	
+
 	width: 100%;
 
 }
 
 .sidebar-nav-item.active a{
-	
+
 	width: 100%;
 	background: #27ae60;
 	padding: 10px;
-	
+
 }
 
 .jumbo-banner {
@@ -62,12 +62,19 @@ body{
 }
 .jumbo-banner-for-article {
 	width: 100%;
-	background: url("../images/2d-animation-banner.jpg") no-repeat bottom fixed;
 	height: 400px;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
 	-o-background-size: cover;
      background-size: cover;
+}
+
+.twod-animation-banner {
+	background: url("../images/2d-animation-banner.jpg") no-repeat bottom fixed;
+}
+
+.vr-app-banner {
+	background: url("../images/vr-app-background.png") no-repeat bottom fixed;
 }
 
 .chrome_webstore_button{
@@ -80,7 +87,7 @@ body{
 	bottom: 0px;
 	top: 150px;
 	right: 10px;
-	
+
 }
 
 .fb-plugins{
@@ -130,17 +137,17 @@ body{
 }
 
 .chatminion-wh-questions a:hover{
-	
+
 	text-decoration: underline;
 }
 
 .inline-image{
-	
+
 	-webkit-box-shadow: 6px 0px 17px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    6px 0px 17px 0px rgba(50, 50, 50, 0.75);
 	box-shadow:         6px 0px 17px 0px rgba(50, 50, 50, 0.75);
 	margin-top: 5px;
-	
+
 }
 
 .profile_picture{
@@ -153,7 +160,6 @@ body{
 	clear: both;
 	text-align: center;
 	padding: 20px;
-		
 }
 .screenshots img{
 	float: left;
@@ -205,7 +211,8 @@ body{
   font-size: 50px;
  }
 }
-@media screen and (max-width: 400px) and (min-width: 200px) {
+@media screen and (max-width: 400px) and (min-width: 200px
+) {
 	.article-headline {
   font-size: 40px;
  }
@@ -245,4 +252,19 @@ body{
 @-webkit-keyframes bubble_moving_up {
 			0%   {bottom: 0px; opacity:1;}
 		100% {bottom: 600px; opacity:0;}
+}
+
+
+/* VR for treadmill app */
+
+.juxtapose-images {
+	margin: 0px auto;
+    padding-left: 150px;
+}
+
+.juxtapose-images img{
+	display: inline;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
 }

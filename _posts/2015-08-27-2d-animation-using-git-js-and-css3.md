@@ -1,6 +1,8 @@
 ---
 layout: big-article-layout
 title: Making a 2d animation short film with Git,JS and CSS3 -  Dinesh's logs
+banner_title: Making a 2d animation short film with Git,JS and CSS3
+bannerbg_image: twod-animation-banner
 permalink: 2d-animation-film-using-git-js-and-css3
 sidebar: no
 css: ['/public/css/main.css']
@@ -29,19 +31,19 @@ I sat down to find the best suite of tools for making a 2d short film( List of 2
  - Initialize the folder with Git . Every scene in the short film will be a git branch
  - Every scene will definitely have common assets and functionality. All of this will go into the master branch. For eg. In the fish story,  the background, the underground bubbles, the clouds are going to be the same always.
  - All the scenes will either check out from the master branch or the immediate scene before it .
- - You can switch back for the scenes by checking out to different branches 
+ - You can switch back for the scenes by checking out to different branches
  - {% highlight bash %}
    git checkout master
    git checkout -b narration-continuation
-   git checkout -b final-scene 
+   git checkout -b final-scene
    {% endhighlight %}
 
 
 ## CSS keyframes
- - CSS3's keyframes are the most underused features. It has multiple sophisticated capabilities with simple 
-   syntatic structure. 
+ - CSS3's keyframes are the most underused features. It has multiple sophisticated capabilities with simple
+   syntatic structure.
  - You can loop an animation, provide a transition to it and define what the element should like at each state.  For the water bubbles that came out from the bottom in the film the css is like
-	- {% highlight css %} 
+	- {% highlight css %}
 			.bubble {
 				width: 25px;
 				height: 25px;
@@ -98,9 +100,9 @@ window.onkeyup = function(e) {
 
 You need a HD screenrecorder to record whats going on the screen. Make sure you set your browser to full screen. The screen recorder is like cinematograper for your movie
 
-## Post production 
-Finally , you have to combine all the videos that was shot into a sequence of scences with narration and background music. 
-You will need a video editor to do all this. iMovie (free for mac) is one of the best and has a small learning curve although . 
+## Post production
+Finally , you have to combine all the videos that was shot into a sequence of scences with narration and background music.
+You will need a video editor to do all this. iMovie (free for mac) is one of the best and has a small learning curve although .
 
 > Your movie is as good as your assets(images, css, sound),  CSS3 animation and your patience. Thanks for stopping by
 
