@@ -1,6 +1,6 @@
 ---
 layout: big-article-layout
-title: Lessons from a VR app for treadmill - Dinesh's Logs
+title: Lessons from a VR app for treadmill - Dinesh swamy
 banner_title: Lessons from a VR app for treadmill
 bannerbg_image: vr-app-banner
 permalink: lessons-from-a-vr-app-for-treadmill
