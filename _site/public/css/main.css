@@ -1,54 +1,3 @@
-body{
-
-
-
-}
-
-.sidebar{
-	background: #2ecc71;
-}
-
-.container-full-width{
-	width: 100%;
-	padding: 20px;
-}
-
-.profile_container{
-	width: 100%;
-	color: #ffffff;
-	text-align: center;
-	display: inline;
-}
-.profile_container span{
-	float: right;
-}
-
-.profile_container img{
-
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	border-radius: 100px;
-	width: 100px;
-	height: 100px;
-	display: inline;
-}
-.profile_heading{
-	display: inline;;
-}
-
-.sidebar-nav-item{
-
-	width: 100%;
-
-}
-
-.sidebar-nav-item.active a{
-
-	width: 100%;
-	background: #27ae60;
-	padding: 10px;
-
-}
 
 .jumbo-banner {
 	width: 100%;
@@ -75,6 +24,36 @@ body{
 
 .vr-app-banner {
 	background: url("../images/vr-app-background.png") no-repeat bottom fixed;
+}
+
+.chatminion-app-banner {
+	background: url("../images/background.jpg") no-repeat bottom fixed;
+}
+
+.genric-app-banner {
+	background: url("../images/bg-texture.jpg") no-repeat bottom fixed;
+}
+
+.genric-app-banner-2 {
+	background: url("../images/bg-texture-2.jpg") no-repeat bottom fixed;
+}
+
+.banner-for-article-list {
+	width: 100%;
+	height: 150px;
+	margin: 5px;
+	text-align:  left;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+     background-size: cover;
+	 padding-left: 10px;
+	 padding-top: 20px;
+}
+
+.banner-for-article-list a {
+	font-size: 35px;
+	color: #ffffff;
 }
 
 .chrome_webstore_button{
@@ -259,12 +238,10 @@ body{
 
 .juxtapose-images {
 	margin: 0px auto;
-    padding-left: 150px;
 }
 
 .juxtapose-images img{
 	display: inline;
-    width: 300px;
-    height: 300px;
-    padding: 10px;
+    width: 500px;
+    height: 500px;
 }

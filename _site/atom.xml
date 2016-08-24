@@ -4,7 +4,7 @@
  <title>Dineshswamy's hacking log</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2016-08-24T03:04:27+05:30</updated>
+ <updated>2016-08-24T11:39:38+05:30</updated>
  <id></id>
  <author>
    <name>Dinesh swamy</name>
@@ -33,6 +33,11 @@ that this type of app has not arrived. Hmm .. thats a start. Controlling all my 
 
 &lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/GoogleCardboard/comments/47xqgx/app_for_treadmill/&quot;&gt;Reddit - GoogleBoard&lt;/a&gt;&lt;/p&gt;
 
+&lt;div class=&quot;juxtapose-images&quot;&gt;
+    &lt;img src=&quot;https://dl.dropboxusercontent.com/u/41521065/vr-for-treadmill.png&quot; /&gt;
+    &lt;img src=&quot;https://dl.dropboxusercontent.com/u/41521065/IMG_20160717_175625.jpg&quot; /&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&quot;prototype&quot;&gt;Prototype&lt;/h2&gt;
 
 &lt;p&gt;Ideas kept flashing
@@ -45,7 +50,7 @@ that this type of app has not arrived. Hmm .. thats a start. Controlling all my 
  After several 100 times , I made the prototype I wanted&lt;/p&gt;
 
 &lt;div class=&quot;video-holder&quot;&gt;
-&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/watch?v=rjWynfrll5s&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/rjWynfrll5s&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&quot;shortcomings&quot;&gt;Shortcomings&lt;/h2&gt;
