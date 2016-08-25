@@ -39,7 +39,7 @@ that this type of app has not arrived. Hmm .. thats a start. Controlling all my 
  After several 100 times , I made the prototype I wanted
 
 <div class="video-holder">
-<iframe width="853" height="480" src="https://www.youtube.com/embed/rjWynfrll5s" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/rjWynfrll5s" frameborder="0" allowfullscreen volume="0" ></iframe>
 </div>
 
 
