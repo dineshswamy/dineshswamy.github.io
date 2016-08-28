@@ -4,7 +4,7 @@
  <title>Dineshswamy's hacking log</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2016-08-24T11:48:35+05:30</updated>
+ <updated>2016-08-28T17:17:43+05:30</updated>
  <id></id>
  <author>
    <name>Dinesh swamy</name>
@@ -19,19 +19,20 @@
    <id>/lessons-from-a-vr-app-for-treadmill</id>
    <content type="html">&lt;h2 id=&quot;why-should-you-read-this&quot;&gt;Why should you read this ?&lt;/h2&gt;
 
-&lt;p&gt;This post has shortcomings I discoverd while building a VR app for general purpose treadmills. Could help you to
-validate your idea someday&lt;/p&gt;
+&lt;p&gt;This post has shortcomings I discoverd while building a VR app for general purpose treadmills. Might help you to
+validate your idea someday.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-it&quot;&gt;What is it ?&lt;/h2&gt;
 
 &lt;p&gt;The idea is to give a VR experience for someone who is running on a treadmill. So that he or she feels like they running
 in a different landscape. The visuals in the VR view will move in the same acceleration as the treadmill.
-Although thoughts of me sitting in my own office started crossing(trust me ! everyone has this :P), I discared them (although not true :P) and did a reality check of this idea.
+Although, thoughts of me sitting in my own office started crossing(trust me ! everyone has this :P), I discarded them (although not true :P) to do a reality check of this idea.
 I googled to see whether anyone is doing the same or anyone wants something like this ?.
-Found a reddit thread , where a person desperately wanted a VR for his treadmill and he even mentioned
-that this type of app has not arrived. Hmm .. thats a start. Controlling all my procrastinations (sometimes) , I started building a prototype .&lt;/p&gt;
+Found a reddit thread , where a person desperately wanted a VR app for his treadmill and he even mentioned
+that this type of app has not arrived.
+&lt;a href=&quot;https://www.reddit.com/r/GoogleCardboard/comments/47xqgx/app_for_treadmill/&quot;&gt;Reddit - GoogleBoard&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/GoogleCardboard/comments/47xqgx/app_for_treadmill/&quot;&gt;Reddit - GoogleBoard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hmm .. thats a start. Controlling all my procrastinations (sometimes) , I started building a prototype.&lt;/p&gt;
 
 &lt;div class=&quot;juxtapose-images&quot;&gt;
     &lt;img src=&quot;https://dl.dropboxusercontent.com/u/41521065/vr-for-treadmill.png&quot; /&gt;
@@ -42,15 +43,15 @@ that this type of app has not arrived. Hmm .. thats a start. Controlling all my 
 
 &lt;p&gt;Ideas kept flashing
   - the user can choose a new track everyday
-  - he or she can run inside a harrypotter or Got castles
+  - he or she can run inside a harrypotter or Game of throne castle
   - They can see their performance right inside their visuals, a virtual coach etc&lt;/br&gt;&lt;/p&gt;
 
-&lt;p&gt;All of this is not possible not possible at the moment. So, putting them aside, I first ordered a VR headset. &lt;/br&gt;
+&lt;p&gt;All of this is not possible at the moment. So, putting them aside, I first ordered a VR headset. &lt;/br&gt;
  Quickly learnt Unity and how to use GoogleCardboard SDK along with it. &lt;/br&gt;
- After several 100 times , I made the prototype I wanted&lt;/p&gt;
+ After several weeks and more than 100 tries, I made the prototype I wanted&lt;/p&gt;
 
 &lt;div class=&quot;video-holder&quot;&gt;
-&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/rjWynfrll5s&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/rjWynfrll5s&quot; frameborder=&quot;0&quot; allowfullscreen volume=&quot;0&quot; &gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&quot;shortcomings&quot;&gt;Shortcomings&lt;/h2&gt;
@@ -62,16 +63,19 @@ The experience will be even worse when we are running combine it with the sweat.
 many visuals in the VR mode.&lt;/li&gt;
 &lt;li&gt;The treadmill and the app do not talk to each other in any form. I have to manually input the acceleration of the treadmill into the app.
 I tried using device accelerometer and change the visuals accordingly, it didnt work.&lt;/li&gt;
-&lt;li&gt;I had a tough time figuring out the math between treadmill kilo meters and the terrain I developed in the game. Finally, gave up!.
-&amp;gt; Notable shortcoming: it is fundamental humain trait to balance, When body is in motion.  But with VR , your vision is
-completely blocked by the VR headset itself and one can guarantee that you will have a good experience always. Treadmill accidents are worse.&lt;/li&gt;
+&lt;li&gt;I had a tough time figuring out the math between treadmill kilo meters and the terrain I developed in the visuals. Finally, gave up!.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Notable shortcoming: it is fundamental humain trait to balance, when our body is in motion.  But in VR , your vision is
+completely blocked by the headset itself and no one can guarantee that you will have a good experience. Treadmill accidents are worse.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;biggest-take-away&quot;&gt;Biggest take away&lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;VR apps can be built assuming the user will be stationary and not in motion. If the VR app wants the user to be in motion, then it risks the well being of user.
-Though VR gives a good experience for gaming, all you can do is, just sit and look around in 360.&lt;/p&gt;
+&lt;p&gt;In my opinion, VR apps can only be built assuming the user will be stationary and not in motion. If the VR app wants the user to be in motion, then it risks the well being of user.
+Although VR gives a good experience for gaming, all you can do is, just sit and look around in 360.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;crossing-the-hurdles&quot;&gt;Crossing the hurdles&lt;/h2&gt;
@@ -87,11 +91,11 @@ Though VR gives a good experience for gaming, all you can do is, just sit and lo
 
 &lt;ul&gt;
 &lt;li&gt;It was a disappointment, there was nothing like them.&lt;/li&gt;
-&lt;li&gt;I arrived at a conclusion that the headset I m looking for should have correct balance between immersiveness
+&lt;li&gt;I arrived at a conclusion that the headset I&amp;#39;m looking for should have correct balance between immersiveness
 and awareness about the environment. The above statement is just an informal definition of Mixed Reality stated by me :P.
-In my verdict Mixed Reality is the future and there is one clear winner when it comes to this category , MagicLeap .
-Their technology is truly revolutionary and once their headset becomes ubiquitos , survival of laptops will be a question.&lt;/li&gt;
-&lt;li&gt;I have signed up for their developer edition headset and started researching about what else they are doing.&lt;/li&gt;
+In my verdict Mixed Reality is the future and there is one clear winner when it comes to this category, MagicLeap .
+Their technology is truly revolutionary and once their headset becomes ubiquitous , survival of laptops will be a question.&lt;/li&gt;
+&lt;li&gt;I have signed up for their developer edition headset and started researching about what else they are doing and then this happened&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
@@ -103,21 +107,19 @@ Their technology is truly revolutionary and once their headset becomes ubiquitos
 &lt;/div&gt;
 
 &lt;ul&gt;
-&lt;li&gt;This looks like the tredmill idea but instead of treadmill they are using a Cycle or Bike(as they call it in bangalore).
+&lt;li&gt;Oh dear! This looks like the tredmill idea but instead of treadmill they are using a Cycle or Bike(as they call it in bangalore) that is attached to the ground.
 Awww .. thats disappointng and discouraging.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Magic leap patented its glass as well as the applications surrounding it .
-- For now, I putting this idea in shelf, may be it will fly one day not immediatly&lt;/p&gt;
+- For now, I putting this idea in shelf, may be it will fly one day not immediately&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;to-the-point&quot;&gt;To the point&lt;/h2&gt;
+&lt;h2 id=&quot;that-being-said&quot;&gt;That being said&lt;/h2&gt;
 
-&lt;p&gt;Only for bangalore people,&lt;/p&gt;
-
-&lt;p&gt;Because of some unavoidable circumstances I selling my Procus VR headset :)  It is extremely comfortable for watching movies
-and playing games. If anyone intrested, please follow the &lt;a href=&quot;https://www.olx.in/item/new-procus-one-virtual-reality-headset-ID176l35.html&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Because of some unavoidable circumstances I am selling my Procus VR headset :)  It is a much needed gadget for watching movies
+and playing games. If anyone interested, please follow the &lt;a href=&quot;https://www.olx.in/item/new-procus-one-virtual-reality-headset-ID176l35.html&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
