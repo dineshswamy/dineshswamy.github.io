@@ -3,7 +3,7 @@ markdown:         redcarpet
 redcarpet:
   extensions: 	  [with_toc_data]
 
-pygments:         true
+highlighter:         true
 #for loop error
 excerpt_separator: ""
 # Permalinks
@@ -19,7 +19,7 @@ author:
   name:           'Dinesh swamy'
   url:            
 
-paginate:         5
+paginate:         false
 
 # Custom vars
 version:          2.0.0

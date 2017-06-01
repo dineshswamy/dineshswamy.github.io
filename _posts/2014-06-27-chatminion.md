@@ -8,7 +8,7 @@ css: ['/public/css/main.css']
 ---
 
 ######Disclaimer 
-> We strictly don't use the nouns like "START UP" ,"COMPANY" , "CO-FOUNDERS" . :p
+> We strictly don't use the nouns like "START UP" ,"COMPANY" , "CO-FOUNDERS" . :)
 
 <div id="what-is-chatminion">
 </div>
