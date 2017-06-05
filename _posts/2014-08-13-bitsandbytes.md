@@ -1,5 +1,5 @@
 ---
-layout: projects-apps
+layout: default
 title: Bits and Bytes for ACE(Association of Computer Science Engineers)
 permalink: bits-and-bytes
 css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesome.min.css']
@@ -7,7 +7,8 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 
 
 <!-- BITS and BYTES -->
-
+<section class="section">
+<div class="content">
 <div class="project-container"> 
 	<h2>Bits and bytes</h2>
 
@@ -49,6 +50,8 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 		<a href="#">.Apache</a>
 	</div>
 </div>
+</div>
+</section>
 
 {% assign key = 'bitsandbytes' %}
 {% assign screenshots = site.data.project_apps_data[key] %}

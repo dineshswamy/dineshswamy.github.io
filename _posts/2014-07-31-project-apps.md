@@ -9,12 +9,12 @@ screenshot_hash: ['planhound','airdraw','towermapify','svcecocurricular','nlpui'
 <div class="container">
     <h1 class="title">Apps and Projects</h1>
     <h2 class="subtitle">
-      all the apps and projects I created from scratch or got involved arranged chronologically
+      Below are the list of apps and projects that I have worked on
     </h2>
 </div>
 </section>
 <section class="section">
-
+<div class="container">
 {% assign all_works = "" | split: "" %}
 {% for work_hash in site.data.work %}
 {% assign project = work_hash[1] %}
@@ -54,7 +54,7 @@ screenshot_hash: ['planhound','airdraw','towermapify','svcecocurricular','nlpui'
 {% endfor %}
   
 
-
+</div>
 </section>
 
 

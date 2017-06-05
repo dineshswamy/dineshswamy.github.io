@@ -1,5 +1,5 @@
 ---
-layout: projects-apps
+layout: default
 title: Natural language based user interface for Computer games
 permalink: natural-language-ui-for-games
 css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesome.min.css']
@@ -10,27 +10,31 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 
 <!--Natural language based computer games-->
 
+<div class="content">
 <div class="project-container"> 
 	<h2>Natural language based user interface for computer games</h2>
 
-	<div class="short-description">
+	<p>
 
 		                 If you take a look at the existing interfaces for computer games, they are primarily hardwares such as keyboard, mouse and joystick.
 		                 So , in this project we use natural language as an user interface for playing computer games.
-		                 </br>
-		                 The player will be playing the game 
-with his natural language .The <strong>natural 
-language statements</strong> are given through
-his voice(from microphone).
-</br>
-The player can communicate to the 
+		                 </br></p>
+		                 <p>The player will be playing the game with his natural language. The <strong>natural language statements</strong> are given through his voice(from microphone).</p>
+<p>The player can communicate to the 
 characters(bots) inside the game.The 
 <strong>characters will communicate back and 
 forth </strong>
-</br>
 Have a look at the video , for more details . i m sure you wont be disappointed :) 
-</br>
-	</div>
+</p>
+	<h4>
+	Made using
+		#C++
+		#SFML
+		#PYTHON
+		#HTML5
+		#NLP Tool kit
+	</h4>
+
 
 
 	{% assign  key = 'nlpui' %}
@@ -59,15 +63,6 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
 	</div>
 
 	</center>
-
-	<div class="made-with-tags">
-		<h2>Made using</h2>
-		<a href="#">C++ </a>
-		<a href="#">.SFML</a>
-		<a href="#">.PYTHON</a>
-		<a href="#">.HTML5</a>
-		<a href="#">.NLP Tool kit</a>
-	</div>
 </div>
 
 
@@ -87,5 +82,5 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
 		</div>
 		<img class="lazy" data-src="/public/images/screenshots/{{ screenshot.original }}" /> 
 </div>
-
 {% endfor %}
+</div>

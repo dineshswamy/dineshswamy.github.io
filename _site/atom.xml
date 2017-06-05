@@ -4,7 +4,7 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-06-01T13:36:03+05:30</updated>
+ <updated>2017-06-06T02:01:32+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Dinesh swamy</name>
@@ -246,9 +246,10 @@ You will need a video editor to do all this. iMovie (free for mac) is one of the
    <link href="http://localhost:4000/posters"/>
    <updated>2014-08-13T00:00:00+05:30</updated>
    <id>http://localhost:4000/posters</id>
-   <content type="html">&lt;h2 id=&quot;posters-i-ve-designed-for-competitions-and-my-workplace&quot;&gt;Posters , i ve designed for competitions and my workplace&lt;/h2&gt;
-
-&lt;p&gt;&lt;hr&gt;
+   <content type="html">&lt;section class=&quot;section&quot;&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;h3&gt; Posters, i ve designed for competitions and my workplace &lt;/h3&gt;
+&lt;div class=&quot;content&quot;&gt;
 &lt;div class=&quot;posters-holder&quot;&gt;
     &lt;h3&gt;FOSS Awareness day , SVCE&lt;/h3&gt;
     &lt;a href=&quot;/public/images/posters/fossposter.png&quot;&gt; &lt;img src=&quot;/public/images/posters/fossposter.png&quot; /&gt;&lt;/a&gt;
@@ -257,7 +258,10 @@ You will need a video editor to do all this. iMovie (free for mac) is one of the
 &lt;div class=&quot;posters-holder&quot;&gt;
     &lt;h3&gt;Asking myself :p &lt;/h3&gt;
     &lt;a href=&quot;/public/images/posters/have-you.png&quot;&gt; &lt;img src=&quot;/public/images/posters/have-you.png&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
 </content>
  </entry>
  
@@ -401,6 +405,8 @@ You will need a video editor to do all this. iMovie (free for mac) is one of the
    <id>http://localhost:4000/nccarmy</id>
    <content type="html">&lt;!--NCC ARMY --&gt;
 
+&lt;section class=&quot;section&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
 &lt;div class=&quot;project-container&quot;&gt; 
     &lt;h2&gt;E learning website of NCC ARMY&lt;/h2&gt;
 
@@ -413,7 +419,9 @@ You will need a video editor to do all this. iMovie (free for mac) is one of the
         This website has which is developed for learning almost all  NCC commands,their gestures and fundamentals of NCC. &lt;/br&gt;
 
         The multimedia tutorials were shot with the help of my Seniors.&lt;/br&gt;These tutorials were developed aiming to reduce the amount of time in training a NCC cadet.&lt;/br&gt;
+        Made using&lt;p&gt; PHP, HTML, CSS, Javascript, Apache&lt;/p&gt;
     &lt;/div&gt;
+
     
     
     
@@ -465,15 +473,13 @@ You will need a video editor to do all this. iMovie (free for mac) is one of the
 
 
 
-    &lt;div class=&quot;made-with-tags&quot;&gt;
-        &lt;h2&gt;Made using&lt;/h2&gt;
-        &lt;a href=&quot;#&quot;&gt;PHP &lt;/a&gt;
-        &lt;a href=&quot;#&quot;&gt;.HTML&lt;/a&gt;
-        &lt;a href=&quot;#&quot;&gt;.CSS&lt;/a&gt;
-        &lt;a href=&quot;#&quot;&gt;.Javascript&lt;/a&gt;
-        &lt;a href=&quot;#&quot;&gt;.Apache&lt;/a&gt;
-    &lt;/div&gt;
 &lt;/div&gt;
+
+
+
+
+
+
 
 &lt;div id=&quot;ncc-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
@@ -491,6 +497,8 @@ You will need a video editor to do all this. iMovie (free for mac) is one of the
         &lt;/div&gt;
         &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_1.PNG&quot; /&gt; 
 &lt;/div&gt;
+
+
 
 &lt;div id=&quot;ncc-screenshot-small-desc-2&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
@@ -513,6 +521,8 @@ You will need a video editor to do all this. iMovie (free for mac) is one of the
         &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_2.PNG&quot; /&gt; 
 &lt;/div&gt;
 
+
+
 &lt;div id=&quot;ncc-screenshot-small-desc-3&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
             &lt;ul&gt;
@@ -530,6 +540,8 @@ You will need a video editor to do all this. iMovie (free for mac) is one of the
         &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_3.PNG&quot; /&gt; 
 &lt;/div&gt;
 
+
+
 &lt;div id=&quot;ncc-screenshot-small-desc-4&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
             &lt;ul&gt;
@@ -546,6 +558,12 @@ You will need a video editor to do all this. iMovie (free for mac) is one of the
         &lt;/div&gt;
         &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/ncc/screenshot_4.PNG&quot; /&gt; 
 &lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;/section&gt;
 </content>
  </entry>
  
@@ -556,27 +574,31 @@ You will need a video editor to do all this. iMovie (free for mac) is one of the
    <id>http://localhost:4000/natural-language-ui-for-games</id>
    <content type="html">&lt;!--Natural language based computer games--&gt;
 
+&lt;div class=&quot;content&quot;&gt;
 &lt;div class=&quot;project-container&quot;&gt; 
     &lt;h2&gt;Natural language based user interface for computer games&lt;/h2&gt;
 
-    &lt;div class=&quot;short-description&quot;&gt;
+    &lt;p&gt;
 
                          If you take a look at the existing interfaces for computer games, they are primarily hardwares such as keyboard, mouse and joystick.
                          So , in this project we use natural language as an user interface for playing computer games.
-                         &lt;/br&gt;
-                         The player will be playing the game 
-with his natural language .The &lt;strong&gt;natural 
-language statements&lt;/strong&gt; are given through
-his voice(from microphone).
-&lt;/br&gt;
-The player can communicate to the 
+                         &lt;/br&gt;&lt;/p&gt;
+                         &lt;p&gt;The player will be playing the game with his natural language. The &lt;strong&gt;natural language statements&lt;/strong&gt; are given through his voice(from microphone).&lt;/p&gt;
+&lt;p&gt;The player can communicate to the 
 characters(bots) inside the game.The 
 &lt;strong&gt;characters will communicate back and 
 forth &lt;/strong&gt;
-&lt;/br&gt;
 Have a look at the video , for more details . i m sure you wont be disappointed :) 
-&lt;/br&gt;
-    &lt;/div&gt;
+&lt;/p&gt;
+    &lt;h4&gt;
+    Made using
+        #C++
+        #SFML
+        #PYTHON
+        #HTML5
+        #NLP Tool kit
+    &lt;/h4&gt;
+
 
 
     
@@ -590,16 +612,9 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
     &lt;/div&gt;
 
     &lt;/center&gt;
-
-    &lt;div class=&quot;made-with-tags&quot;&gt;
-        &lt;h2&gt;Made using&lt;/h2&gt;
-        &lt;a href=&quot;#&quot;&gt;C++ &lt;/a&gt;
-        &lt;a href=&quot;#&quot;&gt;.SFML&lt;/a&gt;
-        &lt;a href=&quot;#&quot;&gt;.PYTHON&lt;/a&gt;
-        &lt;a href=&quot;#&quot;&gt;.HTML5&lt;/a&gt;
-        &lt;a href=&quot;#&quot;&gt;.NLP Tool kit&lt;/a&gt;
-    &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -610,6 +625,8 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
    <id>http://localhost:4000/co-curricular</id>
    <content type="html">&lt;!--SVCE CO-CURRICULAR --&gt;
 
+&lt;section class=&quot;section&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
 &lt;div class=&quot;project-container&quot;&gt; 
     &lt;h2&gt;Information management system for SVCE Co-curricular activities&lt;/h2&gt;
 
@@ -706,6 +723,8 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
 
     &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
 
 &lt;div id=&quot;svcecocurricular-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
@@ -826,6 +845,8 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
    <id>http://localhost:4000/bitsandbytes</id>
    <content type="html">&lt;!-- BITS and BYTES --&gt;
 
+&lt;section class=&quot;section&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
 &lt;div class=&quot;project-container&quot;&gt; 
     &lt;h2&gt;Bits and bytes&lt;/h2&gt;
 
@@ -897,6 +918,8 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
         &lt;a href=&quot;#&quot;&gt;.Apache&lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
 
 &lt;div id=&quot;bitsandbytes-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
@@ -967,6 +990,8 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
    <id>http://localhost:4000/airdraw</id>
    <content type="html">&lt;!--Airdraw --&gt;
 
+&lt;section class=&quot;section&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
 &lt;div class=&quot;project-container&quot; &gt; 
 
         &lt;h2&gt;Airdraw - scribble in the air&lt;/h2&gt;
@@ -1045,9 +1070,9 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
 
     &lt;/div&gt;
 &lt;/div&gt;
-        
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
 
 &lt;div id=&quot;airdraw-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
@@ -1099,91 +1124,16 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
 &lt;div class=&quot;container&quot;&gt;
     &lt;h1 class=&quot;title&quot;&gt;Apps and Projects&lt;/h1&gt;
     &lt;h2 class=&quot;subtitle&quot;&gt;
-      all the apps and projects I created from scratch or got involved arranged chronologically
+      Below are the list of apps and projects that I have worked on
     &lt;/h2&gt;
 &lt;/div&gt;
 &lt;/section&gt;
 
 &lt;section class=&quot;section&quot;&gt;
+&lt;div class=&quot;container&quot;&gt;
 
 
 
-
-
-
-     
-      &lt;div class=&quot;columns&quot;&gt;
-    
-
-      &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/2d-animation-film-using-git-js-and-css3&quot; target=&quot;_blank&quot;&gt;
-        &lt;div class=&quot;card&quot;&gt;
-          &lt;div class=&quot;card-image&quot;&gt;
-            &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumbnail_2d_animation.png&quot; alt=&quot;Image&quot;&gt;
-            &lt;/figure&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;card-content&quot;&gt;
-            &lt;div class=&quot;content&quot;&gt;
-              2D animated short film
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      
-      
-        
-      
-
-
-    
-
-      &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/natural-language-ui-for-games&quot; target=&quot;_blank&quot;&gt;
-        &lt;div class=&quot;card&quot;&gt;
-          &lt;div class=&quot;card-image&quot;&gt;
-            &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumbnail_nlp_based_computer_game.png&quot; alt=&quot;Image&quot;&gt;
-            &lt;/figure&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;card-content&quot;&gt;
-            &lt;div class=&quot;content&quot;&gt;
-              NLP game
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      
-      
-        
-      
-
-
-    
-
-      &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/towermapify&quot; target=&quot;_blank&quot;&gt;
-        &lt;div class=&quot;card&quot;&gt;
-          &lt;div class=&quot;card-image&quot;&gt;
-            &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumbnail_towermapify.png&quot; alt=&quot;Image&quot;&gt;
-            &lt;/figure&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;card-content&quot;&gt;
-            &lt;div class=&quot;content&quot;&gt;
-              Towermapify
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      
-       
-        &lt;/div&gt;
-        
-      
 
 
      
@@ -1215,16 +1165,16 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
     
 
       &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/chatminion&quot; target=&quot;_blank&quot;&gt;
+      &lt;a href=&quot;/ncc-army&quot; target=&quot;_blank&quot;&gt;
         &lt;div class=&quot;card&quot;&gt;
           &lt;div class=&quot;card-image&quot;&gt;
             &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumnail_chatminion.png&quot; alt=&quot;Image&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_ncc.png&quot; alt=&quot;Image&quot;&gt;
             &lt;/figure&gt;
           &lt;/div&gt;
           &lt;div class=&quot;card-content&quot;&gt;
             &lt;div class=&quot;content&quot;&gt;
-              Chatminion
+              National cadet corps - E learning
             &lt;/div&gt;
           &lt;/div&gt;
         &lt;/div&gt;
@@ -1239,16 +1189,16 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
     
 
       &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/ncc-army&quot; target=&quot;_blank&quot;&gt;
+      &lt;a href=&quot;/natural-language-ui-for-games&quot; target=&quot;_blank&quot;&gt;
         &lt;div class=&quot;card&quot;&gt;
           &lt;div class=&quot;card-image&quot;&gt;
             &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumbnail_ncc.png&quot; alt=&quot;Image&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_nlp_based_computer_game.png&quot; alt=&quot;Image&quot;&gt;
             &lt;/figure&gt;
           &lt;/div&gt;
           &lt;div class=&quot;card-content&quot;&gt;
             &lt;div class=&quot;content&quot;&gt;
-              National cadet corps - E learning
+              NLP game
             &lt;/div&gt;
           &lt;/div&gt;
         &lt;/div&gt;
@@ -1266,16 +1216,40 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
     
 
       &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/airdraw&quot; target=&quot;_blank&quot;&gt;
+      &lt;a href=&quot;/2d-animation-film-using-git-js-and-css3&quot; target=&quot;_blank&quot;&gt;
         &lt;div class=&quot;card&quot;&gt;
           &lt;div class=&quot;card-image&quot;&gt;
             &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumbnail_airdraw.png&quot; alt=&quot;Image&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_2d_animation.png&quot; alt=&quot;Image&quot;&gt;
             &lt;/figure&gt;
           &lt;/div&gt;
           &lt;div class=&quot;card-content&quot;&gt;
             &lt;div class=&quot;content&quot;&gt;
-              Airdraw
+              2D animated short film
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      
+      
+        
+      
+
+
+    
+
+      &lt;div class=&quot;column&quot;&gt;
+      &lt;a href=&quot;/chatminion&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&quot;card&quot;&gt;
+          &lt;div class=&quot;card-image&quot;&gt;
+            &lt;figure class=&quot;image is-4by3&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_chatminion.png&quot; alt=&quot;Image&quot;&gt;
+            &lt;/figure&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;card-content&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+              Chatminion
             &lt;/div&gt;
           &lt;/div&gt;
         &lt;/div&gt;
@@ -1306,11 +1280,14 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
         &lt;/a&gt;
       &lt;/div&gt;
       
-      
+       
+        &lt;/div&gt;
         
       
 
 
+     
+      &lt;div class=&quot;columns&quot;&gt;
     
 
       &lt;div class=&quot;column&quot;&gt;
@@ -1330,6 +1307,54 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
         &lt;/a&gt;
       &lt;/div&gt;
       
+      
+        
+      
+
+
+    
+
+      &lt;div class=&quot;column&quot;&gt;
+      &lt;a href=&quot;/towermapify&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&quot;card&quot;&gt;
+          &lt;div class=&quot;card-image&quot;&gt;
+            &lt;figure class=&quot;image is-4by3&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_towermapify.png&quot; alt=&quot;Image&quot;&gt;
+            &lt;/figure&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;card-content&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+              Towermapify
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      
+      
+        
+      
+
+
+    
+
+      &lt;div class=&quot;column&quot;&gt;
+      &lt;a href=&quot;/airdraw&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&quot;card&quot;&gt;
+          &lt;div class=&quot;card-image&quot;&gt;
+            &lt;figure class=&quot;image is-4by3&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_airdraw.png&quot; alt=&quot;Image&quot;&gt;
+            &lt;/figure&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;card-content&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+              Airdraw
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      
        
         &lt;/div&gt;
         
@@ -1338,7 +1363,7 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
 
   
 
-
+&lt;/div&gt;
 &lt;/section&gt;
 </content>
  </entry>
@@ -1348,16 +1373,12 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
    <link href="http://localhost:4000/chatminion"/>
    <updated>2014-06-27T00:00:00+05:30</updated>
    <id>http://localhost:4000/chatminion</id>
-   <content type="html">&lt;h6 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h6&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;We strictly don&amp;#39;t use the nouns like &amp;quot;START UP&amp;quot; ,&amp;quot;COMPANY&amp;quot; , &amp;quot;CO-FOUNDERS&amp;quot; . :)&lt;/p&gt;
-&lt;/blockquote&gt;
-
+   <content type="html">&lt;section class=&quot;section&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
 &lt;div id=&quot;what-is-chatminion&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;what-is-chatminion&quot;&gt;What is Chatminion?&lt;/h2&gt;
+&lt;h2 id=&quot;whatischatminion&quot;&gt;What is Chatminion?&lt;/h2&gt;
 
 &lt;p&gt;Better explained in the video.
     &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;//www.youtube.com/embed/CuVyldcQ0Kw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
@@ -1367,14 +1388,18 @@ But there is a catch here! Neither you nor your recipient have to type and send 
 
 &lt;p&gt;Once you send a message, your recipient will be shown the most relevant and possible replies to the message. Chatminion will also prepare an audio message based on the message you send and receive(It does not just read out the message as it is).&lt;/p&gt;
 
-&lt;h4 id=&quot;some-of-the-highlights-include&quot;&gt;Some of the highlights include&lt;/h4&gt;
+&lt;h4&gt;Some of the highlights include&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;98% ephemeral, your message flies from one end to the other and dies right there. It gets stored nowhere.
  The application stores only the last two messages for threading(to remember the context of the conversation). &lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;Makes the recurring conversations really quick.&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;Make video calls, the recipient need not even authorize the call. When you want to talk to your team member, simply hit the video call button and you are there.&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;Video calls are plugin free and based on Web RTC and it is almost Peer to Peer .&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;The operational cost on the server side is extremely low since the messages gets stored nowhere.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1390,13 +1415,14 @@ But there is a catch here! Neither you nor your recipient have to type and send 
 
 &lt;ul&gt;
 &lt;li&gt;Any desktop operating system(GNU/Linux) or (Windows) or (Mac)&lt;/li&gt;
+
 &lt;li&gt;Google Chrome latest version is recommended&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div id=&quot;how-to-install-chatminion&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;how-to-install-chatminion&quot;&gt;How to install chatminion ?&lt;/h2&gt;
+&lt;h2&gt;How to install chatminion ?&lt;/h2&gt;
 
 &lt;p&gt;1) Download or Update google chrome to the latest version(recommended)&lt;/p&gt;
 
@@ -1411,38 +1437,39 @@ But there is a catch here! Neither you nor your recipient have to type and send 
 &lt;div id=&quot;how-chatminion-works&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;how-chatminion-works&quot;&gt;How chatminion works ?&lt;/h2&gt;
+&lt;h2 id=&quot;howchatminionworks&quot;&gt;How chatminion works ?&lt;/h2&gt;
 
 &lt;p&gt;You can read about that here . &lt;a href=&quot;https://github.com/dineshswamy/chatminion-chrome-app&quot;&gt;Chatminion(repo)&lt;/a&gt; . You are welcome to fork it , all instructions are available there .&lt;/p&gt;
 
 &lt;div id=&quot;is-this-an-alternative&quot;&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;is-this-an-alternative-to-other-chat-applications&quot;&gt;Is this an alternative to other chat applications?&lt;/h2&gt;
+&lt;h2&gt;Is this an alternative to other chat applications?&lt;/h2&gt;
 
 &lt;p&gt;Maybe or may not be, it depends on the needs you have. We wrote this exclusively for people who work as teams. Teams that do development work or looks after sales etc. We  have no intention of competing in the chat applications space.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;h3 id=&quot;we-are-experimenting-to-see-whether-chatting-can-really-work-this-way-and-the-results-of-the-experiment-are-yet-to-be-seen&quot;&gt;We are experimenting to see whether chatting can really work this way and the results of the experiment are yet to be seen.&lt;/h3&gt;
+  &lt;h3&gt;We are experimenting to see whether chatting can really work this way and the results of the experiment are yet to be seen.&lt;/h3&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Three months ago, I made a working prototype. It worked but it was incomprehensible to distribute . So we decided &amp;quot;okay lets make this is as a complete google chrome app and see where it goes&amp;quot; .&lt;/p&gt;
+&lt;p&gt;Three months ago, I made a working prototype. It worked but it was incomprehensible to distribute . So we decided &quot;okay lets make this is as a complete google chrome app and see where it goes&quot; .&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;h3 id=&quot;doing-a-feature-comparison-between-existing-chat-applications-and-chatminion-wont-fit-chatminion-is-a-one-of-its-kind-application-though-it-is-still-a-tool-for-making-conversation-the-way-conversation-happens-is-very-different&quot;&gt;Doing a feature comparison between existing chat applications and Chatminion wont fit. Chatminion is a one of its kind application. Though it is still a tool for making conversation, the way conversation happens is very different.&lt;/h3&gt;
+  &lt;h3&gt;Doing a feature comparison between existing chat applications and Chatminion wont fit. Chatminion is a one of its kind application. Though it is still a tool for making conversation, the way conversation happens is very different.&lt;/h3&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;But then there are clear differences about what other chat application can do and what Chatminion can do &lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Chatminion is not based on XMPP protocol its built on top of HTTP &lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Every message that is sent via Chatminion can be attached a property with it( attribute )&lt;/strong&gt; i.e The sender can control the behaviour and appearance of the message that is sent. You can do something like , &lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;quot; Okay Chatminion, I dont want any reply from him/her for this message &amp;quot;, by unchecking a check box.&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;ul&gt;
+  &lt;li&gt;&quot; Okay Chatminion, I dont want any reply from him/her for this message &quot;, by unchecking a check box.&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Also&lt;/p&gt;
@@ -1454,45 +1481,47 @@ But there is a catch here! Neither you nor your recipient have to type and send 
 &lt;/div&gt;
 
 &lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;If you don&amp;#39;t want Chatminion to prepare an audio message for your recipient, you can do that too. By just unchecking a check box .&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;ul&gt;
+  &lt;li&gt;If you don't want Chatminion to prepare an audio message for your recipient, you can do that too. By just unchecking a check box .&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;div id=&quot;who-asked-you&quot;&gt;
+&lt;div&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;who-asked-you-to-write-this&quot;&gt;Who asked you to write this?&lt;/h2&gt;
+&lt;h2&gt;Who asked you to write this?&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Nobody.&lt;/strong&gt; Every day these things keep happening at my office. &lt;/p&gt;
 
-&lt;p&gt;Everyday i used to see my manager entering the office and the first thing he asks me is this &amp;quot; Whats your status? &amp;quot; and depending on the day&amp;#39;s work, my reply would be &amp;quot;Completed&amp;quot; or &amp;quot;Still working&amp;quot; or &amp;quot;need some more time&amp;quot; .&lt;/p&gt;
+&lt;p&gt;Everyday i used to see my manager entering the office and the first thing he asks me is this &quot; Whats your status? &quot; and depending on the day's work, my reply would be &quot;Completed&quot; or &quot;Still working&quot; or &quot;need some more time&quot; .&lt;/p&gt;
 
-&lt;p&gt;There is another manager who oversees the sales team. Every half an hour he will shout(loud enough to be heard by everyone) at his sales team &amp;quot; XYZ ? Can we talk now ?&amp;quot; and their reply would be &amp;quot;In 10 mins&amp;quot; or &amp;quot;Later&amp;quot; or &amp;quot;I&amp;#39;m on a call. Will be coming&amp;quot;&lt;/p&gt;
+&lt;p&gt;There is another manager who oversees the sales team. Every half an hour he will shout(loud enough to be heard by everyone) at his sales team &quot; XYZ ? Can we talk now ?&quot; and their reply would be &quot;In 10 mins&quot; or &quot;Later&quot; or &quot;I'm on a call. Will be coming&quot;&lt;/p&gt;
 
 &lt;p&gt;and finally my colleague! &lt;/p&gt;
 
-&lt;p&gt;He&amp;#39;ll be in an adjacent room and he wont come out of his place very often.
- He will shout out loud whatever he wants to ask me and most of the time  I&amp;#39;ll be wearing earphones and the rest of the story is obvious. Someone will tap my shoulder, I&amp;#39;ll remove my earphones and ask them what is it ? then blah blah ...&lt;/p&gt;
+&lt;p&gt;He'll be in an adjacent room and he wont come out of his place very often.
+ He will shout out loud whatever he wants to ask me and most of the time  I'll be wearing earphones and the rest of the story is obvious. Someone will tap my shoulder, I'll remove my earphones and ask them what is it ? then blah blah ...&lt;/p&gt;
 
 &lt;p&gt;I would like to thank you for reading this post. I once again quote that&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;We made chatminion because we thought chatting this way will be interesting&lt;/p&gt;
-
-&lt;h3 id=&quot;we-are-experimenting-to-see-whether-chatting-really-works-this-way-and-the-results-of-the-experiment-are-yet-to-be-seen&quot;&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to be seen.&lt;/h3&gt;
+  &lt;p&gt;We made chatminion because we thought chatting this way will be interesting&lt;/p&gt;
+  
+  &lt;h3&gt;We are experimenting to see whether chatting really works this way and the results of the experiment are yet to be seen.&lt;/h3&gt;
 &lt;/blockquote&gt;
 
-&lt;div id=&quot;who-are-you-fellas&quot;&gt;
+&lt;div&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;who-are-you-fellas&quot;&gt;Who are you fellas ?&lt;/h2&gt;
+&lt;h2&gt;Who are you fellas ?&lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Hi, My name is &lt;strong&gt;dineshswamy&lt;/strong&gt; . i wrote chatminion along with my friend &lt;strong&gt;ganesh&lt;/strong&gt; .I currently work as a product developer at &lt;a href=&quot;http://www.komparify.com&quot;&gt;komparify.com&lt;/a&gt; . Chatminion is used extensively in my office .I hope you use it as well.
-If you find any issues write to us at &lt;a href=&quot;#&quot;&gt;dineshswamy92@gmail.com&lt;/a&gt; and &lt;a href=&quot;#&quot;&gt;graverine@gmail.com&lt;/a&gt; .
-If you dont find any issues  ,just drop a mail  &lt;strong&gt;WE&amp;#39;LL  DISCUSS ABOUT LIFE&lt;/strong&gt; :P&lt;/p&gt;
+  &lt;p&gt;Hi, My name is &lt;strong&gt;dineshswamy&lt;/strong&gt; . i wrote chatminion.I currently work as a product developer at &lt;a href=&quot;http://www.komparify.com&quot;&gt;komparify.com&lt;/a&gt; . Chatminion is used extensively in my office .I hope you use it as well.
+  If you find any issues write to us at &lt;a href=&quot;#&quot;&gt;dineshswamy92@gmail.com&lt;/a&gt; and &lt;a href=&quot;#&quot;&gt;graverine@gmail.com&lt;/a&gt; .
+  If you dont find any issues  ,just drop a mail  &lt;strong&gt;WE'LL  DISCUSS ABOUT LIFE&lt;/strong&gt; :P&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/section&gt;
 </content>
  </entry>
  
@@ -1548,19 +1577,20 @@ print_hi(&amp;#39;Tom&amp;#39;)
    <link href="http://localhost:4000/towermapify"/>
    <updated>2014-01-08T00:00:00+05:30</updated>
    <id>http://localhost:4000/towermapify-making</id>
-   <content type="html">&lt;div class=&quot;post&quot;&gt;
-  &lt;h1 class=&quot;post-title&quot;&gt;Towermapify - Coverage maps for komparify.com&lt;/h1&gt;
-&lt;/div&gt;
+   <content type="html">&lt;section class=&quot;section&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;post&quot;&gt;
+      &lt;h1 class=&quot;post-title&quot;&gt;Towermapify - Coverage maps for komparify.com&lt;/h1&gt;
+    &lt;/div&gt;
+This blog post is about my internship project at komparify.co and  the development challenges i've encountered in making this.
 
-&lt;p&gt;This blog post is about my internship project at komparify.co and  the development challenges i&amp;#39;ve encountered in making this.&lt;/p&gt;
+-----
 
-&lt;hr&gt;
+
 
 &lt;div class=&quot;project-container&quot;&gt; 
-    
-
     &lt;div class=&quot;short-description&quot;&gt;
-     &lt;a href = &quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot; class=&quot;live-anchor&quot;&gt;&lt;i class=&quot;fa fa-chevron-circle-right fa-3&quot;&gt;&lt;/i&gt; Its Live Here &lt;/a&gt;
+     &lt;a href = &quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot; class=&quot;live-anchor&quot;&gt;&lt;i class=&quot;fa fa-chevron-circle-right fa-3&quot;&gt;&lt;/i&gt;See the app&lt;/a&gt;
     &lt;/div&gt;
 
     
@@ -1568,7 +1598,6 @@ print_hi(&amp;#39;Tom&amp;#39;)
     
     &lt;ul class=&quot;thumbnail-holder&quot; &gt;
     
-        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#towermapify-screenshot-small-desc-1&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -1576,9 +1605,7 @@ print_hi(&amp;#39;Tom&amp;#39;)
             &lt;/div&gt;
         &lt;/a&gt;        
     &lt;/li&gt;
-
     
-        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#towermapify-screenshot-small-desc-2&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -1586,9 +1613,7 @@ print_hi(&amp;#39;Tom&amp;#39;)
             &lt;/div&gt;
         &lt;/a&gt;        
     &lt;/li&gt;
-
     
-        
     &lt;li&gt;
         &lt;a class=&quot;fancybox thumbnails&quot; href=&quot;#towermapify-screenshot-small-desc-3&quot;&gt;
             &lt;div class=&quot;description&quot;&gt;   
@@ -1596,101 +1621,99 @@ print_hi(&amp;#39;Tom&amp;#39;)
             &lt;/div&gt;
         &lt;/a&gt;        
     &lt;/li&gt;
-
     
-
     &lt;/ul&gt; 
     
 &lt;/div&gt;
 
-&lt;h2 id=&quot;what-towermapify-does&quot;&gt;What towermapify does ?&lt;/h2&gt;
-
-&lt;p&gt;Towermapify is a coverage map. The objective is to map  coverage strength of all the operators in india .
+&lt;h2&gt;What towermapify does ?&lt;/h2&gt;
+&lt;p&gt;
+Towermapify is a coverage map. The objective is to map  coverage strength of all the operators in india.
 Whether they provide 3G or 4G or HSIA(high speed internet connectivity) in a particular region . If a user
-needs to know whether 3G/4G/HSIA is available in a region ? or How good the coverage strength of particular operator is ? , the information can be found .&lt;/p&gt;
+needs to know whether 3G/4G/HSIA is available in a region ? or How good the coverage strength of particular operator is ? , the information can be found .
+&lt;/p&gt;
+&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;towermapify&lt;/a&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;1-internship-month-1-prototype-throwaway-1-production-version&quot;&gt;1 internship month =  1 prototype throwaway + 1 Production version&lt;/h2&gt;
+&lt;h2&gt; 1 internship month =  1 prototype throwaway + 1 Production version &lt;/h2&gt;
 
-&lt;p&gt;When i was briefed about the project , neither of us had no clue how we are going to do this .We only had data required for the map .&lt;/p&gt;
+&lt;p&gt;
+When i was briefed about the project , neither of us had no clue how we are going to do this .We only had data required for the map.
 
-&lt;p&gt;We started with Google Maps API combined with Google FusionTables . Your data will be hosted by the Google Servers .It will provide REST FULL apis to access the data . You need to write a client(HTML+CSS+JS) where you need to handle the data and put them in Map.&lt;/p&gt;
+We started with Google Maps API combined with Google FusionTables . Your data will be hosted by the Google Servers .It will provide REST FULL apis to access the data . You need to write a client(HTML+CSS+JS) where you need to handle the data and put them in Map. &lt;/p&gt;
 
-&lt;h3 id=&quot;growing-requirements&quot;&gt;Growing requirements&lt;/h3&gt;
+&lt;h2&gt;Growing requirements&lt;/h2&gt;
+&lt;p&gt;Once i got a prototype working , the requirements at komparify.com started growing , we badly required many features . But Fusion tables are not enough as they had limitations.
+    
+For example : You cant do a &quot;OR&quot; in the SQL query you send .Your table should be publicly available.
+&lt;/p&gt;
 
-&lt;p&gt;Once i got a prototype working , the requirements at komparify.com started growing , we badly required many features . But Fusion tables are not enough as they had limitations.&lt;/p&gt;
+&lt;h2&gt;Thrown far far away&lt;/h2&gt;
+&lt;p&gt;So days and days of work was thrown away and we finally settled down to define development stack.We decided use our own servers and make restful apis for data.&lt;/p&gt;
 
-&lt;p&gt;For example : You cant do a &amp;quot;OR&amp;quot; in the SQL query you send .Your table should be publicly available .&lt;/p&gt;
+&lt;h2&gt;Towermapify - Built on&lt;/h2&gt;
+&lt;p&gt; 
+* Ruby on Rails 
+* Google maps API V3
+* KML/JSON
+* HTML+CSS+JS
+* Rails Cells integration 
+* MySQL
+&lt;/p&gt;
 
-&lt;h3 id=&quot;thrown-far-far-away&quot;&gt;Thrown far far away&lt;/h3&gt;
+&lt;h2&gt;OverQuery algorithm&lt;/h2&gt;
 
-&lt;p&gt;So days and days of work was thrown away and we finally settled down to define development stack.We decided use our own servers and make restful apis for data .&lt;/p&gt;
-
-&lt;h2 id=&quot;towermapify-built-on&quot;&gt;Towermapify - Built on&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ruby on Rails &lt;/li&gt;
-&lt;li&gt;Google maps API V3&lt;/li&gt;
-&lt;li&gt;KML/JSON&lt;/li&gt;
-&lt;li&gt;HTML+CSS+JS&lt;/li&gt;
-&lt;li&gt;Rails Cells integration &lt;/li&gt;
-&lt;li&gt;MySQL&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;overquery-algorithm&quot;&gt;OverQuery algorithm&lt;/h2&gt;
-
-&lt;h3 id=&quot;problem-a&quot;&gt;Problem (A)&lt;/h3&gt;
-
+&lt;h3&gt;Problem (A)&lt;/h3&gt;
 &lt;p&gt;We have a huge data containing latitude and longitude information of places all over india . if we
 drop markers for all the places , it will do a catastropic damage to the performance,browser.
 Takes huge memory , not a good idea.&lt;/p&gt;
 
-&lt;h3 id=&quot;work-around-a&quot;&gt;Work around (A)&lt;/h3&gt;
-
+&lt;h3&gt;Work around (A)&lt;/h3&gt;
 &lt;p&gt;So , to decide what markers to drop . we get the bounding edges south west and north east of the map . With that , the query is for only the  places that resides inside the bounding box and then query again when the user does panning inside the map , with the new bounding box&lt;/p&gt;
 
-&lt;h3 id=&quot;problem-b&quot;&gt;Problem (B)&lt;/h3&gt;
-
+&lt;h3&gt;Problem (B)&lt;/h3&gt;
 &lt;p&gt;The way we find the new bounding box after the user pans is by listening to the map-events . But the problem is that map-events fire for every small pan or zoom , making navigation inside maps terrible . If the mouse is just shaken inside the map , it does a query for the new bounding box and drops the markers again , giving a terrible user experience .
-Also , server-client IO will be high .&lt;/p&gt;
+Also , server-client IO will be high. &lt;/p&gt;
 
-&lt;h3 id=&quot;work-around-b&quot;&gt;Work around (B)&lt;/h3&gt;
+&lt;h3&gt;Work around (B) &lt;/h3&gt;
+&lt;p&gt;This is the place where we went back to the drawing board and started writing rules that minimizes no of requests to the server and gives a good user experience.&lt;/p&gt;
 
-&lt;p&gt;This is the place where we went back to the drawing board and started writing rules that minimizes no of requests to the server and gives a good user experience .&lt;/p&gt;
+&lt;h3&gt;Overquery&lt;/h3&gt;
+&lt;p&gt;My boss and co-founder of komparify.com Jigar doshi , formulated this approach.He knew of this approach thourgh his experience at Amazon.com. &lt;/p&gt;
+&lt;p&gt;
+Whenever  a query for the bouding box(Lets call it **box original** )  to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it **box modified** ) .So the results from server includes results of a bigger bounding box.&lt;/p&gt;
+    
+&lt;h3&gt; box original &lt; box modified &lt;/h3&gt;
 
-&lt;h3 id=&quot;overquery&quot;&gt;Overquery&lt;/h3&gt;
 
-&lt;p&gt;My boss and co-founder of komparify.com Jigar doshi , formulated this approach.He knew of this approach thourgh his
-experience at Amazon.com .&lt;/p&gt;
+&lt;img src=&quot;/public/images/overquery_map.png&quot; /&gt;
 
-&lt;p&gt;Whenever  a query for the bouding box(Lets call it &lt;strong&gt;box original&lt;/strong&gt; )  to get lat/lng for the markers is made , we have to add a delta value to that bounding box(Lets call it &lt;strong&gt;box modified&lt;/strong&gt; ) . So the results from server includes results of a bigger bounding box. &lt;/p&gt;
+&lt;p&gt;When the user pans within the &lt;b&gt;box modified&lt;/b&gt; , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the &lt;b&gt;box modified&lt;/b&gt; we need to query again , which again follows the same procedure as above .
 
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;box original&lt;/strong&gt; &amp;lt; &lt;strong&gt;box modified&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+So,now when the user pan around the map ,the panning will be smooth and thats how &lt;b&gt;Problem(b)&lt;/b&gt; was solved&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/public/images/overquery_map.png&quot; alt=&quot;My helpful screenshot&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Performance Boost&lt;/h2&gt;
 
-&lt;p&gt;When the user pans within the &lt;strong&gt;box modified&lt;/strong&gt; , no need for querying since we already have the results fetched during the previous query. Only when the user pans outside the &lt;strong&gt;box modified&lt;/strong&gt; we need to query again , which again follows the same procedure as above .&lt;/p&gt;
+&lt;p&gt;We were very close to put this into production and then we started looking under the hood. The latency was not really high but notable .
 
-&lt;p&gt;So,now when the user pan around the map ,the panning will be smooth and thats how &lt;strong&gt;Problem(b)&lt;/strong&gt; was solved&lt;/p&gt;
+The reason behind this is the data-exchange format we had , it was &lt;b&gt;KML(Keyhole markup language)&lt;/b&gt; . we used this because 
+there was a pretty KML parser( :P )  available so it is was easy for us to handle data.
 
-&lt;h3 id=&quot;performance-boost&quot;&gt;Performance Boost&lt;/h3&gt;
+we switched from KML to JSON , and this gave us a solid decrease in the latency.Of course , few big parts of the app has to be
+rewritten and i did that too. I wrote the &lt;b&gt;full stack(client+server)&lt;/b&gt; so it was not hard for me.
+&lt;/p&gt;
 
-&lt;p&gt;We were very close to put this into production and then we started looking under the hood. The latency was not really high but notable .&lt;/p&gt;
 
-&lt;p&gt;The reason behind this is the data-exchange format we had , it was &lt;strong&gt;KML(Keyhole markup language)&lt;/strong&gt; . we used this because 
-there was a pretty KML parser( :P )  available so it is was easy for us to handle data.&lt;/p&gt;
+&lt;h2&gt;Finally we shipped &lt;/h2&gt;
+&lt;p&gt;The app exists in &lt;b&gt;rails-cells&lt;/b&gt; integration inside komparify.com . Also , i have a version hosted here &lt;/p&gt;
+&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;
+-----
 
-&lt;p&gt;we switched from KML to JSON , and this gave us a solid decrease in the latency.Of course , few big parts of the app has to be
-rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server)&lt;/strong&gt; so it was not hard for me.&lt;/p&gt;
 
-&lt;h3 id=&quot;finally-we-shipped&quot;&gt;Finally we shipped&lt;/h3&gt;
 
-&lt;p&gt;The app exists in &lt;strong&gt;rails-cells&lt;/strong&gt; integration inside komparify.com . Also , i have a version hosted here &lt;/p&gt;
 
-&lt;h2 id=&quot;towermapify&quot;&gt;&lt;a href=&quot;http://towermapify.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Towermapify&lt;/a&gt;&lt;/h2&gt;
+
+
 
 &lt;div id=&quot;towermapify-screenshot-small-desc-1&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
@@ -1713,6 +1736,7 @@ rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server
         &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/towermapify/screenshot_1.png&quot; /&gt; 
 &lt;/div&gt;
 
+
 &lt;div id=&quot;towermapify-screenshot-small-desc-2&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
             &lt;ul&gt;
@@ -1734,6 +1758,7 @@ rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server
         &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/towermapify/screenshot_2.png&quot; /&gt; 
 &lt;/div&gt;
 
+
 &lt;div id=&quot;towermapify-screenshot-small-desc-3&quot; style=&quot;display: none;&quot; class=&quot;description-holder&quot;&gt;
         &lt;div class=&quot;screenshot-description&quot; &gt;
             &lt;ul&gt;
@@ -1754,6 +1779,10 @@ rewritten and i did that too. I wrote the &lt;strong&gt;full stack(client+server
         &lt;/div&gt;
         &lt;img class=&quot;lazy&quot; data-src=&quot;/public/images/screenshots/towermapify/screenshot_3.png&quot; /&gt; 
 &lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/section&gt;
 </content>
  </entry>
  

@@ -1,5 +1,5 @@
 ---
-layout: projects-apps
+layout: default
 title: Information management of Co-curricular activities ,SVCE
 permalink: co-curricular
 css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesome.min.css']
@@ -9,7 +9,8 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 
 
 <!--SVCE CO-CURRICULAR -->
-
+<section class="section">
+<div class="content">
 <div class="project-container"> 
 	<h2>Information management system for SVCE Co-curricular activities</h2>
 
@@ -56,7 +57,8 @@ css: ['/public/css/project-apps.css','/public/font-awesome-4.1.0/css/font-awesom
 
 	</div>
 </div>
-
+</div>
+</section>
 
 {% assign key = 'svcecocurricular' %}
 {% assign screenshots = site.data.project_apps_data[key] %}
