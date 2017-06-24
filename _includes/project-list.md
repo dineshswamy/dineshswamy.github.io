@@ -19,7 +19,6 @@
     {% if col_count == 0 %} 
       <div class="columns">
     {% endif %}
-
       <div class="column">
       <a href="/{{ project.url }}" target="_blank">
         <div class="card">

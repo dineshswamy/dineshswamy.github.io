@@ -4,7 +4,7 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-06-06T02:01:32+05:30</updated>
+ <updated>2017-06-24T18:00:10+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Dinesh swamy</name>
@@ -248,7 +248,7 @@ You will need a video editor to do all this. iMovie (free for mac) is one of the
    <id>http://localhost:4000/posters</id>
    <content type="html">&lt;section class=&quot;section&quot;&gt;
 &lt;div class=&quot;container&quot;&gt;
-&lt;h3&gt; Posters, i ve designed for competitions and my workplace &lt;/h3&gt;
+&lt;h3&gt; Posters, I have designed for competitions and my workplace &lt;/h3&gt;
 &lt;div class=&quot;content&quot;&gt;
 &lt;div class=&quot;posters-holder&quot;&gt;
     &lt;h3&gt;FOSS Awareness day , SVCE&lt;/h3&gt;
@@ -1165,16 +1165,16 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
     
 
       &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/ncc-army&quot; target=&quot;_blank&quot;&gt;
+      &lt;a href=&quot;/2d-animation-film-using-git-js-and-css3&quot; target=&quot;_blank&quot;&gt;
         &lt;div class=&quot;card&quot;&gt;
           &lt;div class=&quot;card-image&quot;&gt;
             &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumbnail_ncc.png&quot; alt=&quot;Image&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_2d_animation.png&quot; alt=&quot;Image&quot;&gt;
             &lt;/figure&gt;
           &lt;/div&gt;
           &lt;div class=&quot;card-content&quot;&gt;
             &lt;div class=&quot;content&quot;&gt;
-              National cadet corps - E learning
+              2D animated short film
             &lt;/div&gt;
           &lt;/div&gt;
         &lt;/div&gt;
@@ -1216,91 +1216,16 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
     
 
       &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/2d-animation-film-using-git-js-and-css3&quot; target=&quot;_blank&quot;&gt;
+      &lt;a href=&quot;/airdraw&quot; target=&quot;_blank&quot;&gt;
         &lt;div class=&quot;card&quot;&gt;
           &lt;div class=&quot;card-image&quot;&gt;
             &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumbnail_2d_animation.png&quot; alt=&quot;Image&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_airdraw.png&quot; alt=&quot;Image&quot;&gt;
             &lt;/figure&gt;
           &lt;/div&gt;
           &lt;div class=&quot;card-content&quot;&gt;
             &lt;div class=&quot;content&quot;&gt;
-              2D animated short film
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      
-      
-        
-      
-
-
-    
-
-      &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/chatminion&quot; target=&quot;_blank&quot;&gt;
-        &lt;div class=&quot;card&quot;&gt;
-          &lt;div class=&quot;card-image&quot;&gt;
-            &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumbnail_chatminion.png&quot; alt=&quot;Image&quot;&gt;
-            &lt;/figure&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;card-content&quot;&gt;
-            &lt;div class=&quot;content&quot;&gt;
-              Chatminion
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      
-      
-        
-      
-
-
-    
-
-      &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/bits-and-bytes&quot; target=&quot;_blank&quot;&gt;
-        &lt;div class=&quot;card&quot;&gt;
-          &lt;div class=&quot;card-image&quot;&gt;
-            &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumbnail_bits_and_bytes.png&quot; alt=&quot;Image&quot;&gt;
-            &lt;/figure&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;card-content&quot;&gt;
-            &lt;div class=&quot;content&quot;&gt;
-              bits and bytes
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;/a&gt;
-      &lt;/div&gt;
-      
-       
-        &lt;/div&gt;
-        
-      
-
-
-     
-      &lt;div class=&quot;columns&quot;&gt;
-    
-
-      &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/co-curricular&quot; target=&quot;_blank&quot;&gt;
-        &lt;div class=&quot;card&quot;&gt;
-          &lt;div class=&quot;card-image&quot;&gt;
-            &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumbnail_cocurricular.png&quot; alt=&quot;Image&quot;&gt;
-            &lt;/figure&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;card-content&quot;&gt;
-            &lt;div class=&quot;content&quot;&gt;
-              College activities logger
+              Airdraw
             &lt;/div&gt;
           &lt;/div&gt;
         &lt;/div&gt;
@@ -1339,16 +1264,91 @@ Have a look at the video , for more details . i m sure you wont be disappointed 
     
 
       &lt;div class=&quot;column&quot;&gt;
-      &lt;a href=&quot;/airdraw&quot; target=&quot;_blank&quot;&gt;
+      &lt;a href=&quot;/chatminion&quot; target=&quot;_blank&quot;&gt;
         &lt;div class=&quot;card&quot;&gt;
           &lt;div class=&quot;card-image&quot;&gt;
             &lt;figure class=&quot;image is-4by3&quot;&gt;
-              &lt;img src=&quot;public/images/thumbnails/thumbnail_airdraw.png&quot; alt=&quot;Image&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_chatminion.png&quot; alt=&quot;Image&quot;&gt;
             &lt;/figure&gt;
           &lt;/div&gt;
           &lt;div class=&quot;card-content&quot;&gt;
             &lt;div class=&quot;content&quot;&gt;
-              Airdraw
+              Chatminion
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      
+       
+        &lt;/div&gt;
+        
+      
+
+
+     
+      &lt;div class=&quot;columns&quot;&gt;
+    
+
+      &lt;div class=&quot;column&quot;&gt;
+      &lt;a href=&quot;/ncc-army&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&quot;card&quot;&gt;
+          &lt;div class=&quot;card-image&quot;&gt;
+            &lt;figure class=&quot;image is-4by3&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_ncc.png&quot; alt=&quot;Image&quot;&gt;
+            &lt;/figure&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;card-content&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+              National cadet corps - E learning
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      
+      
+        
+      
+
+
+    
+
+      &lt;div class=&quot;column&quot;&gt;
+      &lt;a href=&quot;/co-curricular&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&quot;card&quot;&gt;
+          &lt;div class=&quot;card-image&quot;&gt;
+            &lt;figure class=&quot;image is-4by3&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_cocurricular.png&quot; alt=&quot;Image&quot;&gt;
+            &lt;/figure&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;card-content&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+              College activities logger
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      
+      
+        
+      
+
+
+    
+
+      &lt;div class=&quot;column&quot;&gt;
+      &lt;a href=&quot;/bits-and-bytes&quot; target=&quot;_blank&quot;&gt;
+        &lt;div class=&quot;card&quot;&gt;
+          &lt;div class=&quot;card-image&quot;&gt;
+            &lt;figure class=&quot;image is-4by3&quot;&gt;
+              &lt;img src=&quot;public/images/thumbnails/thumbnail_bits_and_bytes.png&quot; alt=&quot;Image&quot;&gt;
+            &lt;/figure&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;card-content&quot;&gt;
+            &lt;div class=&quot;content&quot;&gt;
+              bits and bytes
             &lt;/div&gt;
           &lt;/div&gt;
         &lt;/div&gt;
