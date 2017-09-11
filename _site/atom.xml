@@ -4,7 +4,7 @@
  <title>Dineshswamy's hacking log</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-06-24T18:00:10+05:30</updated>
+ <updated>2017-09-11T15:46:17+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Dinesh swamy</name>
@@ -35,8 +35,8 @@ that this type of app has not arrived.
 &lt;p&gt;Hmm .. thats a start. Controlling all my procrastinations (sometimes) , I started building a prototype.&lt;/p&gt;
 
 &lt;div class=&quot;juxtapose-images&quot;&gt;
-    &lt;img src=&quot;https://dl.dropboxusercontent.com/u/41521065/vr-for-treadmill.png&quot; /&gt;
-    &lt;img src=&quot;https://dl.dropboxusercontent.com/u/41521065/IMG_20160717_175625.jpg&quot; /&gt;
+     &lt;img src=&quot;public/images/vr_game_images/vr-for-treadmill.png&quot; /&gt;
+    &lt;img src=&quot;public/images/vr_game_images/IMG_20160717_175625.jpg&quot; /&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&quot;prototype&quot;&gt;Prototype&lt;/h2&gt;
@@ -85,8 +85,8 @@ Although VR gives a good experience for gaming, all you can do is, just sit and 
 &lt;/ul&gt;
 
 &lt;div class=&quot;juxtapose-images&quot;&gt;
-    &lt;img src=&quot;https://dl.dropboxusercontent.com/u/41521065/vr-for-treamill-without-help.001.jpeg&quot; /&gt;
-    &lt;img src=&quot;https://dl.dropboxusercontent.com/u/41521065/cyclops-hp.gif&quot; /&gt;
+    &lt;img src=&quot;public/images/vr_game_images/vr-for-treamill-without-help.001.jpeg&quot; /&gt;
+    &lt;img src=&quot;public/images/vr_game_images/cyclops-hp.gif&quot; /&gt;
 &lt;/div&gt;
 
 &lt;ul&gt;

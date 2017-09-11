@@ -25,8 +25,8 @@ that this type of app has not arrived.
 Hmm .. thats a start. Controlling all my procrastinations (sometimes) , I started building a prototype.
 
 <div class="juxtapose-images">
-    <img src="https://dl.dropboxusercontent.com/u/41521065/vr-for-treadmill.png" />
-	<img src="https://dl.dropboxusercontent.com/u/41521065/IMG_20160717_175625.jpg" />
+     <img src="public/images/vr_game_images/vr-for-treadmill.png" />
+	<img src="public/images/vr_game_images/IMG_20160717_175625.jpg" />
 </div>
 
 ##  Prototype
@@ -64,8 +64,8 @@ Although VR gives a good experience for gaming, all you can do is, just sit and 
  - I started looking for alternate headsets that are good enough for a person to wear for a long time. Like the following,
 
 <div class="juxtapose-images">
-    <img src="https://dl.dropboxusercontent.com/u/41521065/vr-for-treamill-without-help.001.jpeg" />
-	<img src="https://dl.dropboxusercontent.com/u/41521065/cyclops-hp.gif" />
+    <img src="public/images/vr_game_images/vr-for-treamill-without-help.001.jpeg" />
+	<img src="public/images/vr_game_images/cyclops-hp.gif" />
 </div>
 
 
