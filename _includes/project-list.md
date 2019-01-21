@@ -1,6 +1,6 @@
 <section class="section">
 <div class="container">
-    <h1 class="title">Apps and Projects</h1>
+    <h1 class="title">My Personal apps and Projects</h1>
     <h2 class="subtitle">
       Below are the list of apps and projects that I have worked on
     </h2>
